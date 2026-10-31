@@ -1,0 +1,90 @@
+('2024', 'perencanaan', 'semua')
+                                           P@200  lipat 5%  lipat 5% tanpa paket RF2  P@200 tanpa paket RF2  acuan tanpa paket RF2  p tanpa paket RF2  lipat berlaku tanpa paket RF2
+gabungan                                                                                                                                                                            
+rata-rata 3 model (sekarang)               0.180     1.909                     1.000                  0.075                  0.163              0.000                          1.075
+IF saja                                    0.260     0.934                     0.522                  0.065                  0.163              0.000                          1.234
+LOF saja                                   0.435     2.449                     2.444                  0.400                  0.163              0.000                          1.954
+AE saja                                    0.165     1.923                     0.969                  0.035                  0.163              1.000                          0.945
+IF + LOF                                   0.285     1.773                     1.152                  0.145                  0.163              0.000                          1.193
+LOF + AE                                   0.220     2.090                     1.126                  0.070                  0.163              0.000                          1.098
+IF + AE                                    0.190     1.616                     0.706                  0.055                  0.163              0.794                          0.988
+bobot LOF 1/2, IF 1/4, AE 1/4              0.235     1.990                     1.169                  0.075                  0.163              0.000                          1.175
+maksimum 3 model                           0.415     1.677                     1.761                  0.230                  0.163              0.000                          1.809
+median 3 model                             0.185     1.600                     0.921                  0.045                  0.163              0.000                          1.177
+rata-rata peringkat                        0.225     1.852                     0.939                  0.075                  0.163              0.005                          1.038
+suara terbanyak (>=2 model di 5% teratas)  0.180     1.715                     0.936                  0.075                  0.163              0.000                          1.124
+('2024', 'pelaksanaan', 'semua')
+                                           P@200  lipat 5%  lipat 5% tanpa paket RF2  P@200 tanpa paket RF2  acuan tanpa paket RF2  p tanpa paket RF2  lipat berlaku tanpa paket RF2
+gabungan                                                                                                                                                                            
+rata-rata 3 model (sekarang)               0.340     1.212                     0.754                  0.215                  0.272              1.000                          0.754
+IF saja                                    0.330     0.897                     0.584                  0.190                  0.272              1.000                          0.584
+LOF saja                                   0.360     1.266                     1.222                  0.325                  0.272              0.000                          1.222
+AE saja                                    0.185     1.217                     0.839                  0.160                  0.272              1.000                          0.839
+IF + LOF                                   0.385     1.044                     0.700                  0.270                  0.272              1.000                          0.700
+LOF + AE                                   0.275     1.253                     0.933                  0.225                  0.272              0.999                          0.933
+IF + AE                                    0.295     1.250                     0.751                  0.170                  0.272              1.000                          0.751
+bobot LOF 1/2, IF 1/4, AE 1/4              0.345     1.167                     0.777                  0.240                  0.272              1.000                          0.777
+maksimum 3 model                           0.380     1.031                     0.856                  0.255                  0.272              1.000                          0.856
+median 3 model                             0.265     1.221                     0.808                  0.220                  0.272              1.000                          0.808
+rata-rata peringkat                        0.395     1.214                     0.751                  0.220                  0.272              1.000                          0.751
+suara terbanyak (>=2 model di 5% teratas)  0.335     1.212                     0.782                  0.205                  0.272              1.000                          0.782
+('2025', 'perencanaan', 'semua')
+                                           P@200  lipat 5%  lipat 5% tanpa paket RF2  P@200 tanpa paket RF2  acuan tanpa paket RF2  p tanpa paket RF2  lipat berlaku tanpa paket RF2
+gabungan                                                                                                                                                                            
+rata-rata 3 model (sekarang)               0.180     2.038                     1.337                  0.030                  0.137              0.000                          1.472
+IF saja                                    0.385     1.167                     0.601                  0.010                  0.137              0.000                          1.238
+LOF saja                                   0.275     2.161                     2.092                  0.265                  0.137              0.000                          1.586
+AE saja                                    0.225     1.494                     0.866                  0.005                  0.137              0.984                          0.962
+IF + LOF                                   0.170     1.997                     1.371                  0.055                  0.137              0.000                          1.421
+LOF + AE                                   0.195     2.263                     1.586                  0.045                  0.137              0.000                          1.316
+IF + AE                                    0.290     1.406                     0.753                  0.025                  0.137              0.000                          1.247
+bobot LOF 1/2, IF 1/4, AE 1/4              0.165     2.189                     1.467                  0.035                  0.137              0.000                          1.438
+maksimum 3 model                           0.430     1.615                     1.351                  0.215                  0.137              0.000                          1.599
+median 3 model                             0.255     1.648                     1.009                  0.015                  0.137              0.000                          1.248
+rata-rata peringkat                        0.175     1.981                     1.257                  0.025                  0.137              0.000                          1.423
+suara terbanyak (>=2 model di 5% teratas)  0.180     1.829                     1.163                  0.030                  0.137              0.000                          1.359
+('2025', 'perencanaan', 'uji')
+                                           P@200  lipat 5%  lipat 5% tanpa paket RF2  P@200 tanpa paket RF2  acuan tanpa paket RF2  p tanpa paket RF2  lipat berlaku tanpa paket RF2
+gabungan                                                                                                                                                                            
+rata-rata 3 model (sekarang)               0.190     1.973                     1.143                  0.070                  0.125              0.000                          1.315
+IF saja                                    0.150     1.012                     0.604                  0.025                  0.125              0.018                          1.057
+LOF saja                                   0.095     2.102                     1.965                  0.095                  0.125              0.000                          1.542
+AE saja                                    0.145     1.449                     0.880                  0.025                  0.125              1.000                          0.903
+IF + LOF                                   0.235     1.963                     1.290                  0.095                  0.125              0.000                          1.364
+LOF + AE                                   0.205     2.195                     1.364                  0.065                  0.125              0.000                          1.278
+IF + AE                                    0.180     1.352                     0.702                  0.055                  0.125              0.453                          1.004
+bobot LOF 1/2, IF 1/4, AE 1/4              0.235     2.107                     1.370                  0.095                  0.125              0.000                          1.390
+maksimum 3 model                           0.170     1.379                     1.227                  0.090                  0.125              0.000                          1.523
+median 3 model                             0.175     1.597                     0.978                  0.040                  0.125              0.000                          1.152
+rata-rata peringkat                        0.230     1.883                     1.097                  0.085                  0.125              0.000                          1.282
+suara terbanyak (>=2 model di 5% teratas)  0.190     1.713                     1.099                  0.075                  0.125              0.000                          1.293
+('2025', 'pelaksanaan', 'semua')
+                                           P@200  lipat 5%  lipat 5% tanpa paket RF2  P@200 tanpa paket RF2  acuan tanpa paket RF2  p tanpa paket RF2  lipat berlaku tanpa paket RF2
+gabungan                                                                                                                                                                            
+rata-rata 3 model (sekarang)               0.370     1.434                     0.900                  0.220                  0.241              1.000                          0.900
+IF saja                                    0.535     1.310                     0.679                  0.160                  0.241              1.000                          0.679
+LOF saja                                   0.270     1.416                     1.303                  0.235                  0.241              0.000                          1.303
+AE saja                                    0.300     1.235                     0.979                  0.155                  0.241              0.811                          0.979
+IF + LOF                                   0.560     1.209                     0.749                  0.245                  0.241              1.000                          0.749
+LOF + AE                                   0.280     1.434                     1.125                  0.220                  0.241              0.000                          1.125
+IF + AE                                    0.300     1.388                     0.859                  0.185                  0.241              1.000                          0.859
+bobot LOF 1/2, IF 1/4, AE 1/4              0.370     1.414                     0.927                  0.225                  0.241              0.999                          0.927
+maksimum 3 model                           0.430     1.390                     0.955                  0.175                  0.241              0.971                          0.955
+median 3 model                             0.345     1.334                     0.961                  0.205                  0.241              0.948                          0.961
+rata-rata peringkat                        0.515     1.453                     0.896                  0.230                  0.241              1.000                          0.896
+suara terbanyak (>=2 model di 5% teratas)  0.410     1.460                     0.950                  0.240                  0.241              0.981                          0.951
+('2025', 'pelaksanaan', 'uji')
+                                           P@200  lipat 5%  lipat 5% tanpa paket RF2  P@200 tanpa paket RF2  acuan tanpa paket RF2  p tanpa paket RF2  lipat berlaku tanpa paket RF2
+gabungan                                                                                                                                                                            
+rata-rata 3 model (sekarang)               0.480     1.292                     0.863                  0.235                  0.244              1.000                          0.863
+IF saja                                    0.325     1.041                     0.710                  0.210                  0.244              1.000                          0.710
+LOF saja                                   0.220     1.264                     1.159                  0.210                  0.244              0.000                          1.159
+AE saja                                    0.220     1.244                     0.929                  0.190                  0.244              0.978                          0.929
+IF + LOF                                   0.475     1.058                     0.769                  0.280                  0.244              1.000                          0.769
+LOF + AE                                   0.290     1.446                     1.116                  0.205                  0.244              0.001                          1.116
+IF + AE                                    0.325     1.220                     0.845                  0.200                  0.244              1.000                          0.845
+bobot LOF 1/2, IF 1/4, AE 1/4              0.475     1.301                     0.884                  0.250                  0.244              1.000                          0.884
+maksimum 3 model                           0.280     1.138                     0.877                  0.215                  0.244              1.000                          0.877
+median 3 model                             0.390     1.297                     0.965                  0.215                  0.244              0.842                          0.965
+rata-rata peringkat                        0.530     1.294                     0.850                  0.240                  0.244              1.000                          0.850
+suara terbanyak (>=2 model di 5% teratas)  0.505     1.301                     0.884                  0.230                  0.244              1.000                          0.884

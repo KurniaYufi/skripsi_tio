@@ -1,0 +1,78 @@
+          jalur                               ukuran  tanpa_papua  n_rentan  n_terjaga  median_rentan  median_terjaga  rasio_median  p_mannwhitney_rentan_lebih_tinggi  spearman_spi  p_spearman
+0   perencanaan  Proporsi paket anomali (5% teratas)        False        10         10          0.076           0.047         1.628                              0.121        -0.343       0.139
+1   perencanaan  Proporsi paket anomali (5% teratas)         True         5         10          0.034           0.047         0.732                              0.743         0.086       0.761
+2   perencanaan  Proporsi paket anomali (1% teratas)        False        10         10          0.013           0.009         1.396                              0.052        -0.322       0.166
+3   perencanaan  Proporsi paket anomali (1% teratas)         True         5         10          0.011           0.009         1.204                              0.155        -0.246       0.376
+4   perencanaan              Rata-rata skor ensemble        False        10         10          0.506           0.497         1.018                              0.154        -0.403       0.078
+5   perencanaan              Rata-rata skor ensemble         True         5         10          0.508           0.497         1.021                              0.257        -0.314       0.254
+6   perencanaan          Proporsi paket ber-red flag        False        10         10          0.301           0.084         3.581                              0.002        -0.603       0.005
+7   perencanaan          Proporsi paket ber-red flag         True         5         10          0.149           0.084         1.776                              0.065        -0.382       0.160
+8   perencanaan         Proporsi rf1_pl_dekat_ambang        False        10         10          0.026           0.030         0.866                              0.367        -0.072       0.762
+9   perencanaan         Proporsi rf1_pl_dekat_ambang         True         5         10          0.054           0.030         1.800                              0.050        -0.471       0.076
+10  perencanaan         Proporsi rf2_pl_lewat_ambang        False        10         10          0.054           0.009         6.286                              0.006        -0.525       0.018
+11  perencanaan         Proporsi rf2_pl_lewat_ambang         True         5         10          0.013           0.009         1.466                              0.155        -0.239       0.390
+12  perencanaan         Proporsi rf3_pemecahan_paket        False        10         10          0.167           0.045         3.703                              0.001        -0.605       0.005
+13  perencanaan         Proporsi rf3_pemecahan_paket         True         5         10          0.084           0.045         1.867                              0.038        -0.389       0.152
+14  perencanaan     Proporsi rf4_penunjukan_langsung        False        10         10          0.018           0.006         2.834                              0.016        -0.388       0.091
+15  perencanaan     Proporsi rf4_penunjukan_langsung         True         5         10          0.022           0.006         3.539                              0.065        -0.336       0.221
+16  pelaksanaan  Proporsi paket anomali (5% teratas)        False        10         10          0.153           0.043         3.538                              0.000        -0.717       0.000
+17  pelaksanaan  Proporsi paket anomali (5% teratas)         True         5         10          0.075           0.043         1.740                              0.002        -0.568       0.027
+18  pelaksanaan  Proporsi paket anomali (1% teratas)        False        10         10          0.023           0.007         3.532                              0.001        -0.677       0.001
+19  pelaksanaan  Proporsi paket anomali (1% teratas)         True         5         10          0.018           0.007         2.804                              0.004        -0.636       0.011
+20  pelaksanaan              Rata-rata skor ensemble        False        10         10          0.675           0.519         1.300                              0.011        -0.445       0.049
+21  pelaksanaan              Rata-rata skor ensemble         True         5         10          0.534           0.519         1.029                              0.257        -0.036       0.899
+22  pelaksanaan          Proporsi paket ber-red flag        False        10         10          0.427           0.210         2.029                              0.016        -0.412       0.071
+23  pelaksanaan          Proporsi paket ber-red flag         True         5         10          0.377           0.210         1.794                              0.038        -0.643       0.010
+24  pelaksanaan         Proporsi rf1_pl_dekat_ambang        False        10         10          0.097           0.055         1.744                              0.106        -0.361       0.118
+25  pelaksanaan         Proporsi rf1_pl_dekat_ambang         True         5         10          0.257           0.055         4.634                              0.010        -0.771       0.001
+26  pelaksanaan         Proporsi rf2_pl_lewat_ambang        False        10         10          0.048           0.006         8.727                              0.035        -0.178       0.454
+27  pelaksanaan         Proporsi rf2_pl_lewat_ambang         True         5         10          0.014           0.006         2.550                              0.155        -0.086       0.761
+28  pelaksanaan         Proporsi rf3_pemecahan_paket        False        10         10          0.107           0.060         1.769                              0.093        -0.206       0.384
+29  pelaksanaan         Proporsi rf3_pemecahan_paket         True         5         10          0.119           0.060         1.968                              0.020        -0.479       0.071
+30  pelaksanaan     Proporsi rf4_penunjukan_langsung        False        10         10          0.003           0.003         0.933                              0.605         0.062       0.795
+31  pelaksanaan     Proporsi rf4_penunjukan_langsung         True         5         10          0.013           0.003         3.795                              0.231        -0.147       0.602
+32  pelaksanaan        Proporsi rf5_penyedia_dominan        False        10         10          0.046           0.026         1.800                              0.339        -0.108       0.650
+33  pelaksanaan        Proporsi rf5_penyedia_dominan         True         5         10          0.045           0.026         1.773                              0.616        -0.025       0.930
+34  pelaksanaan      Proporsi rf6_penyedia_serba_ada        False        10         10          0.005           0.013         0.356                              0.961         0.354       0.126
+35  pelaksanaan      Proporsi rf6_penyedia_serba_ada         True         5         10          0.012           0.013         0.964                              0.523        -0.061       0.830
+          jalur          provinsi  skor_spi_2024 kelompok  Proporsi paket anomali (5% teratas)  Proporsi paket anomali (1% teratas)  Rata-rata skor ensemble  Proporsi paket ber-red flag
+0   perencanaan  Papua Pegunungan          55.10   rentan                                0.170                                0.017                    0.622                        0.484
+1   perencanaan      Maluku Utara          57.35   rentan                                0.062                                0.015                    0.574                        0.261
+2   perencanaan     Papua Selatan          58.05   rentan                                0.096                                0.007                    0.505                        0.341
+3   perencanaan    Sumatera Utara          58.55   rentan                                0.034                                0.011                    0.508                        0.128
+4   perencanaan       Papua Barat          59.34   rentan                                0.101                                0.017                    0.556                        0.368
+5   perencanaan  Sumatera Selatan          60.63   rentan                                0.031                                0.009                    0.441                        0.078
+6   perencanaan      Papua Tengah          62.69   rentan                                0.049                                0.012                    0.461                        0.578
+7   perencanaan              Riau          62.83   rentan                                0.032                                0.009                    0.485                        0.149
+8   perencanaan            Maluku          63.12   rentan                                0.093                                0.017                    0.579                        0.226
+9   perencanaan             Papua          63.73   rentan                                0.090                                0.016                    0.494                        0.377
+10  perencanaan       Jawa Tengah          79.40  terjaga                                0.040                                0.006                    0.468                        0.086
+11  perencanaan              Bali          77.97  terjaga                                0.045                                0.006                    0.469                        0.082
+12  perencanaan     Di Yogyakarta          74.60  terjaga                                0.047                                0.015                    0.454                        0.051
+13  perencanaan    Sulawesi Utara          73.98  terjaga                                0.047                                0.012                    0.512                        0.048
+14  perencanaan        Jawa Barat          73.84  terjaga                                0.038                                0.005                    0.504                        0.171
+15  perencanaan  Kalimantan Timur          72.75  terjaga                                0.087                                0.036                    0.511                        0.098
+16  perencanaan       Dki Jakarta          72.50  terjaga                                0.047                                0.008                    0.491                        0.162
+17  perencanaan  Kalimantan Barat          72.37  terjaga                                0.099                                0.011                    0.526                        0.192
+18  perencanaan         Gorontalo          71.79  terjaga                                0.011                                0.001                    0.386                        0.053
+19  perencanaan          Bengkulu          71.76  terjaga                                0.048                                0.011                    0.516                        0.050
+0   pelaksanaan  Papua Pegunungan          55.10   rentan                                0.467                                0.133                    0.822                        0.067
+1   pelaksanaan      Maluku Utara          57.35   rentan                                0.075                                0.009                    0.534                        0.476
+2   pelaksanaan     Papua Selatan          58.05   rentan                                0.622                                0.027                    0.834                        0.297
+3   pelaksanaan    Sumatera Utara          58.55   rentan                                0.062                                0.018                    0.510                        0.283
+4   pelaksanaan       Papua Barat          59.34   rentan                                0.176                                0.010                    0.717                        0.623
+5   pelaksanaan  Sumatera Selatan          60.63   rentan                                0.063                                0.014                    0.533                        0.153
+6   pelaksanaan      Papua Tengah          62.69   rentan                                0.156                                0.024                    0.709                        0.673
+7   pelaksanaan              Riau          62.83   rentan                                0.093                                0.028                    0.570                        0.663
+8   pelaksanaan            Maluku          63.12   rentan                                0.151                                0.027                    0.645                        0.377
+9   pelaksanaan             Papua          63.73   rentan                                0.213                                0.022                    0.705                        0.550
+10  pelaksanaan       Jawa Tengah          79.40  terjaga                                0.044                                0.005                    0.572                        0.205
+11  pelaksanaan              Bali          77.97  terjaga                                0.032                                0.006                    0.476                        0.095
+12  pelaksanaan     Di Yogyakarta          74.60  terjaga                                0.037                                0.004                    0.572                        0.122
+13  pelaksanaan    Sulawesi Utara          73.98  terjaga                                0.023                                0.004                    0.453                        0.268
+14  pelaksanaan        Jawa Barat          73.84  terjaga                                0.051                                0.012                    0.548                        0.213
+15  pelaksanaan  Kalimantan Timur          72.75  terjaga                                0.076                                0.015                    0.589                        0.130
+16  pelaksanaan       Dki Jakarta          72.50  terjaga                                0.045                                0.011                    0.453                        0.253
+17  pelaksanaan  Kalimantan Barat          72.37  terjaga                                0.047                                0.007                    0.490                        0.436
+18  pelaksanaan         Gorontalo          71.79  terjaga                                0.042                                0.007                    0.593                        0.208
+19  pelaksanaan          Bengkulu          71.76  terjaga                                0.021                                0.005                    0.467                        0.297

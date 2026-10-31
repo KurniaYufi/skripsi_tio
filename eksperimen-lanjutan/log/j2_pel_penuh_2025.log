@@ -1,0 +1,2 @@
+pel_penuh_2025 (105499, 7) ['log_pagu', 'log_rasio_pagu_jenis', 'log_rasio_pagu_satker', 'rasio_realisasi', 'log_selisih_realisasi', 'selisih_pdn', 'selisih_umk'] {'skala': 'std', 'if_max_samples': 'auto', 'lof_k': 20, 'ae_b': 3, 'ae_iter': 300, 'satu_arah': {'log_rasio_pagu_jenis': 'nol', 'log_rasio_pagu_satker': 'nol'}, 'skala_sama': {'selisih_pdn': 'log_rasio_pagu_jenis', 'selisih_umk': 'log_rasio_pagu_jenis'}}
+selesai pel_penuh_2025 147 detik

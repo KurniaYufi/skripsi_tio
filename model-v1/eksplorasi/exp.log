@@ -1,0 +1,31 @@
+[1] perencanaan  v1 (std, one-hot metode)                 pilih=0.400 (tanpaRF4 0.052) uji=0.365 | IF 0.100 LOF 0.128 AE 0.517 [42s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] perencanaan  quantile, one-hot metode                 pilih=0.528 (tanpaRF4 0.078) uji=0.413 | IF 0.100 LOF 0.697 AE 0.518 [38s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] perencanaan  std, tanpa one-hot metode                pilih=0.108 (tanpaRF4 0.102) uji=0.063 | IF 0.125 LOF 0.115 AE 0.133 [108s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] perencanaan  quantile, tanpa one-hot metode           pilih=0.185 (tanpaRF4 0.148) uji=0.065 | IF 0.125 LOF 0.095 AE 0.368 [38s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] perencanaan  robust, tanpa one-hot metode             pilih=0.168 (tanpaRF4 0.157) uji=0.063 | IF 0.125 LOF 0.102 AE 0.017 [53s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[2] perencanaan  + fitur tambahan                         pilih=0.228 (tanpaRF4 0.135) uji=0.037 | IF 0.223 LOF 0.370 AE 0.860 [44s]
+[2] perencanaan  - pdn & umk                              pilih=0.330 (tanpaRF4 0.107) uji=0.222 | IF 0.483 LOF 0.123 AE 0.348 [26s]
+[2] perencanaan  + fitur tambahan, - pdn & umk            pilih=0.375 (tanpaRF4 0.143) uji=0.145 | IF 0.343 LOF 0.278 AE 0.837 [39s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[2] perencanaan  - one-hot jenis                          pilih=0.185 (tanpaRF4 0.160) uji=0.033 | IF 0.073 LOF 0.117 AE 0.178 [33s]
+[3] perencanaan  LOF {'k': 50}                            pilih=0.328 (tanpaRF4 0.162) uji=0.102 | IF 0.343 LOF 0.415 AE 0.837 [27s]
+[3] perencanaan  LOF {'k': 100}                           pilih=0.228 (tanpaRF4 0.108) uji=0.090 | IF 0.343 LOF 0.347 AE 0.837 [37s]
+[3] perencanaan  IF {'max_samples': 2048}                 pilih=0.392 (tanpaRF4 0.138) uji=0.167 | IF 0.338 LOF 0.278 AE 0.837 [8s]
+[3] perencanaan  AE {'b': 3}                              pilih=0.468 (tanpaRF4 0.125) uji=0.188 | IF 0.338 LOF 0.278 AE 0.967 [8s]
+[3] perencanaan  AE {'it': 200}                           pilih=0.392 (tanpaRF4 0.138) uji=0.167 | IF 0.338 LOF 0.278 AE 0.837 [15s]
+[3] perencanaan  AE {'b': 3, 'it': 200}                   pilih=0.468 (tanpaRF4 0.125) uji=0.188 | IF 0.338 LOF 0.278 AE 0.967 [8s]
+[4] perencanaan  gabung median                            pilih=0.488 (tanpaRF4 0.138) uji=0.175 | IF 0.338 LOF 0.278 AE 0.967 [1s]
+[4] perencanaan  gabung maks                              pilih=0.595 (tanpaRF4 0.100) uji=0.212 | IF 0.338 LOF 0.278 AE 0.967 [1s]
+[4] perencanaan  gabung bobot_keluarga                    pilih=0.437 (tanpaRF4 0.120) uji=0.172 | IF 0.338 LOF 0.278 AE 0.967 [1s]
+TERBAIK perencanaan {'label': 'gabung maks', 'fitur': "{'extra': True, 'jenis': True, 'metode': False, 'pdn_umk': False}", 'skala': 'quantile', 'hp': "{'IF': {'max_samples': 2048}, 'LOF': {'k': 20}, 'AE': {'b': 3}}", 'gabung': 'maks'}

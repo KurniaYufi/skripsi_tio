@@ -1,0 +1,41 @@
+kode_rup,peringkat,provinsi,satker,nama_paket,jenis,metode,pagu_jt,x_sejenis,x_satker,x_nama_sama,red_flag,faktor_utama
+60578274,1,Bangka Belitung,RUMAH SAKIT UMUM PROVINSI - 1.02.0.00.0.00.02,Pengadaan Obat Obatan,Barang,E-Purchasing,8520.5,852.0,653.2,74.0,,log_rasio_pagu_nama_satker
+55633808,2,Jawa Timur,DINAS PETERNAKAN - 3.27.0.00.0.00.08.0000,Sapi Cross Betina,Barang,E-Purchasing,6201.7,620.2,538.7,32.2,,log_rasio_pagu_nama_satker
+58021084,3,Kalimantan Timur,DINAS KELAUTAN DAN PERIKANAN - 3.25.0.00.0.00,"Pengadaan Benur, dan Nener",Barang,E-Purchasing,2534.0,253.4,396.3,16.1,,log_rasio_pagu_nama_satker
+54008731,4,Kalimantan Selatan,DINAS PEKERJAAN UMUM DAN PENATAAN RUANG - 1.0,Pembangunan Jembatan Pulau Kalimantan - Pulau Laut Kabupaten Tanah Bum,Pekerjaan Konstruksi,Tender,290015.5,125.1,1450.1,1.0,,log_pagu
+58516485,5,Papua Selatan,"DINAS KESEHATAN, PENGENDALIAN PENDUDUK DAN KE",Belanja yang diserahkan Kepada Badan/Lembaga yang dibentuk berdasarkan,Pekerjaan Konstruksi,Penunjukan Langsung,2500.0,13.5,1.0,769.2,RF4,log_rasio_pagu_nama_satker
+54304656,6,Dki Jakarta,DINAS SUMBER DAYA AIR - 1.03.0.00.0.00.02.000,Penyediaan PJLP Petugas Sumber Daya Air - Pengemudi Dump Truck - PDT,Jasa Lainnya,Pengadaan Langsung,30606.3,1548.8,188.7,44.9,RF2,log_rasio_pagu_nama_satker
+62194462,7,Dki Jakarta,INSPEKTORAT - 6.01.0.00.0.00.01.0000,Pelaksanaan Pengawasan Dengan Tujuan Tertentu,Jasa Lainnya,Pengadaan Langsung,37430.5,1894.2,122.9,49.9,RF2,log_rasio_pagu_nama_satker
+60210537,8,Banten,SEKRETARIAT DPRD - 4.02.0.00.0.00.01.0000,SOSIALISASI PERATURAN DAERAH YANG DILAKUKAN OLEH DPRD DAN PEMERINTAH D,Jasa Lainnya,E-Purchasing,13260.4,547.4,360.8,44.9,,log_rasio_pagu_nama_satker
+59826077,9,Jawa Barat,UPTD PENGELOLAAN PRASARANA PERHUBUNGAN LALU L,Belanja Lampu PJU Tiang Ornamen,Pekerjaan Konstruksi,E-Purchasing,99969.3,110.9,1311.9,1.0,,log_pagu
+54008446,10,Kalimantan Selatan,DINAS PEKERJAAN UMUM DAN PENATAAN RUANG - 1.0,Pembangunan Jembatan Pulau Kalimantan - Pulau Laut Kabupaten Kotabaru,Pekerjaan Konstruksi,Tender,424295.0,183.1,2121.5,1.0,,log_pagu
+55525639,11,Dki Jakarta,BADAN PENDAPATAN DAERAH - 5.02.0.00.0.00.03.0,PENGADAAN PERANGKAT PENUNJANG DATA CENTER (DC) - 2,Barang,E-Purchasing,79744.4,7974.4,7628.2,18.8,,log_rasio_pagu_nama_satker
+61827064,12,Sumatera Barat,SEKRETARIAT DPRD - 4.02.0.00.0.00.01.0000,Belanja makanan dan minuman,Barang,Pengadaan Langsung,9551.9,1802.2,74.3,20.3,RF2,log_rasio_pagu_nama_satker
+62221961,13,Jawa Tengah,RSUD DR ADHYATMA MPH - 1.02.0.00.0.00.14.0000,Belanja Obat-Obatan-Obat Paket 1 (BLUD),Barang,E-Purchasing,12433.4,1243.3,24.9,15.5,,log_rasio_pagu_nama_satker
+58943348,14,Bali,DINAS PERHUBUNGAN - 2.15.0.00.0.00.01.0000,Belanja Jasa yang Diberikan kepada Pihak Ketiga/Pihak Lain,Jasa Lainnya,E-Purchasing,56511.1,2332.8,5954.8,28.6,,log_rasio_pagu_nama_satker
+61867297,15,Dki Jakarta,DINAS SUMBER DAYA AIR - 1.03.0.00.0.00.02.000,Pekerjaan Konstruksi Jaringan Pipa Air Limbah Jakarta Sewerage Develop,Pekerjaan Konstruksi,Pembayaran untuk Kontrak Tahun Jamak,212825.1,1.0,41.5,1.0,,log_pagu
+55294638,16,Dki Jakarta,DINAS SUMBER DAYA AIR - 1.03.0.00.0.00.02.000,Pembangunan Tanggul Pengaman Pantai NCICD Fase A Lokasi 1 Paket 2,Pekerjaan Konstruksi,Pembayaran untuk Kontrak Tahun Jamak,214796.9,1.0,41.9,1.0,,log_pagu
+61867309,17,Dki Jakarta,DINAS SUMBER DAYA AIR - 1.03.0.00.0.00.02.000,Pekerjaan Konstruksi Jaringan Pipa Air Limbah Jakarta Sewerage Develop,Pekerjaan Konstruksi,Pembayaran untuk Kontrak Tahun Jamak,211492.8,1.0,41.2,1.0,,log_pagu
+54587619,18,Kalimantan Selatan,DINAS KELAUTAN DAN PERIKANAN - 3.25.0.00.0.00,"Belanja Hibah Barang kepada Badan dan Lembaga Nirlaba, Sukarela Bersif",Barang,E-Purchasing,1468.0,146.8,699.0,8.3,,log_rasio_pagu_nama_satker
+53821280,19,Dki Jakarta,SUKU DINAS LINGKUNGAN HIDUP KABUPATEN ADMINIS,Petugas Pengolahan Sampah - Petugas Sampah Kali / Pesisir / Laut / Wad,Jasa Lainnya,Pengadaan Langsung,23172.1,1172.6,306.1,331.9,RF2,log_rasio_pagu_nama_satker
+58023910,20,Kalimantan Timur,DINAS PENDIDIKAN DAN KEBUDAYAAN - 1.01.2.22.0,Pengadaaan Alat Praktik dan Peraga Siswa SMKN 3 Tenggarong (P),Barang,E-Purchasing,2651.9,265.2,101.4,6.0,,log_rasio_pagu_nama_satker
+59451609,21,Bangka Belitung,RSJD DR.SAMSI JACOBALIS - 1.02.0.00.0.00.03.0,Belanja Pemeliharaan Bangunan Gedung-Bangunan Gedung Tempat Kerja-Bang,Pekerjaan Konstruksi,Tender,4081.7,1.8,20.7,20.9,,log_rasio_pagu_nama_satker
+59294700,22,Papua Barat Daya,SEKRETARIAT DAERAH - 4.01.0.00.0.00.15.0000,Beban Makanan dan Minuman Jamuan Tamu,Barang,Pengadaan Langsung,3300.0,622.6,74.2,7.3,RF2,log_rasio_pagu_nama_satker
+58499495,23,Papua Selatan,"DINAS KESEHATAN, PENGENDALIAN PENDUDUK DAN KE",Belanja yang diserahkan Kepada Badan/Lembaga yang dibentuk berdasarkan,Barang,Tender,1590.0,3.0,109.8,489.2,,log_rasio_pagu_nama_satker
+58580662,24,Papua Barat Daya,"DINAS TENAGA KERJA, TRANSMIGRASI, ENERGI DAN ",Instalasi Pembangkit Listrik Tenaga Surya (PLTS),Pekerjaan Konstruksi,Tender,11160.0,4.8,7.2,61.3,,log_rasio_pagu_nama_satker
+62194663,25,Dki Jakarta,INSPEKTORAT - 6.01.0.00.0.00.01.0000,Pelaksanaan Pengawasan Dengan Tujuan Tertentu,Jasa Lainnya,Pengadaan Langsung,14160.0,716.6,46.5,18.9,RF2,log_rasio_pagu_nama_satker
+56827081,26,Di Yogyakarta,SEKRETARIAT DPRD - 4.02.0.00.0.00.01.0000,4.02.02.1.08.0004 Pengadaan Makanan dan Minuman Rapat ,Barang,Pengadaan Langsung,2189.3,413.1,630.2,59.9,RF2,log_rasio_pagu_nama_satker
+56232021,27,Jambi,"DINAS SOSIAL, KEPENDUDUKAN DAN PENCATATAN SIP",Belanja Makanan dan Minuman pada Fasilitas Pelayanan Urusan Sosial,Barang,E-Purchasing,1598.5,159.9,558.9,6.4,,log_rasio_pagu_nama_satker
+55293480,28,Dki Jakarta,DINAS SUMBER DAYA AIR - 1.03.0.00.0.00.02.000,Pembangunan Tanggul Pengaman Pantai NCICD Fase A Lokasi 1 Paket 1,Pekerjaan Konstruksi,Pembayaran untuk Kontrak Tahun Jamak,141069.0,0.7,27.5,1.0,,log_pagu
+61814690,29,Sulawesi Tenggara,RUMAH SAKIT JIWA - 1.02.0.00.0.00.01.0002,Belanja Konsultansi Pengawasan Pembangunan Gedung Instalasi Rehabilita,Jasa Lainnya,Seleksi,292.5,1.0,1857.1,1.0,,log_rasio_pagu_satker
+58580667,30,Papua Barat Daya,"DINAS TENAGA KERJA, TRANSMIGRASI, ENERGI DAN ",Instalasi Pembangkit Listrik Tenaga Surya (PLTS),Pekerjaan Konstruksi,Tender,10331.0,4.5,6.7,56.8,,log_rasio_pagu_nama_satker
+56705230,31,Kalimantan Timur,"DINAS PEKERJAAN UMUM, PENATAAN RUANG DAN PERU",Belanja Penunjang Rekonstruksi Jalan 1,Barang,E-Purchasing,1122.1,112.2,116.9,5.9,,log_rasio_pagu_nama_satker
+59192313,32,Kepulauan Riau,DINAS KESEHATAN - 1.02.0.00.0.00.02.0000,Belanja Suku Cadang-Suku Cadang Alat Kedokteran,Barang,E-Purchasing,1560.0,156.0,1416.5,183.5,,log_rasio_pagu_nama_satker
+54820586,33,Di Yogyakarta,DINAS PERTANIAN DAN KETAHANAN PANGAN - 3.27.2,"Belanja Hibah Barang kepada Badan dan Lembaga Nirlaba, Sukarela Bersif",Barang,E-Purchasing,494.6,49.5,279.0,7.3,,log_rasio_pagu_nama_satker
+55848293,34,Di Yogyakarta,DINAS SOSIAL - 1.06.0.00.0.00.01.0000,Belanja Alat/Bahan untuk Kegiatan Kantor-Alat Tulis Kantor (Dissos LU),Barang,E-Purchasing,27.7,2.8,9.1,1152.2,,log_rasio_pagu_nama_satker
+54304151,35,Dki Jakarta,DINAS SUMBER DAYA AIR - 1.03.0.00.0.00.02.000,Penyediaan PJLP Petugas Sumber Daya Air Operator Alat Berat - PAB,Jasa Lainnya,Pengadaan Langsung,21502.7,1088.1,132.6,208.3,RF2,log_rasio_pagu_nama_satker
+60556933,36,Bali,RSUD BALI MANDARA - 1.02.0.00.0.00.01.0004,Belanja Modal Alat Kedokteran Nuklir berupa Belanja Modal Alat Kedokte,Barang,E-Purchasing,44118.0,4411.8,1.0,1.0,,log_rasio_pagu_sejenis
+53819669,37,Dki Jakarta,SUKU DINAS LINGKUNGAN HIDUP KABUPATEN ADMINIS,Petugas Pengolahan Sampah - Anak Buah Kapal Operasional Sampah,Jasa Lainnya,Pengadaan Langsung,16046.1,812.0,212.0,197.8,RF2,log_rasio_pagu_nama_satker
+53276397,38,Dki Jakarta,UNIT PENGELOLA PRASARANA DAN SARANA PENDIDIKA,Jasa Konstruksi Rehab Total Gedung Sekolah Tahun 2025 Paket 1,Pekerjaan Konstruksi,Tender,383438.5,165.4,83.3,1.2,,log_pagu
+59293493,39,Papua Barat Daya,SEKRETARIAT DAERAH - 4.01.0.00.0.00.15.0000,Beban Makanan dan Minuman Jamuan Tamu,Barang,Pengadaan Langsung,2304.0,434.7,51.8,5.1,RF2,log_rasio_pagu_sejenis
+57411613,40,Di Yogyakarta,BADAN KEPEGAWAIAN DAERAH - 5.03.0.00.0.00.01.,Belanja Mebel dan Interior Gedung,Barang,Tender,2532.5,4.8,1252.7,1.0,,log_rasio_pagu_satker

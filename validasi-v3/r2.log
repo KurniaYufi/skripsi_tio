@@ -1,0 +1,49 @@
+[     2s] perencanaan (343919, 11)
+[    61s] perencanaan seed 42 P@200 ens 0.36
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[   129s] perencanaan seed 1 P@200 ens 0.295
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[   207s] perencanaan seed 2 P@200 ens 0.29
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[   284s] perencanaan seed 3 P@200 ens 0.33
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[   360s] perencanaan seed 4 P@200 ens 0.3
+[   363s] perencanaan pembanding ECOD P@200 0.175
+[   363s] perencanaan pembanding HBOS P@200 0.38
+[   382s] perencanaan pembanding KNN P@200 0.375
+[   382s] perencanaan pembanding PCA P@200 0.955
+[   415s] perencanaan metrik selesai
+[   441s] perencanaan bootstrap selesai
+[   469s] perencanaan varian red flag selesai
+[   516s] perencanaan anomali buatan selesai
+[   517s] pelaksanaan (105575, 22)
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[   555s] pelaksanaan seed 42 P@200 ens 0.515
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[   592s] pelaksanaan seed 1 P@200 ens 0.41
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[   648s] pelaksanaan seed 2 P@200 ens 0.52
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[   697s] pelaksanaan seed 3 P@200 ens 0.52
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[   751s] pelaksanaan seed 4 P@200 ens 0.48
+[   752s] pelaksanaan pembanding ECOD P@200 0.56
+[   752s] pelaksanaan pembanding HBOS P@200 0.43
+[   762s] pelaksanaan pembanding KNN P@200 0.505
+[   762s] pelaksanaan pembanding PCA P@200 0.425
+[   772s] pelaksanaan metrik selesai
+[   779s] pelaksanaan bootstrap selesai
+[   795s] pelaksanaan varian red flag selesai
+[   839s] pelaksanaan anomali buatan selesai
+[   893s] perencanaan uji SHAP {'jalur': 'perencanaan', 'paket': 200, 'turun_top1_rata': np.float64(0.0241146082847027), 'turun_acak1_rata': np.float64(0.0029011896211995638), 'top1_lebih_besar_persen': np.float64(86.0), 'turun_top3_rata': np.float64(0.10059447941714957), 'turun_acak3_rata': np.float64(0.0014168251826738192), 'top3_lebih_besar_persen': np.float64(98.5)}
+[  1032s] pelaksanaan uji SHAP {'jalur': 'pelaksanaan', 'paket': 200, 'turun_top1_rata': np.float64(0.05213269650327572), 'turun_acak1_rata': np.float64(0.0028192592943405348), 'top1_lebih_besar_persen': np.float64(92.0), 'turun_top3_rata': np.float64(0.09978061157155262), 'turun_acak3_rata': np.float64(0.0021490286526166303), 'top3_lebih_besar_persen': np.float64(97.5)}
+[  1033s] SELESAI

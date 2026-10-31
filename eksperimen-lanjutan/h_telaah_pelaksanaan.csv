@@ -1,0 +1,41 @@
+kode_rup,peringkat,provinsi,satker,nama_paket,jenis,metode,pagu_jt,x_sejenis,x_satker,realisasi_jt,realisasi/pagu,red_flag,faktor_utama
+53646611,1,Dki Jakarta,KELURAHAN CIRACAS - JAKTIM - 7.01.0.00.0.00.0,Penyediaan Tenaga Penanganan Prasarana dan Sarana Umum Kelurahan Cirac,Jasa Lainnya,Pengadaan Langsung,6173.9,312.4,320.0,9997.3,1.62,RF2,log_rasio_pagu_sejenis
+61081261,2,Dki Jakarta,KELURAHAN PEGADUNGAN - JAKBAR - 7.01.0.00.0.0,Pembayaran Gaji PPSU (PJLP),Barang,Pengadaan Langsung,6180.3,1166.1,184.4,8087.6,1.31,RF2,log_rasio_pagu_sejenis
+60850492,3,Jawa Tengah,RSUD DR MOEWARDI - 1.02.0.00.0.00.12.0000,Pengadaan Belanja Bahan Obat-obatan IV - BLUD Perubahan,Barang,E-Purchasing,18000.0,1800.0,36.1,32091.6,1.78,,log_rasio_pagu_sejenis
+53749552,4,Dki Jakarta,KELURAHAN UTAN PANJANG - JAKPUS - 7.01.0.00.0,"Pembayaran Gaji PPSU (PJLP), Pelaksanaan Urusan Pemerintahan yang Dili",Jasa Lainnya,Pengadaan Langsung,2849.5,144.2,309.1,4843.3,1.7,RF2,rasio_realisasi
+55278942,5,Dki Jakarta,KELURAHAN CIBUBUR - JAKTIM - 7.01.0.00.0.00.0,Jasa Tenaga Penanganan Prasarana dan Sarana Umum ( Gaji Petugas PPSU),Jasa Lainnya,Pengadaan Langsung,5752.9,291.1,257.4,10619.3,1.85,RF2,rasio_realisasi
+55525332,6,Jawa Timur,DINAS PERINDUSTRIAN DAN PERDAGANGAN - 3.31.3.,Belanja Modal Alat Laboratorium Kimia-Vicam Aflatest And Ochratest (Bi,Barang,E-Purchasing,749.0,74.9,361.8,1044.4,1.39,,log_rasio_pagu_satker
+55626222,7,Dki Jakarta,KELURAHAN KAMAL MUARA - JAKUT - 7.01.0.00.0.0,Pengadaan Penyedia Jasa Lainnya Perorangan Penanganan Prasarana Sarana,Jasa Lainnya,Pengadaan Langsung,5542.5,280.5,501.7,6797.7,1.23,RF2,rasio_realisasi
+54176886,8,Dki Jakarta,KELURAHAN RAGUNAN - JAKSEL - 7.01.0.00.0.00.0,Penyediaan Jasa Tenaga Penanganan Prasarana dan Sarana Umum (PPSU),Jasa Lainnya,Pengadaan Langsung,5504.7,278.6,86.0,6799.9,1.24,RF2,log_rasio_pagu_sejenis
+57845729,9,Kalimantan Selatan,BADAN PENDAPATAN DAERAH - 5.02.0.00.0.00.02.0,Belanja Modal Alat Pendingin,Barang,E-Purchasing,570.0,57.0,335.3,866.0,1.52,,log_rasio_pagu_satker
+53654767,10,Dki Jakarta,KELURAHAN KAMPUNG DUKUH - JAKTIM - 7.01.0.00.,Pembayaran Gaji PPSU (50 Orang),Jasa Lainnya,Pengadaan Langsung,3507.9,177.5,36.1,5094.9,1.45,RF2,log_rasio_pagu_sejenis
+55221497,11,Dki Jakarta,PUSKESMAS TANJUNG PRIOK - 1.02.0.00.0.00.01.0,Pembayaran Gaji Pegawai Non ASN,Jasa Lainnya,Pengadaan Langsung,11903.6,602.4,490.6,14443.6,1.21,RF2,log_rasio_pagu_sejenis
+57411613,12,Di Yogyakarta,BADAN KEPEGAWAIAN DAERAH - 5.03.0.00.0.00.01.,Belanja Mebel dan Interior Gedung,Barang,Tender,2532.5,4.8,1252.7,2000.0,0.79,RF5,log_rasio_pagu_satker
+61123363,13,Maluku,BALAI LABORATORIUM KESEHATAN DAN KALIBRASI AL,Belanja Bahan-Bahan Kimia,Barang,Tender,4561.2,8.6,82.2,1079.0,0.24,RF5,rasio_realisasi
+53870357,14,Dki Jakarta,KELURAHAN PETUKANGAN UTARA - JAKSEL - 7.01.0.,Pembayaran Gaji PPSU,Jasa Lainnya,Pengadaan Langsung,4840.9,245.0,195.6,9294.7,1.92,RF2,rasio_realisasi
+57209398,15,Dki Jakarta,DINAS PENANGGULANGAN KEBAKARAN DAN PENYELAMAT,Penyediaan Peralatan Penyelamatan ( Cutter Sprider dan Lifting Airbag),Barang,E-Purchasing,8780.8,878.1,48.4,17417.1,1.98,,rasio_realisasi
+59826077,16,Jawa Barat,UPTD PENGELOLAAN PRASARANA PERHUBUNGAN LALU L,Belanja Lampu PJU Tiang Ornamen,Pekerjaan Konstruksi,E-Purchasing,99969.3,110.9,1311.9,99907.6,1.0,RF5,log_rasio_pagu_satker
+54008446,17,Kalimantan Selatan,DINAS PEKERJAAN UMUM DAN PENATAAN RUANG - 1.0,Pembangunan Jembatan Pulau Kalimantan - Pulau Laut Kabupaten Kotabaru,Pekerjaan Konstruksi,Tender,424295.0,183.1,2121.5,424294.6,1.0,,log_rasio_pagu_sejenis
+57115254,18,Jawa Timur,UPT PENGELOLAAN JALAN DAN JEMBATAN MALANG - 1,Pelebaran Jalan Menuju Standar Bts. Kota Malang – Bts. Kota Batu (Link,Pekerjaan Konstruksi,E-Purchasing,13287.0,14.7,603.1,10501.7,0.79,RF5,log_rasio_pagu_satker
+54008731,19,Kalimantan Selatan,DINAS PEKERJAAN UMUM DAN PENATAAN RUANG - 1.0,Pembangunan Jembatan Pulau Kalimantan - Pulau Laut Kabupaten Tanah Bum,Pekerjaan Konstruksi,Tender,290015.5,125.1,1450.1,290014.6,1.0,,log_rasio_pagu_satker
+53896544,20,Dki Jakarta,KELURAHAN MAMPANG PRAPATAN - JAKSEL - 7.01.0.,Pembayaran Gaji PPSU (PJLP) Belanja Jasa Tenaga Penanganan Prasarana d,Jasa Lainnya,Pengadaan Langsung,420.9,21.3,3.9,3183.1,5.0,RF2,rasio_realisasi
+58889414,21,Bali,DINAS PERHUBUNGAN - 2.15.0.00.0.00.01.0000,Belanja Jasa yang Diberikan kepada Pihak Ketiga/Pihak Lain,Jasa Konsultansi,Seleksi,3000.0,7.5,115.1,1220.8,0.41,,log_rasio_pagu_satker
+60615425,22,Nusa Tenggara Barat,BALAI LABORATORIUM LINGKUNGAN - 2.11.3.28.0.0,Belanja Modal Alat Pendingin,Barang,Pengadaan Langsung,35.3,6.7,176.5,51.1,1.45,,log_rasio_pagu_satker
+61320494,23,Dki Jakarta,DINAS PARIWISATA DAN EKONOMI KREATIF - 3.26.0,Fasilitasi peningkatan kompetensi pelaku ekonomi kreatif - Biaya Kepes,Jasa Lainnya,Pengadaan Langsung,192.0,9.7,1.5,1295.7,5.0,"RF1,RF3",rasio_realisasi
+60139500,24,Dki Jakarta,SEKRETARIAT DPRD - 4.02.0.00.0.00.02.0000,Belanja Souvenir dan Cenderamata Tamu Paket 4,Barang,E-Purchasing,2665.0,266.5,11.9,3885.7,1.46,,log_rasio_pagu_sejenis
+57500171,25,Kalimantan Timur,DINAS PENDIDIKAN DAN KEBUDAYAAN - 1.01.2.22.0,Perencanaan DED dan Master Plan Pembangunan USB SMKN 7 Samarinda,Jasa Konsultansi,Seleksi,5200.0,13.0,76.9,2708.2,0.52,,log_pagu
+57733449,26,Kalimantan Tengah,DINAS PERHUBUNGAN - 2.15.0.00.0.00.01.0000,Pengadaan Dan Pemasangan Marka Jalan Ruas Jalan Provinsi Di Wilayah Ut,Pekerjaan Konstruksi,E-Purchasing,5962.3,6.6,21.7,5962.3,1.0,,log_pagu
+58219823,27,Di Yogyakarta,DINAS PERHUBUNGAN - 2.15.0.00.0.00.01.0000,Pemeliharaan APILL dan ATCS,Jasa Lainnya,Tender,1184.7,0.9,439.2,1153.8,0.97,,log_rasio_pagu_satker
+57733591,28,Kalimantan Tengah,DINAS PERHUBUNGAN - 2.15.0.00.0.00.01.0000,Pengadaan Dan Pemasangan Marka Jalan Ruas Jalan Provinsi Di Wilayah Ba,Pekerjaan Konstruksi,E-Purchasing,4878.2,5.4,17.8,4878.2,1.0,,log_pagu
+53859463,29,Dki Jakarta,KELURAHAN TANGKI - JAKBAR - 7.01.0.00.0.00.03,Jasa Tenaga Penanganan Prasarana dan Sarana Umum Kelurahan Tangki (Pem,Jasa Lainnya,Pengadaan Langsung,2396.2,121.3,63.0,2787.4,1.16,RF2,rasio_realisasi
+59010453,30,Sulawesi Selatan,BIRO UMUM - 4.01.0.00.0.00.01.0007,belanja modal aset tetap dalam renovasi - pekerjaan rehabilitasi jalur,Jasa Konsultansi,Seleksi,464.0,1.2,12.5,108.8,0.23,,rasio_realisasi
+58794376,31,Kalimantan Barat,DINAS PEKERJAAN UMUM DAN PENATAAN RUANG PROVI,PENGAWASAN TEKNIS PENGGANTIAN/PEMBANGUNAN JEMBATAN RUAS JALAN BATAS KO,Jasa Konsultansi,Seleksi,1100.0,2.8,18.3,339.7,0.31,,rasio_realisasi
+60952601,32,Dki Jakarta,SUKU DINAS PEMUDA DAN OLAHRAGA KOTA - JAKTIM ,Belanja Modal Bangunan Gedung Kantor Untuk Rehab Fasilitas Lapangan Se,Pekerjaan Konstruksi,E-Purchasing,974.7,1.1,8.5,1754.9,1.8,,rasio_realisasi
+56439791,33,Nusa Tenggara Barat,TAMAN BUDAYA - 2.22.0.00.0.00.01.0001,Bahan Cetak,Barang,Penunjukan Langsung,33.8,4.8,33.8,83.1,2.46,RF4,rasio_realisasi
+57110415,34,Dki Jakarta,SUKU DINAS SUMBER DAYA AIR KOTA ADMINISTRASI ,Konsultan Pengawasan Revitalisasi Rumah Pompa RW. 01 Kembangan Utara d,Jasa Konsultansi,Seleksi,783.5,2.0,21.6,783.5,1.0,,log_pagu
+59825657,35,Kalimantan Timur,"DINAS PEKERJAAN UMUM, PENATAAN RUANG DAN PERU",Belanja Pemeliharaan Kendaraan Alat Besar (UPTD Wilayah 1),Barang,Pengadaan Langsung,520.9,98.3,54.3,763.6,1.47,RF2,log_rasio_pagu_sejenis
+60143023,36,Papua Pegunungan,DINAS PENDIDIKAN DAN KEBUDAYAAN - 1.01.2.22.0,"Penyediaan Peralatan Sekolah SD, SMP, SMA YPPK",Barang,Tender,1500.0,2.8,582.5,1478.5,0.99,,log_rasio_pagu_satker
+61467521,37,Jawa Barat,BADAN PENGELOLAAN KEUANGAN DAN ASET DAERAH - ,Pengelolaan Dana PEN,Jasa Lainnya,Penunjukan Langsung,4301.7,286.8,55.6,8565.0,1.99,RF4,rasio_realisasi
+54460516,38,Di Yogyakarta,PANIRADYA KAISTIMEWAN - 4.01.0.00.0.00.02.000,Belanja Bahan-Bahan Bakar dan Pelumas UMUM 09.01 (PANIRADYA KAISTIMEWA,Barang,Pengadaan Langsung,24.4,4.6,8.2,192.1,5.0,,rasio_realisasi
+57657678,39,Kalimantan Timur,DINAS PENDIDIKAN DAN KEBUDAYAAN - 1.01.2.22.0,Pembangunan Asrama Putra Putri Sekolah SMKN 3 Penajam Paser Utara,Pekerjaan Konstruksi,Tender,9701.2,4.2,33.0,4555.5,0.47,,log_pagu
+60613470,40,Riau,UPT. JALAN DAN JEMBATAN WILAYAH V - 1.03.1.04,Pengadaan Bahan Agregat Kelas B,Barang,Pengadaan Langsung,199.8,37.7,2.4,798.8,4.0,"RF1,RF3",rasio_realisasi

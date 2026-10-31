@@ -1,0 +1,13 @@
+          jalur  satker                 red_flag  spearman      p
+0   perencanaan    2326             ada red flag     0.120  0.000
+1   perencanaan    2326      rf1_pl_dekat_ambang     0.225  0.000
+2   perencanaan    2326      rf2_pl_lewat_ambang    -0.031  0.140
+3   perencanaan    2326      rf3_pemecahan_paket     0.122  0.000
+4   perencanaan    2326  rf4_penunjukan_langsung     0.037  0.076
+5   pelaksanaan     874             ada red flag     0.094  0.005
+6   pelaksanaan     874      rf1_pl_dekat_ambang     0.075  0.027
+7   pelaksanaan     874      rf2_pl_lewat_ambang     0.199  0.000
+8   pelaksanaan     874      rf3_pemecahan_paket     0.095  0.005
+9   pelaksanaan     874  rf4_penunjukan_langsung     0.118  0.000
+10  pelaksanaan     874     rf5_penyedia_dominan    -0.011  0.743
+11  pelaksanaan     874   rf6_penyedia_serba_ada     0.002  0.948

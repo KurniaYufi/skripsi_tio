@@ -1,0 +1,124 @@
+
+######## pelaksanaan: 105512 paket, fitur ['log_pagu', 'log_rasio_pagu_sejenis', 'log_rasio_pagu_satker', 'log_rasio_pagu_nama_satker', 'rasio_realisasi', 'log_selisih_realisasi']
+-- jenis
+                      semua  5% teratas  200 teratas  lipat 200/semua
+jenis                                                                
+Barang                 49.8        46.4         51.5              1.0
+Jasa Lainnya           22.1        22.8         18.0              0.8
+Jasa Konsultansi       15.7        15.9          6.0              0.4
+Pekerjaan Konstruksi   12.4        14.8         24.5              2.0
+Terintegrasi            0.1         0.1          0.0              0.0
+-- metode
+                     semua  5% teratas  200 teratas  lipat 200/semua
+metode_pengadaan                                                    
+E-Purchasing          48.6        42.3         48.5              1.0
+Pengadaan Langsung    47.9        44.0         30.5              0.6
+Seleksi                1.4         5.2          4.5              3.1
+Tender                 1.2         6.5         12.0             10.3
+Penunjukan Langsung    0.9         1.9          2.5              2.8
+Tender Cepat           0.0         0.2          2.0            234.5
+-- pagu
+          semua  5% teratas  200 teratas  lipat 200/semua
+pagu                                                     
+10-100jt   43.8        23.1         12.0              0.3
+100jt-1M   26.8        34.5         25.5              1.0
+1-10jt     19.7         9.2          3.5              0.2
+<1jt        5.2         6.1          1.0              0.2
+1-10M       4.1        21.4         43.0             10.5
+>10M        0.4         5.7         15.0             33.4
+-- satker<10 paket
+       semua  5% teratas  200 teratas  lipat 200/semua
+tidak   99.8        99.1         99.0              1.0
+ya       0.2         0.9          1.0              4.2
+-- provinsi
+                    semua  5% teratas  200 teratas  lipat 200/semua
+provinsi                                                           
+Dki Jakarta          26.0        22.2         32.0              1.2
+Kalimantan Timur      8.9         9.3          9.5              1.1
+Jawa Timur            7.5         6.8         10.5              1.4
+Kalimantan Selatan    6.9         4.6          7.5              1.1
+Jawa Barat            6.7         8.0          6.5              1.0
+Di Yogyakarta         4.6         6.1          5.0              1.1
+Jawa Tengah           4.0         5.0          2.0              0.5
+Banten                3.6         2.4          0.5              0.1
+-- sumber
+                       semua  5% teratas  200 teratas  lipat 200/semua
+sumber_transaksi                                                      
+E-Katalog Versi 6.0     41.8        29.9         27.0              0.6
+Non Tender              26.2        17.0          5.0              0.2
+Pencatatan Non Tender   22.5        28.9         28.5              1.3
+E-Katalog Versi 5.0      6.9        12.3         21.5              3.1
+Tender                   2.6        11.9         18.0              6.9
+satker terbanyak di 200 teratas: {'Dki Jakarta|DINAS BINA MARGA - 1.03.0.00.0.00.01.0000': 11, 'Kalimantan Timur|DINAS PEKERJAAN UMUM, PENATAAN RUANG DAN PERUMAHAN RAKYAT - 1.03.1.04.5.05.01.0000': 10, 'Jawa Timur|RUMAH SAKIT UMUM DAERAH DR. SOEDONO MADIUN - 1.02.0.00.0.00.01.0003': 9}
+-- nilai fitur: median semua vs median 200 teratas
+                            semua  200 teratas  % 200 teratas di atas p99
+log_pagu                    7.675        9.161                       27.0
+log_rasio_pagu_sejenis      0.164        1.405                       19.0
+log_rasio_pagu_satker       0.008        1.248                       23.0
+log_rasio_pagu_nama_satker  0.000        0.125                       27.5
+rasio_realisasi             0.982        0.998                       26.0
+log_selisih_realisasi       5.820        8.044                       32.0
+   200 teratas IF vs Ensemble beririsan: 39
+   200 teratas LOF vs Ensemble beririsan: 1
+   200 teratas AE vs Ensemble beririsan: 97
+
+######## perencanaan: 303930 paket, fitur ['log_pagu', 'log_rasio_pagu_sejenis', 'log_rasio_pagu_satker', 'log_rasio_pagu_nama_satker']
+-- jenis
+                      semua  5% teratas  200 teratas  lipat 200/semua
+jenis                                                                
+Barang                 56.4        48.7         41.0              0.7
+Jasa Lainnya           26.9        17.6          6.5              0.2
+Jasa Konsultansi        8.5        15.4          0.5              0.1
+Pekerjaan Konstruksi    8.2        18.1         52.0              6.3
+Terintegrasi            0.1         0.2          0.0              0.0
+-- metode
+                                      semua  5% teratas  200 teratas  lipat 200/semua
+metode_pengadaan                                                                     
+E-Purchasing                           54.9        33.7         65.5              1.2
+Pengadaan Langsung                     42.4        50.9          8.0              0.2
+Penunjukan Langsung                     1.2         2.3          1.0              0.8
+Seleksi                                 0.8         5.3          1.0              1.3
+Tender                                  0.7         7.8         22.5             31.7
+Tender Cepat                            0.0         0.0          0.0              0.0
+Pembayaran untuk Kontrak Tahun Jamak    0.0         0.0          2.0           1013.1
+Kontes                                  0.0         0.0          0.0              0.0
+-- pagu
+          semua  5% teratas  200 teratas  lipat 200/semua
+pagu                                                     
+10-100jt   41.6        25.4          8.5              0.2
+1-10jt     34.3        11.2          3.5              0.1
+100jt-1M   20.0        39.3         12.5              0.6
+1-10M       3.3        19.0         51.5             15.5
+>10M        0.4         4.9         24.0             63.4
+<1jt        0.4         0.1          0.0              0.0
+-- satker<10 paket
+       semua  5% teratas  200 teratas  lipat 200/semua
+tidak   99.6        99.4         99.0              1.0
+ya       0.4         0.6          1.0              2.3
+-- provinsi
+                    semua  5% teratas  200 teratas  lipat 200/semua
+provinsi                                                           
+Dki Jakarta          16.7        12.0         26.0              1.6
+Jawa Timur           11.0         7.2          6.0              0.5
+Kalimantan Timur      5.2         4.4          3.0              0.6
+Jawa Tengah           4.6         2.9          1.5              0.3
+Jawa Barat            4.6         4.4          3.5              0.8
+Kalimantan Selatan    4.1         2.3          8.0              2.0
+Di Yogyakarta         3.8         3.9          3.5              0.9
+Kalimantan Barat      3.7         3.1          6.0              1.6
+satker terbanyak di 200 teratas: {'Papua Selatan|DINAS PENDIDIKAN DAN KEBUDAYAAN - 1.01.2.22.0.00.01.0000': 15, 'Kalimantan Selatan|DINAS PEKERJAAN UMUM DAN PENATAAN RUANG - 1.03.2.10.0.00.01.0000': 11, 'Dki Jakarta|DINAS BINA MARGA - 1.03.0.00.0.00.01.0000': 11}
+-- nilai fitur: median semua vs median 200 teratas
+                            semua  200 teratas  % 200 teratas di atas p99
+log_pagu                    7.373        9.490                       40.0
+log_rasio_pagu_sejenis      0.089        1.001                       19.5
+log_rasio_pagu_satker       0.024        1.462                       36.5
+log_rasio_pagu_nama_satker  0.000        0.157                       30.5
+   200 teratas IF vs Ensemble beririsan: 20
+   200 teratas LOF vs Ensemble beririsan: 0
+   200 teratas AE vs Ensemble beririsan: 48
+
+-- SHAP perencanaan: fitur terbesar per paket {'log_rasio_pagu_nama_satker': 87, 'log_pagu': 61, 'log_rasio_pagu_satker': 33, 'log_rasio_pagu_sejenis': 19}
+   rata |SHAP| {'log_rasio_pagu_nama_satker': 0.151, 'log_pagu': 0.14, 'log_rasio_pagu_sejenis': 0.119, 'log_rasio_pagu_satker': 0.119}
+
+-- SHAP pelaksanaan: fitur terbesar per paket {'log_rasio_pagu_nama_satker': 108, 'log_rasio_pagu_satker': 27, 'rasio_realisasi': 25, 'log_pagu': 20, 'log_rasio_pagu_sejenis': 18, 'log_selisih_realisasi': 2}
+   rata |SHAP| {'log_rasio_pagu_nama_satker': 0.113, 'log_selisih_realisasi': 0.091, 'log_pagu': 0.085, 'log_rasio_pagu_satker': 0.084, 'log_rasio_pagu_sejenis': 0.082, 'rasio_realisasi': 0.07}

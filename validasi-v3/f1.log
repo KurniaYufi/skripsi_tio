@@ -1,0 +1,13 @@
+[  790s] Barang: 204799 paket, kemiripan rata-rata 30 tetangga 0.960
+[  800s] Jasa Konsultansi: 25901 paket, kemiripan rata-rata 30 tetangga 0.861
+[  913s] Jasa Lainnya: 88122 paket, kemiripan rata-rata 30 tetangga 0.945
+[  920s] Pekerjaan Konstruksi: 25097 paket, kemiripan rata-rata 30 tetangga 0.876
+count    343919.000
+mean          0.024
+std           0.684
+min          -4.603
+25%          -0.351
+50%           0.000
+75%           0.394
+max           4.845
+korelasi dengan log_rasio_pagu_sejenis: 0.675

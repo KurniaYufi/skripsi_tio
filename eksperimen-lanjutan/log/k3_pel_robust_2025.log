@@ -1,0 +1,2 @@
+pel_robust 2025 (105499, 5) ['log_pagu', 'log_rasio_pagu_sejenis', 'log_rasio_pagu_satker', 'rasio_realisasi', 'log_selisih_realisasi'] {'skala': 'std', 'if_max_samples': 'auto', 'lof_k': 20, 'ae_b': 3, 'ae_iter': 300, 'satu_arah': {}, 'skala_sama': {}}
+selesai pel_robust 2025 134 detik

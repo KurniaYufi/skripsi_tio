@@ -1,0 +1,7 @@
+jalur,model,catatan ganda (200 teratas),rasio realisasi ekstrem (200 teratas),UMK tertulis persen (200 teratas),penyedia unit pemerintah (200 teratas),salah satu (200 teratas),catatan ganda (5% teratas),rasio realisasi ekstrem (5% teratas),UMK tertulis persen (5% teratas),penyedia unit pemerintah (5% teratas),salah satu (5% teratas)
+perencanaan,v4,0,1,0,3,4,81,4,24,24,121
+perencanaan,v5,0,1,0,3,4,81,4,24,24,121
+perencanaan,v5 + pelaksanaan >= Rp1 jt,0,1,0,3,4,81,4,24,24,121
+pelaksanaan,v4,34,5,3,22,58,209,35,41,106,359
+pelaksanaan,v5,1,0,0,17,17,40,0,16,92,138
+pelaksanaan,v5 + pelaksanaan >= Rp1 jt,1,0,0,17,17,33,0,16,84,127

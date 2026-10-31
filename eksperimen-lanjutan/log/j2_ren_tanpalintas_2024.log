@@ -1,0 +1,2 @@
+ren_tanpalintas_2024 (340189, 6) ['log_pagu', 'log_rasio_pagu_jenis', 'log_rasio_pagu_satker', 'log_rasio_pagu_nama_satker', 'log_kekaburan_nama', 'umk_tidak_dicadangkan'] {'skala': 'std', 'if_max_samples': 2048, 'lof_k': 20, 'ae_b': 2, 'ae_iter': 300, 'skala_sama': {'log_rasio_pagu_nama_satker': 'log_rasio_pagu_jenis', 'umk_tidak_dicadangkan': 'log_rasio_pagu_jenis'}, 'satu_arah': {'log_rasio_pagu_jenis': 'nol', 'log_rasio_pagu_satker': 'nol', 'log_rasio_pagu_nama_satker': 'nol'}}
+selesai ren_tanpalintas_2024 275 detik

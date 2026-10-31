@@ -1,0 +1,30 @@
+{
+ "A1 paket penyedia (lingkup)": 344665,
+ "A2 pagu > Rp10 rb": 343919,
+ "B0 baris realisasi di lingkup": 328192,
+ "B1 baris bernilai > 0": 327957,
+ "B2 baris dengan provinsi sama dengan RUP": 327946,
+ "B serah terima: paket": 105571,
+ "B serah terima: baris": 180352,
+ "B3 paket dengan catatan ganda": 980,
+ "B3 baris ganda dibuang": 1362,
+ "B4 nilai_pdn dibaca sebagai persen (baris)": 0,
+ "B4 nilai_umk dibaca sebagai persen (baris)": 379,
+ "C1 nama penyedia berulang dirapikan (baris)": 5068,
+ "C2 penyedia unit pemerintah -> \"-\" (baris)": 986,
+ "B5 paket rasio < 0,01": 52,
+ "B5 paket rasio > 10": 7,
+ "Paket jalur pelaksanaan (sebelum batas pagu model)": 105512,
+ "red flag (seluruh lingkup)": {
+  "rf1_pl_dekat_ambang": 15732,
+  "rf2_pl_lewat_ambang": 7486,
+  "rf3_pemecahan_paket": 28503,
+  "rf4_penunjukan_langsung": 3984,
+  "rf5_penyedia_dominan": 2640,
+  "rf6_penyedia_serba_ada": 4503
+ },
+ "red flag RF5/RF6 di jalur pelaksanaan": {
+  "rf5_penyedia_dominan": 2640,
+  "rf6_penyedia_serba_ada": 4503
+ }
+}

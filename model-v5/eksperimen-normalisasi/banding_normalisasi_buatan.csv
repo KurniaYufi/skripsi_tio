@@ -1,0 +1,91 @@
+jalur,cara,pola,terdeteksi
+perencanaan,persentil,global,0.928
+perencanaan,persentil,lokal,0.304
+perencanaan,persentil,kontrol_normal,0.064
+perencanaan,persentil,dependensi,0.395
+perencanaan,persentil,berkelompok,0.955
+perencanaan,persentil,pagu_digelembungkan,0.175
+perencanaan,persentil,dekat_ambang,0.313
+perencanaan,min-max,global,0.921
+perencanaan,min-max,lokal,0.217
+perencanaan,min-max,kontrol_normal,0.045
+perencanaan,min-max,dependensi,0.232
+perencanaan,min-max,berkelompok,1.0
+perencanaan,min-max,pagu_digelembungkan,0.081
+perencanaan,min-max,dekat_ambang,0.125
+perencanaan,skor-z,global,0.926
+perencanaan,skor-z,lokal,0.267
+perencanaan,skor-z,kontrol_normal,0.109
+perencanaan,skor-z,dependensi,0.349
+perencanaan,skor-z,berkelompok,0.991
+perencanaan,skor-z,pagu_digelembungkan,0.098
+perencanaan,skor-z,dekat_ambang,0.099
+perencanaan,skor-z robust,global,0.928
+perencanaan,skor-z robust,lokal,0.262
+perencanaan,skor-z robust,kontrol_normal,0.127
+perencanaan,skor-z robust,dependensi,0.423
+perencanaan,skor-z robust,berkelompok,0.893
+perencanaan,skor-z robust,pagu_digelembungkan,0.152
+perencanaan,skor-z robust,dekat_ambang,0.136
+perencanaan,log lalu min-max,global,0.939
+perencanaan,log lalu min-max,lokal,0.29
+perencanaan,log lalu min-max,kontrol_normal,0.072
+perencanaan,log lalu min-max,dependensi,0.402
+perencanaan,log lalu min-max,berkelompok,0.956
+perencanaan,log lalu min-max,pagu_digelembungkan,0.163
+perencanaan,log lalu min-max,dekat_ambang,0.266
+perencanaan,maksimum persentil,global,0.917
+perencanaan,maksimum persentil,lokal,0.285
+perencanaan,maksimum persentil,kontrol_normal,0.148
+perencanaan,maksimum persentil,dependensi,0.386
+perencanaan,maksimum persentil,berkelompok,0.951
+perencanaan,maksimum persentil,pagu_digelembungkan,0.107
+perencanaan,maksimum persentil,dekat_ambang,0.083
+pelaksanaan,persentil,global,0.998
+pelaksanaan,persentil,lokal,0.521
+pelaksanaan,persentil,kontrol_normal,0.135
+pelaksanaan,persentil,dependensi,0.548
+pelaksanaan,persentil,berkelompok,1.0
+pelaksanaan,persentil,pagu_digelembungkan,0.199
+pelaksanaan,persentil,realisasi_lewat_pagu,0.671
+pelaksanaan,persentil,dekat_ambang,0.206
+pelaksanaan,min-max,global,0.986
+pelaksanaan,min-max,lokal,0.387
+pelaksanaan,min-max,kontrol_normal,0.048
+pelaksanaan,min-max,dependensi,0.296
+pelaksanaan,min-max,berkelompok,1.0
+pelaksanaan,min-max,pagu_digelembungkan,0.065
+pelaksanaan,min-max,realisasi_lewat_pagu,0.448
+pelaksanaan,min-max,dekat_ambang,0.209
+pelaksanaan,skor-z,global,0.997
+pelaksanaan,skor-z,lokal,0.535
+pelaksanaan,skor-z,kontrol_normal,0.12
+pelaksanaan,skor-z,dependensi,0.653
+pelaksanaan,skor-z,berkelompok,1.0
+pelaksanaan,skor-z,pagu_digelembungkan,0.093
+pelaksanaan,skor-z,realisasi_lewat_pagu,0.638
+pelaksanaan,skor-z,dekat_ambang,0.136
+pelaksanaan,skor-z robust,global,0.998
+pelaksanaan,skor-z robust,lokal,0.5
+pelaksanaan,skor-z robust,kontrol_normal,0.166
+pelaksanaan,skor-z robust,dependensi,0.73
+pelaksanaan,skor-z robust,berkelompok,1.0
+pelaksanaan,skor-z robust,pagu_digelembungkan,0.164
+pelaksanaan,skor-z robust,realisasi_lewat_pagu,0.777
+pelaksanaan,skor-z robust,dekat_ambang,0.188
+pelaksanaan,log lalu min-max,global,0.999
+pelaksanaan,log lalu min-max,lokal,0.538
+pelaksanaan,log lalu min-max,kontrol_normal,0.154
+pelaksanaan,log lalu min-max,dependensi,0.69
+pelaksanaan,log lalu min-max,berkelompok,1.0
+pelaksanaan,log lalu min-max,pagu_digelembungkan,0.196
+pelaksanaan,log lalu min-max,realisasi_lewat_pagu,0.724
+pelaksanaan,log lalu min-max,dekat_ambang,0.227
+pelaksanaan,maksimum persentil,global,0.993
+pelaksanaan,maksimum persentil,lokal,0.474
+pelaksanaan,maksimum persentil,kontrol_normal,0.113
+pelaksanaan,maksimum persentil,dependensi,0.663
+pelaksanaan,maksimum persentil,berkelompok,1.0
+pelaksanaan,maksimum persentil,pagu_digelembungkan,0.064
+pelaksanaan,maksimum persentil,realisasi_lewat_pagu,0.549
+pelaksanaan,maksimum persentil,dekat_ambang,0.109

@@ -1,0 +1,2 @@
+ren_robust 2024 (340189, 4) ['log_pagu', 'log_rasio_pagu_sejenis', 'log_rasio_pagu_satker', 'log_rasio_pagu_nama_satker'] {'skala': 'std', 'if_max_samples': 2048, 'lof_k': 20, 'ae_b': 2, 'ae_iter': 300, 'skala_sama': {}, 'satu_arah': {}}
+selesai ren_robust 2024 215 detik

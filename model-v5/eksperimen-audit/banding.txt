@@ -1,0 +1,5 @@
+         jalur varian  satker maks 200  satker unik 200  pagu<=1jt 200  pagu<=1jt semua  satker<10 200  satker<10 semua  P@50  P@200     5%  pilih 5%  uji 5%  acuan uji
+0  perencanaan  dasar               15               93          0.000            0.004          0.010            0.004  0.08  0.065  0.367     0.419   0.310      0.138
+1  perencanaan     ss               14              118          0.000            0.004          0.010            0.004  0.22  0.180  0.323     0.382   0.271      0.138
+2  pelaksanaan  dasar               11              119          0.010            0.052          0.010            0.002  0.42  0.350  0.347     0.384   0.308      0.256
+3  pelaksanaan     ss                9              129          0.005            0.052          0.005            0.002  0.40  0.275  0.351     0.400   0.297      0.256

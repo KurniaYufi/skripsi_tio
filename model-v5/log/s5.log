@@ -1,0 +1,11 @@
+[     6s] pelaksanaan (105499, 6)
+[    10s] pelaksanaan pembanding selesai
+[    21s] pelaksanaan bootstrap selesai
+[   239s] pelaksanaan kestabilan selesai {'jalur': 'pelaksanaan', 'perbandingan': 'satu seed vs satu seed (rata-rata 10 pasangan)', 'jaccard_top200': 0.41772372409745995, 'jaccard_anomali5persen': 0.5372296564882514, 'spearman_skor': 0.8763164596362613} {'jalur': 'pelaksanaan', 'perbandingan': 'rata-rata 5 seed vs rata-rata 5 seed lain', 'jaccard_top200': 0.6326530612244898, 'jaccard_anomali5persen': 0.7475149105367793, 'spearman_skor': np.float64(0.9736172762600076), 'P@200_ensemble_kedua': np.float64(0.465)}
+[   253s] pelaksanaan anomali buatan selesai
+[   254s] perencanaan (303930, 4)
+[   261s] perencanaan pembanding selesai
+[   295s] perencanaan bootstrap selesai
+[   467s] perencanaan kestabilan selesai {'jalur': 'perencanaan', 'perbandingan': 'satu seed vs satu seed (rata-rata 10 pasangan)', 'jaccard_top200': 0.4579941173185412, 'jaccard_anomali5persen': 0.5368913519077917, 'spearman_skor': 0.778138970383623} {'jalur': 'perencanaan', 'perbandingan': 'rata-rata 5 seed vs rata-rata 5 seed lain', 'jaccard_top200': 0.7316017316017316, 'jaccard_anomali5persen': 0.7486766398158803, 'spearman_skor': np.float64(0.9626051913922132), 'P@200_ensemble_kedua': np.float64(0.065)}
+[   474s] perencanaan anomali buatan selesai
+[   475s] SELESAI

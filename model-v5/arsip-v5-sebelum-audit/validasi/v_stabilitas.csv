@@ -1,0 +1,5 @@
+jalur,perbandingan,jaccard_top200,jaccard_anomali5persen,spearman_skor,P@200_ensemble_kedua
+pelaksanaan,satu seed vs satu seed (rata-rata 10 pasangan),0.39943734802784575,0.5915845586624646,0.9448400303176598,
+pelaksanaan,rata-rata 5 seed vs rata-rata 5 seed lain,0.6326530612244898,0.7697213830144344,0.9871864364733158,0.365
+perencanaan,satu seed vs satu seed (rata-rata 10 pasangan),0.36064753576804937,0.5259683397065196,0.8531298314681109,
+perencanaan,rata-rata 5 seed vs rata-rata 5 seed lain,0.45985401459854014,0.7437428243398393,0.966761722672928,0.305

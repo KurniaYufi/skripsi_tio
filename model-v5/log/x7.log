@@ -1,0 +1,11 @@
+{'jalur': 'perencanaan', 'seed': '5,6,7,8,9', 'jaccard200 vs dipakai': 0.7316017316017316, 'P@200': np.float64(0.19), '5% teratas': np.float64(0.3283100816004212), 'uji 5%': np.float64(0.27790252278430855), 'pagu<10jt top200': np.float64(0.02)}
+{'jalur': 'perencanaan', 'seed': '10,11,12,13,14', 'jaccard200 vs dipakai': 0.606425702811245, 'P@200': np.float64(0.115), '5% teratas': np.float64(0.31646485917346673), 'uji 5%': np.float64(0.26852463346981903), 'pagu<10jt top200': np.float64(0.07)}
+{'jalur': 'pelaksanaan', 'seed': '5,6,7,8,9', 'jaccard200 vs dipakai': 0.6460905349794238, 'P@200': np.float64(0.465), '5% teratas': np.float64(0.38604474781949183), 'uji 5%': np.float64(0.34235395189003437), 'pagu<10jt top200': np.float64(0.035)}
+{'jalur': 'pelaksanaan', 'seed': '10,11,12,13,14', 'jaccard200 vs dipakai': 0.7167381974248928, 'P@200': np.float64(0.375), '5% teratas': np.float64(0.3557072430792567), 'uji 5%': np.float64(0.32087628865979384), 'pagu<10jt top200': np.float64(0.02)}
+         jalur                  seed  jaccard200 vs dipakai  P@200  5% teratas  uji 5%  pagu<10jt top200
+0  perencanaan  42,1,2,3,4 (dipakai)                  1.000  0.180       0.323   0.271             0.015
+1  perencanaan             5,6,7,8,9                  0.732  0.190       0.328   0.278             0.020
+2  perencanaan        10,11,12,13,14                  0.606  0.115       0.316   0.269             0.070
+3  pelaksanaan  42,1,2,3,4 (dipakai)                  1.000  0.370       0.377   0.331             0.030
+4  pelaksanaan             5,6,7,8,9                  0.646  0.465       0.386   0.342             0.035
+5  pelaksanaan        10,11,12,13,14                  0.717  0.375       0.356   0.321             0.020

@@ -1,0 +1,9 @@
+##### ren_penuh_2025
+fitur SHAP terbesar (jumlah paket): {'log_rasio_pagu_nama_satker': 99, 'log_rasio_pagu_tahun_lalu': 67, 'log_lonjakan_satker': 10, 'log_rasio_pagu_satker': 10, 'log_rasio_pagu_jenis': 7, 'umk_tidak_dicadangkan': 4, 'log_pagu': 3}
+rata |SHAP|: {'log_rasio_pagu_nama_satker': 0.122, 'log_rasio_pagu_tahun_lalu': 0.086, 'log_rasio_pagu_jenis': 0.084, 'log_rasio_pagu_satker': 0.075, 'log_pagu': 0.07, 'umk_tidak_dicadangkan': 0.051, 'log_lonjakan_satker': 0.05, 'log_kekaburan_nama': 0.033}
+nilai asli median di 200 teratas: {'log_pagu': 9.04, 'log_rasio_pagu_jenis': 1.78, 'log_rasio_pagu_satker': 1.27, 'log_rasio_pagu_nama_satker': 0.93, 'log_rasio_pagu_tahun_lalu': 0.0, 'log_lonjakan_satker': 0.34, 'log_kekaburan_nama': 0.6, 'umk_tidak_dicadangkan': 0.0}
+metode_pengadaan 200 teratas: {'E-Purchasing': 0.54, 'Pengadaan Langsung': 0.38, 'Tender': 0.06, 'Penunjukan Langsung': 0.01, 'Seleksi': 0.0}
+metode_pengadaan semua      : {'E-Purchasing': 0.55, 'Pengadaan Langsung': 0.42, 'Penunjukan Langsung': 0.01, 'Seleksi': 0.01, 'Tender': 0.01}
+jenis 200 teratas: {'Barang': 0.56, 'Jasa Lainnya': 0.28, 'Pekerjaan Konstruksi': 0.15, 'Jasa Konsultansi': 0.01}
+jenis semua      : {'Barang': 0.56, 'Jasa Lainnya': 0.27, 'Jasa Konsultansi': 0.09, 'Pekerjaan Konstruksi': 0.08, 'Terintegrasi': 0.0}
+satker terbanyak di 200 teratas: {'DINAS PENDIDIKAN DAN KEBUDAYAAN - 1.01.2.22.0.00.01.0000': 19, 'CABANG PENDIDIKAN WILAYAH XIII - 1.01.0.00.0.00.01.0013': 8, 'CABANG DINAS PENDIDIKAN WILAYAH JOMBANG - 1.01.0.00.0.00.01.0028': 6}

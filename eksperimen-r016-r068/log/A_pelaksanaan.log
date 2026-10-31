@@ -1,0 +1,12 @@
+A pelaksanaan (105575, 21) ['log_pagu', 'porsi_pagu_satker', 'log_jumlah_paket_satker', 'proporsi_pl_satker', 'pdn', 'umk', 'jenis_Barang', 'jenis_Jasa Konsultansi', 'jenis_Jasa Lainnya', 'jenis_Pekerjaan Konstruksi', 'rasio_realisasi', 'log_selisih_realisasi', 'ubah_metode', 'porsi_pdn', 'porsi_umk', 'sumber_E-Katalog', 'sumber_Non Tender', 'sumber_Tender', 'log_rasio_pagu_satker', 'porsi_epurchasing_satker', 'selisih_rasio_realisasi_sejenis'] {'skala': 'std', 'if_max_samples': 'auto', 'lof_k': 20, 'ae_b': None}
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+selesai

@@ -1,0 +1,46 @@
+          jalur                                        cara   red_flag    P50   P100   P200   top5   uji5  acuan  sama_5persen_dgn_dipakai
+0   perencanaan                 persentil, 5 seed (dipakai)      semua  0.220  0.190  0.180  0.323  0.271  0.158                     1.000
+1   perencanaan                 persentil, 5 seed (dipakai)  tanpa RF2  0.020  0.020  0.020  0.127  0.120  0.134                     1.000
+2   perencanaan                           persentil, 1 seed      semua  0.160  0.130  0.220  0.354  0.284  0.158                     0.822
+3   perencanaan                           persentil, 1 seed  tanpa RF2  0.020  0.010  0.045  0.166  0.138  0.134                     0.822
+4   perencanaan                             min-max, 5 seed      semua  0.500  0.340  0.260  0.186  0.139  0.158                     0.575
+5   perencanaan                             min-max, 5 seed  tanpa RF2  0.040  0.030  0.035  0.073  0.070  0.134                     0.575
+6   perencanaan                    min-max, 1 seed (naskah)      semua  0.480  0.320  0.270  0.183  0.139  0.158                     0.574
+7   perencanaan                    min-max, 1 seed (naskah)  tanpa RF2  0.060  0.030  0.040  0.073  0.069  0.134                     0.574
+8   perencanaan  persentil: Jaccard 5% seed 42 vs seed lain          -  0.384  0.575  0.658    NaN    NaN    NaN                       NaN
+9   perencanaan    min-max: Jaccard 5% seed 42 vs seed lain          -  0.748  0.826  0.886    NaN    NaN    NaN                       NaN
+10  pelaksanaan                 persentil, 5 seed (dipakai)      semua  0.460  0.360  0.370  0.377  0.331  0.263                     1.000
+11  pelaksanaan                 persentil, 5 seed (dipakai)  tanpa RF2  0.220  0.170  0.170  0.188  0.183  0.235                     1.000
+12  pelaksanaan                           persentil, 1 seed      semua  0.400  0.340  0.340  0.345  0.308  0.263                     0.759
+13  pelaksanaan                           persentil, 1 seed  tanpa RF2  0.120  0.150  0.185  0.179  0.177  0.235                     0.759
+14  pelaksanaan                             min-max, 5 seed      semua  0.580  0.570  0.540  0.344  0.260  0.263                     0.447
+15  pelaksanaan                             min-max, 5 seed  tanpa RF2  0.160  0.170  0.160  0.142  0.145  0.235                     0.447
+16  pelaksanaan                    min-max, 1 seed (naskah)      semua  0.580  0.550  0.525  0.349  0.259  0.263                     0.455
+17  pelaksanaan                    min-max, 1 seed (naskah)  tanpa RF2  0.180  0.150  0.165  0.141  0.141  0.235                     0.455
+18  pelaksanaan  persentil: Jaccard 5% seed 42 vs seed lain          -  0.407  0.476  0.520    NaN    NaN    NaN                       NaN
+19  pelaksanaan    min-max: Jaccard 5% seed 42 vs seed lain          -  0.775  0.810  0.841    NaN    NaN    NaN                       NaN
+          jalur                         cara model  rata_skor_200teratas  median_skor_semua
+0   perencanaan  persentil, 5 seed (dipakai)    IF                 0.997              0.507
+1   perencanaan  persentil, 5 seed (dipakai)   LOF                 0.980              0.472
+2   perencanaan  persentil, 5 seed (dipakai)    AE                 0.991              0.455
+3   perencanaan            persentil, 1 seed    IF                 0.998              0.500
+4   perencanaan            persentil, 1 seed   LOF                 0.982              0.500
+5   perencanaan            persentil, 1 seed    AE                 0.995              0.500
+6   perencanaan              min-max, 5 seed    IF                 0.835              0.110
+7   perencanaan              min-max, 5 seed   LOF                 0.014              0.001
+8   perencanaan              min-max, 5 seed    AE                 0.320              0.003
+9   perencanaan     min-max, 1 seed (naskah)    IF                 0.813              0.111
+10  perencanaan     min-max, 1 seed (naskah)   LOF                 0.015              0.001
+11  perencanaan     min-max, 1 seed (naskah)    AE                 0.372              0.000
+12  pelaksanaan  persentil, 5 seed (dipakai)    IF                 0.976              0.506
+13  pelaksanaan  persentil, 5 seed (dipakai)   LOF                 0.979              0.472
+14  pelaksanaan  persentil, 5 seed (dipakai)    AE                 0.985              0.472
+15  pelaksanaan            persentil, 1 seed    IF                 0.982              0.500
+16  pelaksanaan            persentil, 1 seed   LOF                 0.981              0.500
+17  pelaksanaan            persentil, 1 seed    AE                 0.993              0.500
+18  pelaksanaan              min-max, 5 seed    IF                 0.856              0.167
+19  pelaksanaan              min-max, 5 seed   LOF                 0.053              0.007
+20  pelaksanaan              min-max, 5 seed    AE                 0.066              0.001
+21  pelaksanaan     min-max, 1 seed (naskah)    IF                 0.839              0.163
+22  pelaksanaan     min-max, 1 seed (naskah)   LOF                 0.056              0.007
+23  pelaksanaan     min-max, 1 seed (naskah)    AE                 0.099              0.001

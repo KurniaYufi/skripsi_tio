@@ -1,0 +1,25 @@
+jalur,cara,model,rata_skor_200teratas,median_skor_semua
+perencanaan,"persentil, 5 seed (dipakai)",IF,0.9973908136742012,0.5072115289704866
+perencanaan,"persentil, 5 seed (dipakai)",LOF,0.9799760668575002,0.47163030961076563
+perencanaan,"persentil, 5 seed (dipakai)",AE,0.991470519527523,0.45478004803737704
+perencanaan,"persentil, 1 seed",IF,0.9977817096041851,0.5000016451156517
+perencanaan,"persentil, 1 seed",LOF,0.9815283946961472,0.5000164511565163
+perencanaan,"persentil, 1 seed",AE,0.994803277070378,0.5000131609252131
+perencanaan,"min-max, 5 seed",IF,0.8347230080036172,0.1102715695486838
+perencanaan,"min-max, 5 seed",LOF,0.014249941558064085,0.0011988933257929457
+perencanaan,"min-max, 5 seed",AE,0.31950086274136713,0.002818009566879352
+perencanaan,"min-max, 1 seed (naskah)",IF,0.8127331070744028,0.11080566965966074
+perencanaan,"min-max, 1 seed (naskah)",LOF,0.014777820249684348,0.0013390704040490947
+perencanaan,"min-max, 1 seed (naskah)",AE,0.37179520803575317,0.0001658557991126235
+pelaksanaan,"persentil, 5 seed (dipakai)",IF,0.9755877212106276,0.5055308581123992
+pelaksanaan,"persentil, 5 seed (dipakai)",LOF,0.9785629626821108,0.47243291405605736
+pelaksanaan,"persentil, 5 seed (dipakai)",AE,0.9853872358979706,0.47185091801818035
+pelaksanaan,"persentil, 1 seed",IF,0.9820883136333046,0.500004739381416
+pelaksanaan,"persentil, 1 seed",LOF,0.9814769808244628,0.500004739381416
+pelaksanaan,"persentil, 1 seed",AE,0.9927363766481199,0.500004739381416
+pelaksanaan,"min-max, 5 seed",IF,0.8557349648782917,0.1669999004699531
+pelaksanaan,"min-max, 5 seed",LOF,0.052808473476781755,0.007015332903067506
+pelaksanaan,"min-max, 5 seed",AE,0.06550924573447749,0.0008069855862261691
+pelaksanaan,"min-max, 1 seed (naskah)",IF,0.8387710909022131,0.16339726034695032
+pelaksanaan,"min-max, 1 seed (naskah)",LOF,0.05636120054116244,0.006527877447532213
+pelaksanaan,"min-max, 1 seed (naskah)",AE,0.09885756826194028,0.0009066825565687937

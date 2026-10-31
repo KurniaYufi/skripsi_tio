@@ -1,0 +1,548 @@
+<title>Peta Ketidaklaziman Pengadaan</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: satu kolom lebar dengan pita atas (judul + sakelar jalur), lalu peta+daftar provinsi, daftar paket+panel rincian, evaluasi model. */
+:root {
+  --bg: #f6f7f9;
+  --panel: #ffffff;
+  --ink: #12161d;
+  --ink-2: #4b5363;
+  --ink-3: #737b8a;
+  --line: #e2e5ea;
+  --accent: #1c5cab;
+  --accent-soft: #e6eefa;
+  --up: #d4561f;
+  --down: #2a78d6;
+  --flag-bg: #fff3dc;
+  --flag-ink: #8a5300;
+  --map-empty: #eef0f3;
+  --seq-1: #cde2fb; --seq-2: #9ec5f4; --seq-3: #6da7ec; --seq-4: #3987e5; --seq-5: #256abf; --seq-6: #184f95; --seq-7: #0d366b;
+  --font-ui: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+  --font-num: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1217; --panel: #171b22; --ink: #eef0f4; --ink-2: #b4bac6; --ink-3: #8a91a0; --line: #2a303b;
+    --accent: #6da7ec; --accent-soft: #1b2a40; --up: #e8733f; --down: #5598e7; --flag-bg: #3a2a0c; --flag-ink: #f2c46b;
+    --map-empty: #232833;
+    --seq-1: #26364f; --seq-2: #184f95; --seq-3: #1c5cab; --seq-4: #2a78d6; --seq-5: #5598e7; --seq-6: #86b6ef; --seq-7: #cde2fb;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1217; --panel: #171b22; --ink: #eef0f4; --ink-2: #b4bac6; --ink-3: #8a91a0; --line: #2a303b;
+  --accent: #6da7ec; --accent-soft: #1b2a40; --up: #e8733f; --down: #5598e7; --flag-bg: #3a2a0c; --flag-ink: #f2c46b;
+  --map-empty: #232833;
+  --seq-1: #26364f; --seq-2: #184f95; --seq-3: #1c5cab; --seq-4: #2a78d6; --seq-5: #5598e7; --seq-6: #86b6ef; --seq-7: #cde2fb;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-ui); font-size: 14px; line-height: 1.5; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-block: 28px 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 28px; }
+h1, h2, h3 { margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(22px, 3vw, 30px); font-weight: 800; letter-spacing: -0.02em; }
+h2 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; }
+h3 { font-size: 15px; font-weight: 700; }
+p { margin: 0; }
+.muted { color: var(--ink-2); }
+.small { font-size: 12.5px; color: var(--ink-3); }
+.num { font-family: var(--font-num); font-variant-numeric: tabular-nums; }
+.eyebrow { font-size: 11.5px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+
+header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 16px 24px; }
+header .t { display: grid; gap: 6px; max-width: 720px; min-width: 0; }
+.seg { display: inline-flex; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 4px; gap: 4px; }
+.seg button { font: inherit; font-weight: 600; border: 0; background: transparent; color: var(--ink-2); padding: 8px 16px; border-radius: 999px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--panel); }
+.seg button:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, tr:focus-visible, path:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
+.stat { background: var(--panel); padding: 14px 16px; display: grid; gap: 2px; min-width: 0; }
+.stat b { font-family: var(--font-num); font-size: 22px; font-weight: 500; letter-spacing: -0.02em; }
+@media (max-width: 720px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 20px; display: grid; gap: 16px; min-width: 0; }
+.sec-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 16px; }
+.sec-head > div:not(.seg):not(.legend) { display: grid; gap: 4px; min-width: 0; max-width: 760px; }
+
+.geo { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 20px; }
+@media (max-width: 900px) { .geo { grid-template-columns: minmax(0, 1fr); } }
+#map { width: 100%; height: auto; display: block; }
+#map path { stroke: var(--panel); stroke-width: 0.6; cursor: pointer; transition: opacity .15s; }
+#map path.sel { stroke: var(--ink); stroke-width: 1.6; }
+#map.has-sel path:not(.sel) { opacity: .55; }
+.legend { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.legend .ramp { display: flex; height: 10px; width: 220px; max-width: 60vw; border-radius: 3px; overflow: hidden; }
+.legend .ramp span { flex: 1; }
+.provlist { display: grid; gap: 2px; max-height: 440px; overflow-y: auto; padding-right: 4px; }
+.provrow { display: grid; grid-template-columns: minmax(0, 1fr) 96px 48px; gap: 8px; align-items: center; padding: 5px 6px; border-radius: 6px; cursor: pointer; border: 0; background: transparent; font: inherit; color: inherit; text-align: left; }
+.provrow:hover, .provrow.sel { background: var(--accent-soft); }
+.provrow .bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.provrow .bar i { display: block; height: 100%; background: var(--seq-4); border-radius: 0 3px 3px 0; }
+.provrow .nm { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 13px; }
+.provrow .v { text-align: right; font-family: var(--font-num); font-size: 12px; color: var(--ink-2); }
+
+.tip { position: fixed; pointer-events: none; background: var(--ink); color: var(--bg); padding: 8px 10px; border-radius: 8px; font-size: 12.5px; line-height: 1.4; max-width: 260px; z-index: 20; }
+
+.pk { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 980px) { .pk { grid-template-columns: minmax(0, 1fr); } }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+select, input[type=search] { font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; min-width: 0; }
+input[type=search] { flex: 1 1 180px; }
+.chipbtn { font: inherit; font-size: 12.5px; border: 1px solid var(--line); background: var(--bg); color: var(--ink-2); border-radius: 999px; padding: 5px 10px; cursor: pointer; }
+.chipbtn[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+.tablebox { overflow: auto; max-height: 620px; border: 1px solid var(--line); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th { position: sticky; top: 0; background: var(--panel); text-align: left; font-size: 11.5px; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); font-weight: 700; padding: 8px 10px; border-bottom: 1px solid var(--line); z-index: 1; }
+td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: var(--accent-soft); }
+tbody tr.sel { background: var(--accent-soft); box-shadow: inset 3px 0 0 var(--accent); }
+td.r { text-align: right; white-space: nowrap; }
+.pname { font-weight: 600; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.flag { display: inline-flex; align-items: center; gap: 4px; background: var(--flag-bg); color: var(--flag-ink); border-radius: 999px; padding: 1px 8px; font-size: 11.5px; font-weight: 600; white-space: nowrap; }
+.flag::before { content: "!"; font-weight: 800; }
+.flags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); margin-right: 4px; vertical-align: 1px; }
+
+.detail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); display: grid; gap: 14px; }
+.detail .empty { color: var(--ink-3); padding: 24px 0; }
+@media (min-width: 981px) { .detail { max-height: calc(100vh - 24px); overflow-y: auto; padding-right: 4px; } }
+.sec { display: grid; gap: 8px; }
+.sec > h3 { font-size: 14px; }
+.why { background: var(--accent-soft); border-radius: 8px; padding: 12px 14px; font-size: 13.5px; display: grid; gap: 4px; }
+.why b { font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); }
+.rfcard { border: 1px solid var(--line); border-left: 3px solid var(--flag-ink); border-radius: 8px; padding: 10px 12px; display: grid; gap: 8px; font-size: 13px; }
+.rfcard .flag { justify-self: start; }
+.rfcard p { margin: 0; }
+.rfcard .cek { background: var(--bg); border-radius: 6px; padding: 8px 10px; color: var(--ink-2); }
+.rfcard .cek b { color: var(--ink); }
+.mini { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.mini th { position: static; z-index: auto; background: transparent; letter-spacing: 0; text-transform: none; text-align: left; font-weight: 600; color: var(--ink-3); font-size: 11.5px; padding: 4px 6px; border-bottom: 1px solid var(--line); }
+.mini td { padding: 5px 6px; border-bottom: 1px solid var(--line); vertical-align: top; overflow-wrap: anywhere; }
+.mini td.r, .mini th.r { text-align: right; white-space: nowrap; }
+.mini tr.ini td { font-weight: 700; }
+.mini tr.ini td:first-child::after { content: " ← paket ini"; font-weight: 600; color: var(--accent); font-size: 11.5px; }
+.mini tr.go { cursor: pointer; }
+.mini tr.go:hover td { background: var(--accent-soft); }
+.mini tr.go td:first-child { color: var(--accent); }
+.mini tfoot td { font-weight: 700; border-bottom: 0; }
+.models span.small { line-height: 1.3; }
+.models em { font-style: normal; font-size: 11px; color: var(--ink-3); line-height: 1.3; }
+.kv { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 4px 12px; font-size: 13px; }
+.kv dt { color: var(--ink-3); }
+.kv dd { margin: 0; overflow-wrap: anywhere; }
+.explain { background: var(--accent-soft); border-radius: 8px; padding: 12px 14px; font-size: 13.5px; }
+.models { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.models div { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; display: grid; }
+.models b { font-family: var(--font-num); font-weight: 500; font-size: 16px; }
+@media (max-width: 720px) { .models { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.shap svg { width: 100%; height: auto; display: block; overflow: visible; }
+.shap text { fill: var(--ink-2); font-size: 11.5px; font-family: var(--font-ui); }
+.shap .val { font-family: var(--font-num); fill: var(--ink-3); }
+.shap rect.hit { fill: transparent; }
+.keyrow { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); }
+.keyrow i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+
+.ev { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 24px; }
+@media (max-width: 900px) { .ev { grid-template-columns: minmax(0, 1fr); } }
+.evtable td, .evtable th { text-align: right; }
+.evtable td:first-child, .evtable th:first-child { text-align: left; }
+.evtable tr.best td { font-weight: 700; }
+.evtable tbody tr { cursor: default; }
+.evtable tbody tr:hover { background: transparent; }
+.pbars { display: grid; gap: 10px; }
+.pbar { display: grid; grid-template-columns: 96px minmax(0, 1fr) 52px; align-items: center; gap: 10px; font-size: 13px; }
+.pbar .track { height: 14px; background: var(--map-empty); border-radius: 0 4px 4px 0; position: relative; }
+.pbar .track i { position: absolute; inset: 0 auto 0 0; background: var(--seq-4); border-radius: 0 4px 4px 0; }
+.pbar.base .track i { background: var(--ink-3); }
+.pbar.ens .track i { background: var(--seq-6); }
+.pbar.alt .track i { background: var(--ink-3); opacity: .55; }
+.evtable tr.sub td { color: var(--ink-3); font-size: 11.5px; letter-spacing: .04em; text-transform: uppercase; font-weight: 700; text-align: left; padding-top: 14px; }
+.valtable td { font-size: 13px; }
+.valtable td:first-child { font-weight: 600; min-width: 180px; }
+.valtable td.h { font-family: var(--font-num); font-size: 12px; color: var(--ink-2); min-width: 220px; }
+.valtable tbody tr { cursor: default; }
+.valtable tbody tr:hover { background: transparent; }
+@media (max-width: 720px) {
+  .valtable thead { display: none; }
+  .valtable, .valtable tbody { display: block; }
+  .valtable tr { display: flex; flex-direction: column; gap: 6px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .valtable td { display: block; border: 0; padding: 0; min-width: 0 !important; }
+  .valtable td:nth-child(4) { order: 1; }
+  .valtable td:nth-child(2) { order: 2; }
+  .valtable td:nth-child(3) { order: 3; }
+  .valtable td.h::before, .valtable td:nth-child(3)::before { display: block; font-family: var(--font-ui); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); font-weight: 700; margin-bottom: 2px; }
+  .valtable td.h::before { content: "Hasil"; }
+  .valtable td:nth-child(3)::before { content: "Artinya"; }
+}
+.badge { display: inline-flex; align-items: center; gap: 5px; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; font-size: 11.5px; font-weight: 700; white-space: nowrap; color: var(--ink-2); }
+.badge b { font-family: var(--font-num); }
+.badge.ya { border-color: var(--accent); color: var(--accent); }
+.badge.tidak { border-color: var(--up); color: var(--up); }
+.note { border-left: 3px solid var(--line); padding-left: 12px; color: var(--ink-2); font-size: 13px; display: grid; gap: 6px; }
+footer { color: var(--ink-3); font-size: 12.5px; display: grid; gap: 6px; max-width: 900px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="t">
+      <span class="eyebrow">Pengadaan APBD Provinsi · Tahun Anggaran 2025</span>
+      <h1>Peta Ketidaklaziman Pengadaan</h1>
+      <p class="muted">Paket pengadaan melalui penyedia di 38 provinsi diberi skor oleh model <i>ensemble</i> (Isolation Forest, LOF, Autoencoder) tanpa label. Skor tinggi berarti paket itu tidak lazim dibanding paket lain, bukan bukti pelanggaran.</p>
+    </div>
+    <div class="seg" role="group" aria-label="Pilih jalur data">
+      <button id="btn-perencanaan" aria-pressed="true" data-j="perencanaan">Perencanaan (RUP)</button>
+      <button id="btn-pelaksanaan" aria-pressed="false" data-j="pelaksanaan">Pelaksanaan (RUP + realisasi)</button>
+    </div>
+  </header>
+
+  <section class="stats" id="stats" aria-label="Ringkasan"></section>
+
+  <section class="card" aria-labelledby="h-geo">
+    <div class="sec-head">
+      <div>
+        <h2 id="h-geo">Di provinsi mana paket tidak lazim paling banyak?</h2>
+        <p class="muted small" id="geo-sub"></p>
+      </div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="geo">
+      <svg id="map" viewBox="0 0 1000 420" role="img" aria-label="Peta proporsi paket tidak lazim per provinsi"></svg>
+      <div>
+        <div class="provlist" id="provlist" role="list"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="h-pk">
+    <div class="sec-head">
+      <div>
+        <h2 id="h-pk">Paket mana yang perlu ditelaah lebih dulu?</h2>
+        <p class="muted small" id="pk-sub"></p>
+      </div>
+    </div>
+    <div class="pk">
+      <div style="display:grid;gap:10px;min-width:0">
+        <div class="filters">
+          <select id="f-prov" aria-label="Filter provinsi"></select>
+          <input type="search" id="f-q" placeholder="Cari nama paket atau satker" aria-label="Cari paket">
+          <button class="chipbtn" id="f-rf" aria-pressed="false">Hanya yang ada red flag</button>
+        </div>
+        <div class="tablebox">
+          <table>
+            <thead><tr><th>#</th><th>Paket</th><th style="text-align:right">Pagu</th><th style="text-align:right">Skor</th></tr></thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+        <p class="small" id="rows-note"></p>
+      </div>
+      <aside class="card detail" id="detail" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="h-ev">
+    <div class="sec-head">
+      <div>
+        <h2 id="h-ev">Seberapa sering paket teratas punya red flag?</h2>
+        <p class="muted small">Precision@K = bagian dari K paket dengan skor tertinggi yang punya minimal satu red flag. Red flag hanya dipakai untuk menilai, tidak dimasukkan ke model.</p>
+      </div>
+      <div class="seg" role="group" aria-label="Pilih K">
+        <button aria-pressed="false" data-k="50">K = 50</button>
+        <button aria-pressed="false" data-k="100">K = 100</button>
+        <button aria-pressed="true" data-k="200">K = 200</button>
+      </div>
+    </div>
+    <div class="ev">
+      <div style="display:grid;gap:14px;min-width:0">
+        <div class="pbars" id="pbars"></div>
+        <div style="overflow-x:auto">
+          <table class="evtable" id="evtable"></table>
+        </div>
+      </div>
+      <div style="display:grid;gap:16px;min-width:0">
+        <div style="display:grid;gap:8px">
+          <h3>Fitur yang paling memengaruhi skor (200 paket teratas)</h3>
+          <div class="pbars" id="gshap"></div>
+          <p class="small">Rata-rata nilai SHAP mutlak. Kolom <i>one-hot</i> (metode, jenis, sumber transaksi) dijumlahkan menjadi satu fitur.</p>
+        </div>
+        <div style="display:grid;gap:8px">
+          <h3>Jumlah red flag di seluruh paket jalur ini</h3>
+          <div class="pbars" id="rftot"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="h-val">
+    <div class="sec-head">
+      <div>
+        <h2 id="h-val">Seberapa bisa dipercaya hasil ini?</h2>
+        <p class="muted small">Karena tidak ada label "paket bermasalah", model diuji dari beberapa arah. Tiap baris adalah satu uji pada jalur yang sedang dipilih, dengan hasil apa adanya, termasuk yang belum mendukung.</p>
+      </div>
+    </div>
+    <div style="overflow-x:auto">
+      <table class="valtable" id="valtable"></table>
+    </div>
+  </section>
+
+  <footer>
+    <p><b>Sumber data:</b> RUP dan realisasi pengadaan APBD provinsi 2025 dari INAPROC (data.inaproc.id). Lingkup: paket melalui penyedia, tanpa metode "Dikecualikan", pagu di atas Rp10.000 (jalur perencanaan: minimal Rp1 juta, karena paket di bawahnya lebih mirip salah isi data). Jalur pelaksanaan hanya memuat paket yang realisasinya sudah sampai tahap serah terima. Paket swakelola belum dianalisis.</p>
+    <p><b>Cara membaca:</b> paket "tidak lazim" adalah 5% paket dengan skor <i>ensemble</i> tertinggi secara nasional pada jalur yang dipilih. Warna peta menunjukkan proporsi paket tidak lazim di provinsi itu, sehingga provinsi dengan paket banyak dan sedikit bisa dibandingkan. Penjelasan SHAP tersedia untuk 200 paket teratas nasional per jalur. Kalimat penjelasan disusun dengan templat dari tiga fitur SHAP terbesar.</p>
+    <p><b>Versi model:</b> v4. Skor adalah rata-rata 5 kali pelatihan dengan seed berbeda agar daftar teratas stabil. Red flag v3: pengadaan langsung pekerjaan konstruksi dianggap mendekati ambang bila berada di 90–100% ambang lama (200 jt) atau ambang baru (400 jt) karena 2025 tahun peralihan Perpres 46/2025; penyedia dominan memakai definisi OCP, yaitu satu penyedia menerima lebih dari 40% nilai realisasi satker yang punya minimal 5 paket. Kategori metode pengadaan tidak dipakai sebagai fitur karena penunjukan langsung juga dipakai sebagai red flag, sehingga evaluasi tidak berputar. Di jalur perencanaan, fitur pagu dibuat satu arah: hanya pagu yang lebih besar dari biasanya (dibanding paket sejenis dan median paket di satker yang sama) yang menaikkan skor.</p>
+    <p>Prototipe dashboard tugas akhir. Hasil ini menunjukkan tingkat ketidaklaziman relatif, bukan tingkat kerawanan korupsi.</p>
+  </footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script type="application/json" id="data-json">__DATA__</script>
+<script type="application/json" id="geo-json">__GEO__</script>
+<script>
+const DATA = JSON.parse(document.getElementById('data-json').textContent);
+const GEO = JSON.parse(document.getElementById('geo-json').textContent);
+const S = { jalur: 'perencanaan', prov: null, q: '', onlyRf: false, sel: null, k: 200 };
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const fmtInt = (x) => Math.round(x).toLocaleString('id-ID');
+const fmtPct = (x, d = 1) => (x * 100).toLocaleString('id-ID', { minimumFractionDigits: d, maximumFractionDigits: d }) + '%';
+function rp(x) {
+  const u = [[1e12, ' T'], [1e9, ' M'], [1e6, ' jt'], [1e3, ' rb']];
+  for (const [b, s] of u) if (Math.abs(x) >= b) return 'Rp' + (x / b).toLocaleString('id-ID', { maximumFractionDigits: 1 }) + s;
+  return 'Rp' + fmtInt(x);
+}
+const J = () => DATA.jalur[S.jalur];
+const SEQ = [1, 2, 3, 4, 5, 6, 7].map((i) => `var(--seq-${i})`);
+
+/* ---------- Peta: proyeksi ekuirektangular sederhana (Indonesia dekat khatulistiwa) ---------- */
+const LON0 = 94.5, LON1 = 141.5, LAT0 = 6.5, LAT1 = -11.5;
+const W = 1000, H = 420;
+const px = (lon) => ((lon - LON0) / (LON1 - LON0)) * W;
+const py = (lat) => ((LAT0 - lat) / (LAT0 - LAT1)) * H;
+function ringPath(r) { return r.map((c, i) => (i ? 'L' : 'M') + px(c[0]).toFixed(1) + ' ' + py(c[1]).toFixed(1)).join('') + 'Z'; }
+function geomPath(g) {
+  const polys = g.type === 'Polygon' ? [g.coordinates] : g.coordinates;
+  return polys.map((p) => p.map(ringPath).join('')).join('');
+}
+const mapEl = $('#map');
+mapEl.innerHTML = GEO.features.map((f) => `<path tabindex="0" data-p="${esc(f.properties.nama)}" d="${geomPath(f.geometry)}"><title>${esc(f.properties.nama)}</title></path>`).join('');
+
+function breaks() {
+  const v = Object.values(J().prov).map((p) => p.proporsi).sort((a, b) => a - b);
+  const mx = v[v.length - 1] || 1;
+  return Array.from({ length: 7 }, (_, i) => (mx * (i + 1)) / 7);
+}
+function colorFor(p, br) {
+  if (p == null) return 'var(--map-empty)';
+  for (let i = 0; i < br.length; i++) if (p <= br[i] + 1e-12) return SEQ[i];
+  return SEQ[6];
+}
+
+function renderStats() {
+  const j = J();
+  const nRf = j.paket ? null : null;
+  const cak = S.jalur === 'pelaksanaan' ? `${fmtPct(j.n / DATA.total_rup)} paket RUP punya realisasi selesai` : 'Seluruh paket penyedia di RUP';
+  $('#stats').innerHTML = [
+    ['Paket dinilai', fmtInt(j.n), cak],
+    ['Paket tidak lazim', fmtInt(j.anomali), '5% skor tertinggi nasional'],
+    ['Ambang skor', j.ambang.toLocaleString('id-ID', { maximumFractionDigits: 3 }), 'Skor ensemble 0 sampai 1'],
+    ['Red flag dipakai', String(Object.keys(j.rf_total).length), S.jalur === 'pelaksanaan' ? 'Termasuk 2 red flag penyedia' : 'Red flag penyedia butuh data realisasi'],
+  ].map(([a, b, c]) => `<div class="stat"><span class="eyebrow">${a}</span><b>${b}</b><span class="small">${c}</span></div>`).join('');
+}
+
+function renderMap() {
+  const j = J(), br = breaks();
+  mapEl.classList.toggle('has-sel', !!S.prov);
+  mapEl.querySelectorAll('path').forEach((el) => {
+    const p = j.prov[el.dataset.p];
+    el.style.fill = colorFor(p && p.proporsi, br);
+    el.classList.toggle('sel', S.prov === el.dataset.p);
+  });
+  $('#legend').innerHTML = `<span class="small">Proporsi paket tidak lazim</span><span class="num small">0%</span><span class="ramp">${SEQ.map((c) => `<span style="background:${c}"></span>`).join('')}</span><span class="num small">${fmtPct(br[6], 0)}</span>`;
+  $('#geo-sub').textContent = S.jalur === 'perencanaan'
+    ? 'Warna = bagian paket provinsi yang masuk 5% skor tertinggi nasional, dihitung dari data RUP. Klik provinsi untuk menyaring daftar paket.'
+    : 'Warna = bagian paket provinsi yang masuk 5% skor tertinggi nasional, dihitung dari pasangan RUP dan realisasi. Klik provinsi untuk menyaring daftar paket.';
+  if (Object.values(j.prov).some((p) => p.n < 100)) $('#geo-sub').textContent += ' Tanda * = provinsi dengan kurang dari 100 paket, jadi proporsinya mudah berubah.';
+  const rows = Object.entries(j.prov).sort((a, b) => b[1].proporsi - a[1].proporsi);
+  const mx = rows[0][1].proporsi || 1;
+  $('#provlist').innerHTML = rows.map(([n, p]) => `<button class="provrow${S.prov === n ? ' sel' : ''}" role="listitem" data-p="${esc(n)}" title="${esc(n)}"><span style="display:grid;gap:3px;min-width:0"><span class="nm">${esc(n)}${p.n < 100 ? ' *' : ''}</span><span class="bar"><i style="width:${(p.proporsi / mx) * 100}%"></i></span></span><span class="v">${fmtInt(p.anomali)}/${fmtInt(p.n)}</span><span class="v">${fmtPct(p.proporsi)}</span></button>`).join('');
+}
+
+function setProv(p) {
+  S.prov = S.prov === p ? null : p;
+  $('#f-prov').value = S.prov || '';
+  S.sel = null;
+  renderMap(); renderRows();
+}
+
+const tip = $('#tip');
+mapEl.addEventListener('mousemove', (e) => {
+  const el = e.target.closest('path');
+  if (!el) { tip.hidden = true; return; }
+  const p = J().prov[el.dataset.p];
+  tip.innerHTML = `<b>${esc(el.dataset.p)}</b><br>${p ? `${fmtPct(p.proporsi)} paket tidak lazim<br>${fmtInt(p.anomali)} dari ${fmtInt(p.n)} paket${p.n < 100 ? ' (sedikit, proporsi mudah berubah)' : ''}<br>Pagu paket tidak lazim ${rp(p.pagu_anomali)}` : 'Tidak ada data'}`;
+  tip.hidden = false;
+  const x = Math.min(e.clientX + 14, window.innerWidth - 270);
+  tip.style.left = x + 'px'; tip.style.top = (e.clientY + 14) + 'px';
+});
+mapEl.addEventListener('mouseleave', () => { tip.hidden = true; });
+mapEl.addEventListener('click', (e) => { const el = e.target.closest('path'); if (el) setProv(el.dataset.p); });
+mapEl.addEventListener('keydown', (e) => { const el = e.target.closest('path'); if (el && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); setProv(el.dataset.p); } });
+$('#provlist').addEventListener('click', (e) => { const el = e.target.closest('.provrow'); if (el) setProv(el.dataset.p); });
+
+/* ---------- Daftar paket ---------- */
+function filtered() {
+  const q = S.q.trim().toLowerCase();
+  return J().paket.filter((p) => (!S.prov || p.prov === S.prov)
+    && (!S.onlyRf || p.rf.length)
+    && (!q || (p.nama + ' ' + p.satker).toLowerCase().includes(q)));
+}
+function renderRows() {
+  const list = filtered();
+  const show = list.slice(0, 500);
+  $('#rows').innerHTML = show.map((p) => `<tr tabindex="0" data-k="${esc(p.kode)}" class="${S.sel === p.kode ? 'sel' : ''}">
+    <td class="num">${fmtInt(p.rank)}</td>
+    <td><div class="pname">${p.shap ? '<span class="dot" title="Ada penjelasan SHAP"></span>' : ''}${esc(p.nama)}</div>
+      <div class="small">${esc(p.satker)} · ${esc(p.prov)} · ${esc(p.metode)}</div>
+      ${p.rf.length ? `<div class="flags">${p.rf.map((r) => `<span class="flag">${esc(r)}</span>`).join('')}</div>` : ''}</td>
+    <td class="r num">${rp(p.pagu)}</td>
+    <td class="r num">${p.skor.toLocaleString('id-ID', { minimumFractionDigits: 3, maximumFractionDigits: 3 })}</td></tr>`).join('')
+    || '<tr><td colspan="4" class="muted" style="padding:20px">Tidak ada paket yang cocok dengan saringan ini.</td></tr>';
+  const j = J();
+  $('#pk-sub').textContent = `Diurutkan dari skor ensemble tertinggi. Daftar memuat 500 paket teratas nasional dan 50 paket teratas tiap provinsi pada jalur ${S.jalur}. Titik biru = ada penjelasan SHAP.`;
+  $('#rows-note').textContent = `${fmtInt(list.length)} paket tampil${list.length > 500 ? ' (500 pertama ditampilkan)' : ''}${S.prov ? ' di ' + S.prov : ''}.`;
+  if (!S.sel || !list.some((p) => p.kode === S.sel)) S.sel = list[0] ? list[0].kode : null;
+  document.querySelectorAll('#rows tr').forEach((tr) => tr.classList.toggle('sel', tr.dataset.k === S.sel));
+  renderDetail();
+}
+$('#rows').addEventListener('click', (e) => { const tr = e.target.closest('tr[data-k]'); if (tr) { S.sel = tr.dataset.k; document.querySelectorAll('#rows tr').forEach((x) => x.classList.toggle('sel', x === tr)); renderDetail(); } });
+$('#rows').addEventListener('keydown', (e) => { const tr = e.target.closest('tr[data-k]'); if (tr && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); tr.click(); } });
+$('#f-q').addEventListener('input', (e) => { S.q = e.target.value; renderRows(); });
+$('#f-prov').addEventListener('change', (e) => { S.prov = e.target.value || null; S.sel = null; renderMap(); renderRows(); });
+$('#f-rf').addEventListener('click', (e) => { S.onlyRf = !S.onlyRf; e.currentTarget.setAttribute('aria-pressed', S.onlyRf); renderRows(); });
+
+function shapSvg(sh) {
+  const items = sh.slice(0, 8);
+  const mx = Math.max(...items.map((d) => Math.abs(d[1]))) || 1;
+  const rowH = 30, lab = 0, mid = 200, half = 150, h = items.length * rowH + 8;
+  return `<svg viewBox="0 0 400 ${h}" role="img" aria-label="Kontribusi fitur terhadap skor">
+    <line x1="${mid}" x2="${mid}" y1="0" y2="${h}" stroke="var(--line)" stroke-width="1"/>
+    ${items.map((d, i) => {
+      const w = Math.max(2, (Math.abs(d[1]) / mx) * half);
+      const y = i * rowH + 6, pos = d[1] > 0;
+      const x = pos ? mid : mid - w;
+      const tx = pos ? mid - 8 : mid + 8;
+      return `<g><title>${esc(d[0])}: ${esc(d[2])} (SHAP ${d[1] > 0 ? '+' : ''}${d[1].toLocaleString('id-ID', { maximumFractionDigits: 4 })})</title>
+        <rect class="hit" x="0" y="${y - 3}" width="400" height="${rowH}"/>
+        <rect x="${x}" y="${y + 3}" width="${w}" height="12" rx="3" fill="${pos ? 'var(--up)' : 'var(--down)'}"/>
+        <text x="${tx}" y="${y + 13}" text-anchor="${pos ? 'end' : 'start'}">${esc(d[0])}</text>
+        <text class="val" x="${pos ? mid + w + 6 : mid - w - 6}" y="${y + 13}" text-anchor="${pos ? 'start' : 'end'}">${d[1] > 0 ? '+' : '−'}${Math.abs(d[1]).toLocaleString('id-ID', { minimumFractionDigits: 3, maximumFractionDigits: 3 })}</text></g>`;
+    }).join('')}</svg>`;
+}
+
+function kalimatDasar(p) {
+  const n = J().n, a = p.rank / n;
+  const atas = a < 1e-4 ? '0,01%' : (a * 100).toLocaleString('id-ID', { maximumFractionDigits: a < 0.01 ? 2 : 1 }) + '%';
+  const rfk = p.bukti.length
+    ? `Paket ini juga memenuhi ${p.bukti.length} red flag (${p.bukti.map((b) => b.rf.toLowerCase()).join(', ')}); rinciannya ada di bagian Red flag. `
+    : 'Paket ini tidak memenuhi red flag mana pun, jadi kejanggalannya hanya terlihat dari pola angkanya. ';
+  return `Paket ini berada di peringkat ${fmtInt(p.rank)} dari ${fmtInt(n)} paket jalur ${S.jalur}, termasuk ${atas} paket dengan pola paling tidak lazim. ${rfk}Rincian faktor (SHAP) hanya dihitung untuk 200 paket teratas nasional. Ini penanda untuk ditelaah lebih lanjut, bukan bukti pelanggaran.`;
+}
+function anggotaTabel(b, kode) {
+  if (!b.anggota) return '';
+  const lab = b.nilai === 'realisasi' ? 'Realisasi' : 'Pagu';
+  const rows = b.anggota.map(([k, nm, v, rk, ada]) => `<tr class="${k === kode ? 'ini' : (ada ? 'go' : '')}" ${ada && k !== kode ? `data-go="${esc(k)}" title="Buka paket ini"` : ''}>
+      <td>${esc(nm)}</td><td class="r num">${rp(v)}</td><td class="r num">${rk ? fmtInt(rk) : '–'}</td></tr>`).join('');
+  return `<table class="mini"><thead><tr><th>Paket terkait (${fmtInt(b.n)})</th><th class="r">${lab}</th><th class="r">Peringkat</th></tr></thead>
+    <tbody>${rows}</tbody><tfoot><tr><td>Jumlah</td><td class="r num">${rp(b.total)}</td><td></td></tr></tfoot></table>
+    ${b.rincian ? `<p class="small">${esc(b.rincian)}</p>` : ''}<p class="small">Klik nama paket berwarna biru untuk membuka rinciannya. Peringkat "–" = paket tidak ikut dinilai di jalur ini.</p>`;
+}
+function renderDetail() {
+  const p = J().paket.find((x) => x.kode === S.sel);
+  const el = $('#detail');
+  if (!p) { el.innerHTML = '<p class="empty">Pilih paket di daftar untuk melihat rinciannya.</p>'; return; }
+  const kv = [
+    ['Kode RUP', `<span class="num">${esc(p.kode)}</span>`],
+    ['Provinsi', esc(p.prov)], ['Satker', esc(p.satker)],
+    ['Metode', esc(p.metode)], ['Jenis', esc(p.jenis)], ['Pagu', `<span class="num">${rp(p.pagu)}</span>`],
+  ];
+  if (S.jalur === 'pelaksanaan') kv.push(['Realisasi', `<span class="num">${rp(p.realisasi)}</span> (${fmtPct(p.realisasi / p.pagu)} dari pagu)`], ['Penyedia', esc(p.penyedia)], ['Sumber transaksi', esc(p.sumber)]);
+  const f3 = (x) => x.toLocaleString('id-ID', { minimumFractionDigits: 3, maximumFractionDigits: 3 });
+  const models = [['Skor gabungan', p.skor, 'rata-rata tiga model'], ['Isolation Forest', p.IF, 'mudah dipisahkan dari paket lain'],
+    ['LOF', p.LOF, 'jauh dari paket yang mirip'], ['Autoencoder', p.AE, 'polanya sulit ditiru ulang']];
+  el.innerHTML = `
+    <div style="display:grid;gap:4px"><span class="eyebrow">Peringkat ${fmtInt(p.rank)} dari ${fmtInt(J().n)}</span><h3>${esc(p.nama)}</h3>
+      <span class="small">${esc(p.satker)} · ${esc(p.prov)} · ${esc(p.metode)} · ${rp(p.pagu)}</span></div>
+    <div class="why"><b>Kenapa paket ini muncul?</b><span>${esc(p.kalimat || kalimatDasar(p))}</span></div>
+    <div class="sec"><h3>Red flag${p.bukti.length ? ` (${p.bukti.length})` : ''}</h3>
+      ${p.bukti.length ? p.bukti.map((b) => `<div class="rfcard"><span class="flag">${esc(b.rf)}</span><p>${esc(b.ringkas)}</p>${anggotaTabel(b, p.kode)}
+        <p class="cek"><b>Yang perlu dicek:</b> ${esc(DATA.rf_cek[b.rf])}</p></div>`).join('')
+        : '<p class="small">Tidak ada red flag yang terpenuhi. Paket ini muncul karena kombinasi angkanya jarang ditemui, bukan karena aturan red flag.</p>'}</div>
+    ${p.shap ? `<div class="sec shap"><h3>Faktor yang membuat paket ini berbeda (SHAP)</h3>
+      <p class="small">Batang oranye menaikkan skor (membuat paket makin tidak lazim), batang biru menurunkannya. Makin panjang, makin besar pengaruhnya.</p>
+      <div class="keyrow"><span><i style="background:var(--up)"></i>Menaikkan skor</span><span><i style="background:var(--down)"></i>Menurunkan skor</span></div>${shapSvg(p.shap)}
+      <dl class="kv">${p.shap.slice(0, 5).map((d) => `<dt>${esc(d[0])}</dt><dd>${esc(d[2])}</dd>`).join('')}</dl></div>` : ''}
+    <div class="sec"><h3>Skor tiap model</h3>
+      <div class="models">${models.map(([a, b, c]) => `<div><span class="small">${a}</span><b>${f3(b)}</b><em>${c}</em></div>`).join('')}</div>
+      <p class="small">Angka 0–1 menunjukkan posisi paket dibanding semua paket jalur ini menurut tiap model; makin dekat 1, makin tidak lazim. Skor gabungan adalah rata-rata ketiganya dan dipakai untuk mengurutkan daftar.</p></div>
+    <div class="sec"><h3>Data paket</h3><dl class="kv">${kv.map(([a, b]) => `<dt>${a}</dt><dd>${b}</dd>`).join('')}</dl></div>`;
+}
+$('#detail').addEventListener('click', (e) => {
+  const tr = e.target.closest('tr[data-go]');
+  if (!tr) return;
+  const k = tr.dataset.go;
+  if (!filtered().some((x) => x.kode === k)) { S.prov = null; S.q = ''; S.onlyRf = false; $('#f-prov').value = ''; $('#f-q').value = ''; $('#f-rf').setAttribute('aria-pressed', false); renderMap(); }
+  S.sel = k; renderRows();
+  const row = document.querySelector(`#rows tr[data-k="${CSS.escape(k)}"]`);
+  if (row) row.scrollIntoView({ block: 'nearest' });
+  $('#detail').scrollTop = 0;
+});
+
+/* ---------- Evaluasi ---------- */
+function renderEval() {
+  const j = J(), k = S.k;
+  const isBase = (r) => r.model.startsWith('Semua');
+  const models = j.eval.filter((r) => !isBase(r) && !r.pembanding);
+  const alts = j.eval.filter((r) => r.pembanding);
+  const base = j.eval.filter(isBase);
+  const ev = [...models, ...alts, ...base];
+  const best = Math.max(...ev.filter((r) => !isBase(r)).map((r) => r['P@' + k]));
+  const lab = { Ensemble: 'Ensemble', IF: 'Isolation Forest', LOF: 'LOF', AE: 'Autoencoder' };
+  const nm = (r) => isBase(r) ? 'Semua paket' : (lab[r.model] || r.model);
+  $('#pbars').innerHTML = ev.map((r) => {
+    const v = r['P@' + k];
+    return `<div class="pbar${isBase(r) ? ' base' : ''}${r.pembanding ? ' alt' : ''}${r.model === 'Ensemble' ? ' ens' : ''}"><span style="font-size:12.5px">${esc(nm(r))}</span><span class="track"><i style="width:${v * 100}%"></i></span><span class="num" style="text-align:right">${fmtPct(v, 1)}</span></div>`;
+  }).join('');
+  const tr = (r) => `<tr class="${!isBase(r) && r['P@' + k] === best ? 'best' : ''}"><td>${isBase(r) ? 'Semua paket (acuan)' : esc(nm(r))}</td>${[50, 100, 200].map((kk) => `<td class="num">${fmtPct(r['P@' + kk], 1)}</td>`).join('')}<td class="num">${r['rata_rf@' + k].toLocaleString('id-ID', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td></tr>`;
+  $('#evtable').innerHTML = `<thead><tr><th>Model</th><th>P@50</th><th>P@100</th><th>P@200</th><th>Rata-rata red flag@${k}</th></tr></thead><tbody>${models.map(tr).join('')}${alts.length ? `<tr class="sub"><td colspan="5">Cara pembanding tanpa model</td></tr>${alts.map(tr).join('')}` : ''}${base.map(tr).join('')}</tbody>`;
+  const BADGE = { ya: ['✓', 'Mendukung'], sebagian: ['~', 'Sebagian'], tidak: ['✗', 'Belum mendukung'] };
+  $('#valtable').innerHTML = `<thead><tr><th>Uji</th><th>Hasil</th><th>Artinya</th><th>Status</th></tr></thead><tbody>${(j.validasi || []).map((r) => `<tr><td>${esc(r.uji)}</td><td class="h">${esc(r.hasil)}</td><td>${esc(r.arti)}</td><td><span class="badge ${r.status}"><b>${BADGE[r.status][0]}</b>${BADGE[r.status][1]}</span></td></tr>`).join('')}</tbody>`;
+  const g = Object.entries(j.shap_global), gm = g[0][1];
+  $('#gshap').innerHTML = g.slice(0, 8).map(([n, v]) => `<div class="pbar" style="grid-template-columns:150px minmax(0,1fr) 52px"><span style="font-size:12.5px">${esc(n)}</span><span class="track"><i style="width:${(v / gm) * 100}%"></i></span><span class="num small" style="text-align:right">${v.toLocaleString('id-ID', { minimumFractionDigits: 3, maximumFractionDigits: 3 })}</span></div>`).join('');
+  const t = Object.entries(j.rf_total), tm = Math.max(...t.map((x) => x[1]));
+  $('#rftot').innerHTML = t.map(([n, v]) => `<div class="pbar" style="grid-template-columns:150px minmax(0,1fr) 64px"><span style="font-size:12.5px">${esc(n)}</span><span class="track"><i style="width:${(v / tm) * 100}%;background:var(--flag-ink)"></i></span><span class="num small" style="text-align:right">${fmtInt(v)}</span></div>`).join('');
+}
+document.querySelectorAll('[data-k]').forEach((b) => b.tagName === 'BUTTON' && b.addEventListener('click', () => {
+  S.k = +b.dataset.k;
+  document.querySelectorAll('button[data-k]').forEach((x) => x.setAttribute('aria-pressed', x === b));
+  renderEval();
+}));
+
+/* ---------- Jalur ---------- */
+function renderAll() {
+  const provs = Object.keys(J().prov).sort();
+  $('#f-prov').innerHTML = '<option value="">Semua provinsi</option>' + provs.map((p) => `<option value="${esc(p)}">${esc(p)}</option>`).join('');
+  $('#f-prov').value = S.prov || '';
+  renderStats(); renderMap(); renderRows(); renderEval();
+}
+document.querySelectorAll('button[data-j]').forEach((b) => b.addEventListener('click', () => {
+  S.jalur = b.dataset.j; S.sel = null;
+  document.querySelectorAll('button[data-j]').forEach((x) => x.setAttribute('aria-pressed', x === b));
+  renderAll();
+}));
+renderAll();
+</script>

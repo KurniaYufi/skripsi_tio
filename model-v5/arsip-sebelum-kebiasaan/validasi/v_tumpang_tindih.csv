@@ -1,0 +1,9 @@
+jalur,red_flag,fitur_terdekat,auc,fitur_kedua,auc_kedua
+pelaksanaan,rf1_pl_dekat_ambang,log_pagu,0.7888409142950055,rasio_realisasi,0.6832030848521766
+pelaksanaan,rf3_pemecahan_paket,rasio_realisasi,0.6511109383601413,log_pagu,0.6414967143106702
+pelaksanaan,rf4_penunjukan_langsung,log_pagu,0.5708570736430181,rasio_realisasi,0.5383859834942115
+pelaksanaan,rf5_penyedia_dominan,log_rasio_pagu_satker,0.642634002374772,rasio_realisasi,0.5457359725958301
+pelaksanaan,rf6_penyedia_serba_ada,rasio_realisasi,0.5939848172186208,log_pagu,0.5457288952202957
+perencanaan,rf1_pl_dekat_ambang,log_pagu,0.8430250896966904,log_rasio_pagu_sejenis,0.5685414850571513
+perencanaan,rf3_pemecahan_paket,log_pagu,0.6333294745085679,log_rasio_pagu_sejenis,0.5442326527805165
+perencanaan,rf4_penunjukan_langsung,log_rasio_pagu_satker,0.5290754676923668,log_rasio_pagu_sejenis,0.5167127977700772

@@ -1,0 +1,176 @@
+
+##### pelaksanaan | red flag lama tanpa RF2
+-- lipat 5% berlaku
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 0.754       0.900     0.863
+Rancangan: penuh                               0.581       0.690     0.778
+Rancangan: tanpapdnumk                           NaN       0.809     0.839
+Tanpa model: acak                              0.982       0.974     0.976
+Tanpa model: pagu dibanding jenis              0.391       0.386     0.425
+Tanpa model: rata skor-z fitur rancangan       0.575       0.694     0.812
+Tanpa model: urut pagu                         0.376       0.442     0.398
+-- lipat terkontrol
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 0.899       1.011     1.095
+Rancangan: penuh                               1.071       0.996     1.097
+Rancangan: tanpapdnumk                           NaN       1.030     1.126
+Tanpa model: acak                              0.995       0.989     1.009
+Tanpa model: pagu dibanding jenis              1.148       1.020     1.066
+Tanpa model: rata skor-z fitur rancangan       1.098       1.044     1.157
+Tanpa model: urut pagu                         1.076       1.038     1.028
+-- P@200
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 0.215       0.220     0.235
+Rancangan: penuh                               0.145       0.220     0.215
+Rancangan: tanpapdnumk                           NaN       0.255     0.240
+Tanpa model: acak                              0.300       0.195     0.195
+Tanpa model: pagu dibanding jenis              0.265       0.150     0.190
+Tanpa model: rata skor-z fitur rancangan       0.180       0.130     0.200
+Tanpa model: urut pagu                         0.230       0.160     0.155
+-- p berlaku
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 1.000       1.000     1.000
+Rancangan: penuh                               1.000       1.000     1.000
+Rancangan: tanpapdnumk                           NaN       1.000     1.000
+Tanpa model: acak                              0.813       0.861     0.759
+Tanpa model: pagu dibanding jenis              1.000       1.000     1.000
+Tanpa model: rata skor-z fitur rancangan       1.000       1.000     1.000
+Tanpa model: urut pagu                         1.000       1.000     1.000
+
+##### pelaksanaan | red flag rancangan
+-- lipat 5% berlaku
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 0.774       1.306     1.170
+Rancangan: penuh                               0.657       0.866     0.840
+Rancangan: tanpapdnumk                           NaN       1.064     1.018
+Tanpa model: acak                              0.971       0.989     0.983
+Tanpa model: pagu dibanding jenis              0.554       1.012     0.712
+Tanpa model: rata skor-z fitur rancangan       0.704       0.987     0.841
+Tanpa model: urut pagu                         0.517       0.960     0.652
+-- lipat terkontrol
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 0.878       1.038     1.127
+Rancangan: penuh                               1.073       0.962     0.997
+Rancangan: tanpapdnumk                           NaN       0.992     1.096
+Tanpa model: acak                              0.975       1.006     1.014
+Tanpa model: pagu dibanding jenis              1.152       1.105     1.086
+Tanpa model: rata skor-z fitur rancangan       1.163       1.050     1.083
+Tanpa model: urut pagu                         1.134       1.077     1.078
+-- P@200
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 0.240       0.395     0.530
+Rancangan: penuh                               0.190       0.265     0.240
+Rancangan: tanpapdnumk                           NaN       0.435     0.375
+Tanpa model: acak                              0.305       0.255     0.270
+Tanpa model: pagu dibanding jenis              0.375       0.505     0.315
+Tanpa model: rata skor-z fitur rancangan       0.275       0.220     0.265
+Tanpa model: urut pagu                         0.295       0.420     0.235
+-- p berlaku
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 1.000       0.000     0.000
+Rancangan: penuh                               1.000       1.000     1.000
+Rancangan: tanpapdnumk                           NaN       0.001     0.291
+Tanpa model: acak                              0.934       0.715     0.714
+Tanpa model: pagu dibanding jenis              1.000       0.292     1.000
+Tanpa model: rata skor-z fitur rancangan       1.000       0.745     1.000
+Tanpa model: urut pagu                         1.000       0.975     1.000
+
+##### perencanaan | red flag lama tanpa RF2
+-- lipat 5% berlaku
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 1.075       1.472     1.315
+Rancangan: lintas                                NaN       1.274     1.154
+Rancangan: penuh                                 NaN       1.061     0.911
+Rancangan: tanpalintas                         0.993       1.235     1.097
+Tanpa model: acak                              1.001       1.022     1.011
+Tanpa model: pagu dibanding jenis              1.261       1.759     1.853
+Tanpa model: rata skor-z fitur rancangan       1.061       1.329     1.256
+Tanpa model: urut pagu                         2.595       2.708     3.050
+-- lipat terkontrol
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 0.931       1.115     1.054
+Rancangan: lintas                                NaN       1.060     0.970
+Rancangan: penuh                                 NaN       0.993     0.891
+Rancangan: tanpalintas                         0.979       1.122     1.051
+Tanpa model: acak                              1.010       1.020     1.009
+Tanpa model: pagu dibanding jenis              1.270       1.206     1.405
+Tanpa model: rata skor-z fitur rancangan       0.900       1.018     0.943
+Tanpa model: urut pagu                         0.817       0.676     0.795
+-- P@200
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 0.075       0.030     0.070
+Rancangan: lintas                                NaN       0.085     0.115
+Rancangan: penuh                                 NaN       0.070     0.075
+Rancangan: tanpalintas                         0.100       0.085     0.060
+Tanpa model: acak                              0.155       0.110     0.115
+Tanpa model: pagu dibanding jenis              0.035       0.005     0.005
+Tanpa model: rata skor-z fitur rancangan       0.050       0.060     0.080
+Tanpa model: urut pagu                         0.045       0.005     0.005
+-- p berlaku
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 0.000        0.00     0.000
+Rancangan: lintas                                NaN        0.00     0.000
+Rancangan: penuh                                 NaN        0.00     1.000
+Rancangan: tanpalintas                         0.680        0.00     0.000
+Tanpa model: acak                              0.476        0.11     0.345
+Tanpa model: pagu dibanding jenis              0.000        0.00     0.000
+Tanpa model: rata skor-z fitur rancangan       0.000        0.00     0.000
+Tanpa model: urut pagu                         0.000        0.00     0.000
+
+##### perencanaan | red flag rancangan
+-- lipat 5% berlaku
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 0.687       0.802     0.873
+Rancangan: lintas                                NaN       1.113     1.019
+Rancangan: penuh                                 NaN       0.921     0.819
+Rancangan: tanpalintas                         0.796       1.030     0.955
+Tanpa model: acak                              1.002       1.021     1.013
+Tanpa model: pagu dibanding jenis              0.906       0.850     1.026
+Tanpa model: rata skor-z fitur rancangan       0.806       0.852     0.939
+Tanpa model: urut pagu                         0.296       0.635     1.142
+-- lipat terkontrol
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 0.975       0.799     0.831
+Rancangan: lintas                                NaN       1.006     0.955
+Rancangan: penuh                                 NaN       0.910     0.828
+Rancangan: tanpalintas                         0.996       0.999     0.938
+Tanpa model: acak                              1.006       1.019     1.019
+Tanpa model: pagu dibanding jenis              1.424       0.262     0.285
+Tanpa model: rata skor-z fitur rancangan       0.885       0.841     0.800
+Tanpa model: urut pagu                         0.820       0.363     0.312
+-- P@200
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 0.065       0.020     0.025
+Rancangan: lintas                                NaN       0.080     0.105
+Rancangan: penuh                                 NaN       0.045     0.070
+Rancangan: tanpalintas                         0.085       0.070     0.055
+Tanpa model: acak                              0.150       0.105     0.115
+Tanpa model: pagu dibanding jenis              0.035       0.000     0.005
+Tanpa model: rata skor-z fitur rancangan       0.045       0.050     0.075
+Tanpa model: urut pagu                         0.040       0.005     0.005
+-- p berlaku
+kol                                       2024 semua  2025 semua  2025 uji
+skor                                                                      
+Model sekarang                                 1.000       1.000     1.000
+Rancangan: lintas                                NaN       0.000     0.249
+Rancangan: penuh                                 NaN       1.000     1.000
+Rancangan: tanpalintas                         1.000       0.051     0.953
+Tanpa model: acak                              0.439       0.125     0.316
+Tanpa model: pagu dibanding jenis              1.000       1.000     0.170
+Tanpa model: rata skor-z fitur rancangan       1.000       1.000     0.989
+Tanpa model: urut pagu                         1.000       1.000     0.000

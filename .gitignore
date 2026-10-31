@@ -1,0 +1,12 @@
+# Model/fitur hasil training (terlalu besar untuk GitHub, tetap tersimpan di folder proyek)
+*.pkl
+
+# Data mentah besar (>100 MB); versi zip 2025 ada di untuk-project-lain/
+/realisasi_2024.csv
+/rup_2024.csv
+/dara_realisasi_2025.csv
+/data_rup_2025.csv
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

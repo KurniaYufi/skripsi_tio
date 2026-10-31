@@ -1,0 +1,2 @@
+pelaksanaan ss (105512, 6) {'skala': 'std', 'if_max_samples': 'auto', 'lof_k': 20, 'ae_b': 3, 'ae_iter': 300, 'satu_arah': {'log_rasio_pagu_sejenis': 'nol', 'log_rasio_pagu_satker': 'nol', 'log_rasio_pagu_nama_satker': 'nol'}, 'skala_sama': {'log_rasio_pagu_nama_satker': 'log_rasio_pagu_sejenis'}}
+selesai

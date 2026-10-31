@@ -1,0 +1,11 @@
+jalur,red_flag,fitur_terdekat,auc,fitur_kedua,auc_kedua
+pelaksanaan,rf1_pl_dekat_ambang,selisih_rasio_realisasi_sejenis,0.7937952004968638,log_pagu,0.7886982820629482
+pelaksanaan,rf2_pl_lewat_ambang,log_pagu,0.903685137995892,log_rasio_pagu_sejenis,0.8730722756927338
+pelaksanaan,rf3_pemecahan_paket,sumber_Non Tender,0.7879644911388368,sumber_E-Katalog,0.7733026247732541
+pelaksanaan,rf4_penunjukan_langsung,sumber_Non Tender,0.7579358033291815,sumber_E-Katalog,0.7453144861465532
+pelaksanaan,rf5_penyedia_dominan,porsi_pagu_satker,0.7858824040355454,log_jumlah_paket_satker,0.7690415596183028
+pelaksanaan,rf6_penyedia_serba_ada,sumber_E-Katalog,0.6040234956892546,rasio_realisasi,0.6025286400370582
+perencanaan,rf1_pl_dekat_ambang,log_pagu,0.8430250896966904,jenis_Barang,0.7589286679862209
+perencanaan,rf2_pl_lewat_ambang,log_pagu,0.9266205335529498,log_rasio_pagu_sejenis,0.9010065777077213
+perencanaan,rf3_pemecahan_paket,jenis_Barang,0.6768976077340566,log_jumlah_paket_satker,0.6749807831501551
+perencanaan,rf4_penunjukan_langsung,jenis_Barang,0.6259922719816955,jenis_Jasa Lainnya,0.6116987858787601

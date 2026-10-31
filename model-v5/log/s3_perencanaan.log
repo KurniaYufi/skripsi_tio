@@ -1,0 +1,6 @@
+[   102s] perencanaan base 0.472 rata |shap|:
+log_rasio_pagu_nama_satker    0.1798
+log_rasio_pagu_satker         0.1187
+log_rasio_pagu_sejenis        0.1157
+log_pagu                      0.1101
+tahap3.pkl lengkap

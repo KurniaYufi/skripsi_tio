@@ -1,0 +1,136 @@
+jalur,tipe,metode,n,terdeteksi_5persen,median_persentil
+pelaksanaan,global,IF,1000,0.944,0.9927239796692459
+pelaksanaan,global,LOF,1000,0.999,0.9956247155211653
+pelaksanaan,global,AE,1000,1.0,0.999838795326961
+pelaksanaan,global,Ensemble,1000,1.0,0.9954935391695746
+pelaksanaan,global,Skor-z sederhana,1000,0.995,0.9998672432104385
+pelaksanaan,global,ECOD,1000,0.994,0.9995448338643604
+pelaksanaan,global,HBOS,1000,1.0,1.0
+pelaksanaan,global,KNN,1000,1.0,0.999895691093916
+pelaksanaan,global,PCA,1000,1.0,0.9997439690487028
+pelaksanaan,lokal,IF,1000,0.266,0.8642353208921255
+pelaksanaan,lokal,LOF,1000,0.824,0.9831275603095129
+pelaksanaan,lokal,AE,1000,0.583,0.9389840312547413
+pelaksanaan,lokal,Ensemble,1000,0.705,0.9112116269660648
+pelaksanaan,lokal,Skor-z sederhana,1000,0.34,0.8727620998331057
+pelaksanaan,lokal,ECOD,1000,0.575,0.9645776437566378
+pelaksanaan,lokal,HBOS,1000,0.43,0.9295867470793506
+pelaksanaan,lokal,KNN,1000,0.628,0.9699542937338795
+pelaksanaan,lokal,PCA,1000,0.486,0.9474804657866789
+pelaksanaan,kontrol_normal,IF,1000,0.05,0.6186599150356547
+pelaksanaan,kontrol_normal,LOF,1000,0.388,0.9015883401608253
+pelaksanaan,kontrol_normal,AE,1000,0.17,0.7607703686845699
+pelaksanaan,kontrol_normal,Ensemble,1000,0.207,0.7181845192939867
+pelaksanaan,kontrol_normal,Skor-z sederhana,1000,0.043,0.5010241238051889
+pelaksanaan,kontrol_normal,ECOD,1000,0.094,0.7211348808981946
+pelaksanaan,kontrol_normal,HBOS,1000,0.167,0.6730626991351842
+pelaksanaan,kontrol_normal,KNN,1000,0.178,0.8393168714914278
+pelaksanaan,kontrol_normal,PCA,1000,0.111,0.715966848733121
+pelaksanaan,dependensi,IF,1000,0.034,0.6590227203762706
+pelaksanaan,dependensi,LOF,1000,0.851,0.9889252389622212
+pelaksanaan,dependensi,AE,1000,0.566,0.9382386967076316
+pelaksanaan,dependensi,Ensemble,1000,0.453,0.8460852551459059
+pelaksanaan,dependensi,Skor-z sederhana,1000,0.012,0.5707451448945532
+pelaksanaan,dependensi,ECOD,1000,0.007,0.5354176149294492
+pelaksanaan,dependensi,HBOS,1000,0.017,0.5476786527082385
+pelaksanaan,dependensi,KNN,1000,0.494,0.9487890684266425
+pelaksanaan,dependensi,PCA,1000,0.513,0.9518092853891671
+pelaksanaan,berkelompok,IF,1000,0.291,0.8819593005613715
+pelaksanaan,berkelompok,LOF,1000,0.933,0.9903115991503565
+pelaksanaan,berkelompok,AE,1000,0.932,0.9843233196783493
+pelaksanaan,berkelompok,Ensemble,1000,0.857,0.9501589920598796
+pelaksanaan,berkelompok,Skor-z sederhana,1000,0.48,0.940553406159915
+pelaksanaan,berkelompok,ECOD,1000,0.695,0.9779481489910484
+pelaksanaan,berkelompok,HBOS,1000,0.649,0.9715426338947049
+pelaksanaan,berkelompok,KNN,1000,0.905,0.994746624184494
+pelaksanaan,berkelompok,PCA,1000,0.865,0.9910389167045972
+pelaksanaan,pagu_digelembungkan,IF,1000,0.008,0.5237938097405553
+pelaksanaan,pagu_digelembungkan,LOF,1000,0.078,0.5825974814140495
+pelaksanaan,pagu_digelembungkan,AE,1000,0.005,0.44916647701411017
+pelaksanaan,pagu_digelembungkan,Ensemble,1000,0.014,0.5188612628331564
+pelaksanaan,pagu_digelembungkan,Skor-z sederhana,1000,0.088,0.6765380822333484
+pelaksanaan,pagu_digelembungkan,ECOD,1000,0.111,0.7323670535578819
+pelaksanaan,pagu_digelembungkan,HBOS,1000,0.073,0.6863573433469883
+pelaksanaan,pagu_digelembungkan,KNN,1000,0.032,0.6801225155515096
+pelaksanaan,pagu_digelembungkan,PCA,1000,0.022,0.4701534289182218
+pelaksanaan,realisasi_lewat_pagu,IF,1000,0.035,0.8097301244120771
+pelaksanaan,realisasi_lewat_pagu,LOF,1000,0.336,0.8754864588074647
+pelaksanaan,realisasi_lewat_pagu,AE,1000,0.986,0.9993542330450614
+pelaksanaan,realisasi_lewat_pagu,Ensemble,1000,0.613,0.8931111869721338
+pelaksanaan,realisasi_lewat_pagu,Skor-z sederhana,1000,0.676,0.9820778334091944
+pelaksanaan,realisasi_lewat_pagu,ECOD,1000,0.512,0.9508325747231072
+pelaksanaan,realisasi_lewat_pagu,HBOS,1000,0.62,0.9764973069336975
+pelaksanaan,realisasi_lewat_pagu,KNN,1000,0.778,0.9864825140342892
+pelaksanaan,realisasi_lewat_pagu,PCA,1000,0.995,0.999468972841754
+pelaksanaan,dekat_ambang,IF,1000,0.088,0.7516765285996055
+pelaksanaan,dekat_ambang,LOF,1000,0.136,0.7796057123350023
+pelaksanaan,dekat_ambang,AE,1000,0.161,0.7130537854650281
+pelaksanaan,dekat_ambang,Ensemble,1000,0.189,0.7194956506347039
+pelaksanaan,dekat_ambang,Skor-z sederhana,1000,0.128,0.7293847671066607
+pelaksanaan,dekat_ambang,ECOD,1000,0.069,0.7364493248368988
+pelaksanaan,dekat_ambang,HBOS,1000,0.095,0.7047394173873464
+pelaksanaan,dekat_ambang,KNN,1000,0.193,0.8335703990289789
+pelaksanaan,dekat_ambang,PCA,1000,0.063,0.6947968821119709
+perencanaan,global,IF,1000,0.829,0.9939854425983414
+perencanaan,global,LOF,1000,0.972,0.9932957601814574
+perencanaan,global,AE,1000,0.893,0.9993442255969291
+perencanaan,global,Ensemble,1000,0.95,0.993632535891468
+perencanaan,global,Skor-z sederhana,1000,0.594,0.968325635446055
+perencanaan,global,ECOD,1000,0.707,0.9780881805881558
+perencanaan,global,HBOS,1000,0.601,0.9754315041660768
+perencanaan,global,KNN,1000,0.969,0.9935278490138694
+perencanaan,global,PCA,1000,0.623,0.9855035010847273
+perencanaan,lokal,IF,1000,0.281,0.78594726810046
+perencanaan,lokal,LOF,1000,0.671,0.9810329105256401
+perencanaan,lokal,AE,1000,0.397,0.8530953407755388
+perencanaan,lokal,Ensemble,1000,0.509,0.8412084421078275
+perencanaan,lokal,Skor-z sederhana,1000,0.257,0.7264989481931637
+perencanaan,lokal,ECOD,1000,0.141,0.6976705523714212
+perencanaan,lokal,HBOS,1000,0.138,0.5547844865898743
+perencanaan,lokal,KNN,1000,0.625,0.9773820379703914
+perencanaan,lokal,PCA,1000,0.205,0.7693860015867633
+perencanaan,kontrol_normal,IF,1000,0.114,0.5922133373715692
+perencanaan,kontrol_normal,LOF,1000,0.479,0.9185835667938491
+perencanaan,kontrol_normal,AE,1000,0.171,0.6443375262951709
+perencanaan,kontrol_normal,Ensemble,1000,0.27,0.6950934335869302
+perencanaan,kontrol_normal,Skor-z sederhana,1000,0.054,0.47799600346322624
+perencanaan,kontrol_normal,ECOD,1000,0.042,0.5050154232082249
+perencanaan,kontrol_normal,HBOS,1000,0.043,0.4942010712298733
+perencanaan,kontrol_normal,KNN,1000,0.323,0.852526476233116
+perencanaan,kontrol_normal,PCA,1000,0.047,0.5556651073369699
+perencanaan,dependensi,IF,1000,0.223,0.795937622422744
+perencanaan,dependensi,LOF,1000,0.794,0.9910542100255791
+perencanaan,dependensi,AE,1000,0.406,0.8851966829403186
+perencanaan,dependensi,Ensemble,1000,0.585,0.8755198405774678
+perencanaan,dependensi,Skor-z sederhana,1000,0.013,0.5157705184634074
+perencanaan,dependensi,ECOD,1000,0.004,0.5173227154064188
+perencanaan,dependensi,HBOS,1000,0.004,0.5785447865605752
+perencanaan,dependensi,KNN,1000,0.712,0.9837455516307121
+perencanaan,dependensi,PCA,1000,0.233,0.7920879106408615
+perencanaan,berkelompok,IF,1000,0.94,0.9969067990505757
+perencanaan,berkelompok,LOF,1000,0.982,0.9881996819889189
+perencanaan,berkelompok,AE,1000,0.901,0.9981248539157173
+perencanaan,berkelompok,Ensemble,1000,1.0,0.9925495644082172
+perencanaan,berkelompok,Skor-z sederhana,1000,0.669,0.986454900695608
+perencanaan,berkelompok,ECOD,1000,0.772,0.986845007456471
+perencanaan,berkelompok,HBOS,1000,0.738,0.9857388819573154
+perencanaan,berkelompok,KNN,1000,1.0,0.9898078436149235
+perencanaan,berkelompok,PCA,1000,0.432,0.9387614686449633
+perencanaan,pagu_digelembungkan,IF,1000,0.047,0.7336996276702561
+perencanaan,pagu_digelembungkan,LOF,1000,0.004,0.46016203421746554
+perencanaan,pagu_digelembungkan,AE,1000,0.001,0.45117246010870315
+perencanaan,pagu_digelembungkan,Ensemble,1000,0.014,0.535453846145405
+perencanaan,pagu_digelembungkan,Skor-z sederhana,1000,0.141,0.6912346138272272
+perencanaan,pagu_digelembungkan,ECOD,1000,0.129,0.7674848483850897
+perencanaan,pagu_digelembungkan,HBOS,1000,0.127,0.8134680655642721
+perencanaan,pagu_digelembungkan,KNN,1000,0.01,0.7455154182701645
+perencanaan,pagu_digelembungkan,PCA,1000,0.0,0.34592593568011903
+perencanaan,dekat_ambang,IF,1000,0.139,0.8462429591490735
+perencanaan,dekat_ambang,LOF,1000,0.051,0.7293070584633415
+perencanaan,dekat_ambang,AE,1000,0.103,0.6182797114855991
+perencanaan,dekat_ambang,Ensemble,1000,0.127,0.7045714367231471
+perencanaan,dekat_ambang,Skor-z sederhana,1000,0.04,0.9009030066202928
+perencanaan,dekat_ambang,ECOD,1000,0.153,0.9087890888620405
+perencanaan,dekat_ambang,HBOS,1000,0.095,0.8979434625020164
+perencanaan,dekat_ambang,KNN,1000,0.154,0.8972521340650441
+perencanaan,dekat_ambang,PCA,1000,0.0,0.48978479933369107

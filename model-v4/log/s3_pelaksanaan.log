@@ -1,0 +1,19 @@
+[  1202s] pelaksanaan base 0.491 rata |shap|:
+jenis                              0.0561
+porsi_pagu_satker                  0.0435
+selisih_rasio_realisasi_sejenis    0.0432
+umk                                0.0429
+sumber                             0.0427
+rasio_realisasi                    0.0424
+log_pagu                           0.0287
+log_rasio_pagu_sejenis             0.0273
+pdn                                0.0268
+log_rasio_pagu_satker              0.0244
+log_selisih_realisasi              0.0233
+proporsi_pl_satker                 0.0189
+porsi_umk                          0.0188
+porsi_pdn                          0.0187
+porsi_epurchasing_satker           0.0182
+log_jumlah_paket_satker            0.0168
+ubah_metode                        0.0003
+tahap3.pkl lengkap

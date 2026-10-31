@@ -1,0 +1,2 @@
+pelaksanaan tn (105512, 5) {'skala': 'std', 'if_max_samples': 'auto', 'lof_k': 20, 'ae_b': 3, 'ae_iter': 300, 'satu_arah': {'log_rasio_pagu_sejenis': 'nol', 'log_rasio_pagu_satker': 'nol'}}
+selesai

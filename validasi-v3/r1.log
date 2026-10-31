@@ -1,0 +1,60 @@
+                                    ambang            lingkup  paket_50_150persen  aktual_90_100persen  perkiraan_90_100persen  rasio_bawah ci95_bawah  aktual_100_110persen  perkiraan_100_110persen  rasio_atas  tepat_di_ambang
+            Barang & Jasa Lainnya (200 jt)       semua metode               27706                 4682                  2807.2         1.67  1.57-1.77                  1679                   1932.7        0.87             1393
+            Barang & Jasa Lainnya (200 jt) pengadaan langsung                9369                 2146                   868.3         2.47  2.26-2.73                   407                    555.8        0.73              902
+Pekerjaan Konstruksi (400 jt, aturan baru)       semua metode                3500                  615                   559.3         1.10  0.95-1.27                   184                    525.2        0.35              190
+Pekerjaan Konstruksi (400 jt, aturan baru) pengadaan langsung                1941                  462                   440.1         1.05  0.89-1.21                    70                    268.4        0.26              145
+Pekerjaan Konstruksi (200 jt, aturan lama)       semua metode               13454                 7776                  2680.2         2.90  2.77-3.06                   257                   1725.7        0.15             1984
+Pekerjaan Konstruksi (200 jt, aturan lama) pengadaan langsung               12551                 7429                  2549.0         2.91  2.77-3.07                   208                   1647.0        0.13             1822
+                 Jasa Konsultansi (100 jt)       semua metode               10849                 4532                   852.2         5.32  4.88-5.83                   322                    481.1        0.67             2410
+                 Jasa Konsultansi (100 jt) pengadaan langsung               10510                 4472                   784.7         5.70  5.17-6.36                   303                    465.3        0.65             2382
+      jalur  satker                    rf_a                    rf_b  spearman      p
+perencanaan    2499     rf1_pl_dekat_ambang     rf2_pl_lewat_ambang     0.241 0.0000
+perencanaan    2499     rf1_pl_dekat_ambang     rf3_pemecahan_paket     0.548 0.0000
+perencanaan    2499     rf1_pl_dekat_ambang rf4_penunjukan_langsung     0.103 0.0000
+perencanaan    2499     rf2_pl_lewat_ambang     rf3_pemecahan_paket     0.217 0.0000
+perencanaan    2499     rf2_pl_lewat_ambang rf4_penunjukan_langsung     0.160 0.0000
+perencanaan    2499     rf3_pemecahan_paket rf4_penunjukan_langsung     0.056 0.0049
+pelaksanaan    1260     rf1_pl_dekat_ambang     rf2_pl_lewat_ambang     0.026 0.3482
+pelaksanaan    1260     rf1_pl_dekat_ambang     rf3_pemecahan_paket     0.619 0.0000
+pelaksanaan    1260     rf1_pl_dekat_ambang rf4_penunjukan_langsung     0.047 0.0949
+pelaksanaan    1260     rf1_pl_dekat_ambang    rf5_penyedia_dominan    -0.159 0.0000
+pelaksanaan    1260     rf1_pl_dekat_ambang  rf6_penyedia_serba_ada     0.009 0.7398
+pelaksanaan    1260     rf2_pl_lewat_ambang     rf3_pemecahan_paket     0.013 0.6342
+pelaksanaan    1260     rf2_pl_lewat_ambang rf4_penunjukan_langsung     0.206 0.0000
+pelaksanaan    1260     rf2_pl_lewat_ambang    rf5_penyedia_dominan    -0.253 0.0000
+pelaksanaan    1260     rf2_pl_lewat_ambang  rf6_penyedia_serba_ada     0.161 0.0000
+pelaksanaan    1260     rf3_pemecahan_paket rf4_penunjukan_langsung     0.053 0.0588
+pelaksanaan    1260     rf3_pemecahan_paket    rf5_penyedia_dominan    -0.126 0.0000
+pelaksanaan    1260     rf3_pemecahan_paket  rf6_penyedia_serba_ada    -0.003 0.9064
+pelaksanaan    1260 rf4_penunjukan_langsung    rf5_penyedia_dominan    -0.093 0.0010
+pelaksanaan    1260 rf4_penunjukan_langsung  rf6_penyedia_serba_ada     0.110 0.0001
+pelaksanaan    1260    rf5_penyedia_dominan  rf6_penyedia_serba_ada    -0.044 0.1196
+                          red_flag       jalur  jumlah  persen jaccard_dg_asli
+         rf1_dekat_ambang_95persen perencanaan    5919    1.72           0.802
+         rf1_dekat_ambang_95persen pelaksanaan    4173    3.95           0.822
+         rf1_dekat_ambang_98persen perencanaan    4805    1.40           0.651
+         rf1_dekat_ambang_98persen pelaksanaan    3457    3.27           0.681
+               rf1_tepat_di_ambang perencanaan    3429    1.00           0.464
+               rf1_tepat_di_ambang pelaksanaan    2474    2.34           0.487
+               rf3_pemecahan_cos70 perencanaan   38815   11.29           0.734
+               rf3_pemecahan_cos70 pelaksanaan   15627   14.80           0.748
+               rf3_pemecahan_cos90 perencanaan   21611    6.28           0.758
+               rf3_pemecahan_cos90 pelaksanaan    8392    7.95           0.718
+                    rf5_porsi40_n5 perencanaan    2910    0.85           0.111
+                    rf5_porsi40_n5 pelaksanaan    2910    2.76           0.111
+                    rf5_porsi50_n5 perencanaan    2007    0.58           0.091
+                    rf5_porsi50_n5 pelaksanaan    2007    1.90           0.091
+                    rf5_jumlah_p95 perencanaan   21268    6.18           0.961
+                    rf5_jumlah_p95 pelaksanaan   21268   20.14           0.961
+           rf6_serba_ada_min5paket perencanaan    2566    0.75           0.948
+           rf6_serba_ada_min5paket pelaksanaan    2566    2.43           0.948
+baru_R055_pl_berulang_lewat_ambang perencanaan   13248    3.85                
+baru_R055_pl_berulang_lewat_ambang pelaksanaan   13248   12.55                
+baru_R049_pl_dekat_ambang_berulang perencanaan    2294    0.67                
+baru_R049_pl_dekat_ambang_berulang pelaksanaan    2294    2.17                
+        baru_R012_ubah_ke_langsung perencanaan      19    0.01                
+        baru_R012_ubah_ke_langsung pelaksanaan      19    0.02                
+              baru_judul_pendek_20 perencanaan   14047    4.08                
+              baru_judul_pendek_20 pelaksanaan    2457    2.33                
+    baru_R068_realisasi_lewat_pagu perencanaan    2174    0.63                
+    baru_R068_realisasi_lewat_pagu pelaksanaan    2174    2.06                

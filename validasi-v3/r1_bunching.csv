@@ -1,0 +1,9 @@
+ambang,lingkup,paket_50_150persen,aktual_90_100persen,perkiraan_90_100persen,rasio_bawah,ci95_bawah,aktual_100_110persen,perkiraan_100_110persen,rasio_atas,tepat_di_ambang
+Barang & Jasa Lainnya (200 jt),semua metode,27706,4682,2807.2,1.67,1.57-1.77,1679,1932.7,0.87,1393
+Barang & Jasa Lainnya (200 jt),pengadaan langsung,9369,2146,868.3,2.47,2.26-2.73,407,555.8,0.73,902
+"Pekerjaan Konstruksi (400 jt, aturan baru)",semua metode,3500,615,559.3,1.1,0.95-1.27,184,525.2,0.35,190
+"Pekerjaan Konstruksi (400 jt, aturan baru)",pengadaan langsung,1941,462,440.1,1.05,0.89-1.21,70,268.4,0.26,145
+"Pekerjaan Konstruksi (200 jt, aturan lama)",semua metode,13454,7776,2680.2,2.9,2.77-3.06,257,1725.7,0.15,1984
+"Pekerjaan Konstruksi (200 jt, aturan lama)",pengadaan langsung,12551,7429,2549.0,2.91,2.77-3.07,208,1647.0,0.13,1822
+Jasa Konsultansi (100 jt),semua metode,10849,4532,852.2,5.32,4.88-5.83,322,481.1,0.67,2410
+Jasa Konsultansi (100 jt),pengadaan langsung,10510,4472,784.7,5.7,5.17-6.36,303,465.3,0.65,2382

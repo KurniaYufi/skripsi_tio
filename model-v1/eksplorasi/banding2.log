@@ -1,0 +1,29 @@
+C: fitur paket saja, gabung maks 42
+C: fitur paket saja, gabung maks 1
+C: fitur paket saja, gabung maks 2
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+B2: B tanpa bauran metode satker 42
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+B2: B tanpa bauran metode satker 1
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+B2: B tanpa bauran metode satker 2
+B2: B tanpa bauran metode satker, maks 42
+B2: B tanpa bauran metode satker, maks 1
+B2: B tanpa bauran metode satker, maks 2
+                                                  P@50  P@100  P@200  uji_rata  pilih_rata  rata_tanpaRF4  lift_1persen  satker_maks_top200  rf1_pl_dekat_ambang  rf2_pl_lewat_ambang  rf3_pemecahan_paket  rf4_penunjukan_langsung
+kandidat                               model                                                                                                                                                                                       
+C: fitur paket saja, gabung maks       Ensemble  0.193  0.193  0.212     0.034       0.262          0.188         2.048               6.333                0.000                0.207                0.000                    0.005
+                                       IF        0.587  0.583  0.630     0.105       0.753          0.583         2.088               1.667                0.000                0.617                0.000                    0.013
+                                       LOF       0.000  0.040  0.053     0.079       0.039          0.026         3.356               7.000                0.005                0.028                0.003                    0.017
+                                       AE        0.000  0.013  0.013     0.006       0.019          0.008         0.323               6.667                0.002                0.002                0.008                    0.002
+B2: B tanpa bauran metode satker       Ensemble  0.173  0.230  0.198     0.114       0.277          0.098         2.105              20.000                0.007                0.057                0.010                    0.125
+                                       IF        0.327  0.317  0.333     0.093       0.502          0.306         1.764               1.667                0.003                0.313                0.000                    0.017
+                                       LOF       0.033  0.063  0.065     0.044       0.062          0.048         1.084              47.667                0.005                0.032                0.018                    0.010
+                                       AE        0.427  0.330  0.245     0.131       0.366          0.144         1.951              43.667                0.063                0.055                0.040                    0.105
+B2: B tanpa bauran metode satker, maks Ensemble  0.353  0.300  0.245     0.073       0.342          0.181         1.935              28.000                0.038                0.110                0.022                    0.083
+                                       IF        0.327  0.317  0.333     0.093       0.502          0.306         1.764               1.667                0.003                0.313                0.000                    0.017
+                                       LOF       0.033  0.063  0.065     0.044       0.062          0.048         1.084              47.667                0.005                0.032                0.018                    0.010
+                                       AE        0.427  0.330  0.245     0.131       0.366          0.144         1.951              43.667                0.063                0.055                0.040                    0.105

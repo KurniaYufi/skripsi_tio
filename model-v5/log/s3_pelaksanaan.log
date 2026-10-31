@@ -1,0 +1,8 @@
+[   234s] pelaksanaan base 0.503 rata |shap|:
+log_pagu                        0.0903
+log_selisih_realisasi           0.0891
+log_rasio_pagu_sejenis          0.0886
+log_rasio_pagu_satker           0.0780
+log_rasio_kebiasaan_penyedia    0.0731
+rasio_realisasi                 0.0709
+tahap3.pkl lengkap

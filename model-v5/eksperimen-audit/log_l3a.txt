@@ -1,0 +1,2 @@
+pelaksanaan tk+sj+np (105512, 4) {'skala': 'std', 'if_max_samples': 'auto', 'lof_k': 20, 'ae_b': 3, 'satu_arah': {'log_rasio_pagu_sejenis': 'nol', 'log_rasio_pagu_satker': 'nol'}}
+selesai

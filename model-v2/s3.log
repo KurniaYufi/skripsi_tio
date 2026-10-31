@@ -1,0 +1,27 @@
+perencanaan base 0.48 rata |shap|:
+jenis                       0.1063
+porsi_pagu_satker           0.0800
+log_rasio_pagu_sejenis      0.0608
+log_jumlah_paket_satker     0.0592
+log_pagu                    0.0566
+porsi_epurchasing_satker    0.0564
+log_rasio_pagu_satker       0.0500
+proporsi_pl_satker          0.0470
+pelaksanaan base 0.492 rata |shap|:
+jenis                              0.0528
+porsi_pagu_satker                  0.0487
+sumber                             0.0452
+selisih_rasio_realisasi_sejenis    0.0390
+rasio_realisasi                    0.0379
+pdn                                0.0354
+porsi_pdn                          0.0298
+log_pagu                           0.0280
+umk                                0.0278
+log_rasio_pagu_satker              0.0266
+log_rasio_pagu_sejenis             0.0264
+log_jumlah_paket_satker            0.0227
+porsi_epurchasing_satker           0.0199
+porsi_umk                          0.0194
+log_selisih_realisasi              0.0192
+proporsi_pl_satker                 0.0186
+ubah_metode                        0.0001

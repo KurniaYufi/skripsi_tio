@@ -1,0 +1,130 @@
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] peren {"extra": false, "pdn_umk": true, "satker_level": true} std {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.138±0.028 uji=0.066 semua=0.085 tanpaRF4=0.077 maksSatker=31 lolos=False [315s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] peren {"extra": false, "pdn_umk": true, "satker_level": true} quantile {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.151±0.043 uji=0.054 semua=0.104 tanpaRF4=0.081 maksSatker=17 lolos=True [98s]
+[1] peren {"extra": false, "pdn_umk": false, "satker_level": true} quantile {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.297±0.054 uji=0.142 semua=0.218 tanpaRF4=0.066 maksSatker=22 lolos=False [97s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] peren {"extra": false, "pdn_umk": true, "satker_level": false} quantile {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.147±0.053 uji=0.056 semua=0.086 tanpaRF4=0.070 maksSatker=33 lolos=False [85s]
+[1] peren {"extra": false, "pdn_umk": false, "satker_level": false} quantile {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.197±0.032 uji=0.109 semua=0.133 tanpaRF4=0.044 maksSatker=6 lolos=True [73s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] peren {"extra": true, "pdn_umk": true, "satker_level": true} quantile {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.355±0.111 uji=0.092 semua=0.312 tanpaRF4=0.127 maksSatker=18 lolos=True [163s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] peren {"extra": true, "pdn_umk": false, "satker_level": true} quantile {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.474±0.086 uji=0.178 semua=0.418 tanpaRF4=0.108 maksSatker=13 lolos=True [139s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] peren {"extra": true, "pdn_umk": true, "satker_level": false} quantile {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.164±0.013 uji=0.072 semua=0.116 tanpaRF4=0.096 maksSatker=47 lolos=False [102s]
+[1] peren {"extra": true, "pdn_umk": false, "satker_level": false} quantile {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.179±0.012 uji=0.177 semua=0.122 tanpaRF4=0.034 maksSatker=5 lolos=True [90s]
+[2] peren {"extra": true, "pdn_umk": false, "satker_level": true} quantile {"IF": {}, "LOF": {"k": 50}, "AE": {}} rata: pilih=0.461±0.121 uji=0.146 semua=0.369 tanpaRF4=0.104 maksSatker=13 lolos=True [93s]
+[2] peren {"extra": true, "pdn_umk": false, "satker_level": true} quantile {"IF": {}, "LOF": {"k": 100}, "AE": {}} rata: pilih=0.293±0.057 uji=0.141 semua=0.206 tanpaRF4=0.065 maksSatker=10 lolos=True [133s]
+[2] peren {"extra": true, "pdn_umk": false, "satker_level": true} quantile {"IF": {"max_samples": 2048}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.479±0.076 uji=0.175 semua=0.422 tanpaRF4=0.095 maksSatker=12 lolos=True [28s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[2] peren {"extra": true, "pdn_umk": false, "satker_level": true} quantile {"IF": {"max_samples": 2048}, "LOF": {"k": 20}, "AE": {"b": 3}} rata: pilih=0.486±0.018 uji=0.142 semua=0.422 tanpaRF4=0.102 maksSatker=13 lolos=True [59s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[2] peren {"extra": true, "pdn_umk": false, "satker_level": true} quantile {"IF": {"max_samples": 2048}, "LOF": {"k": 20}, "AE": {"b": 8}} rata: pilih=0.254±0.085 uji=0.154 semua=0.226 tanpaRF4=0.086 maksSatker=20 lolos=True [53s]
+[3] peren {"extra": true, "pdn_umk": false, "satker_level": true} quantile {"IF": {"max_samples": 2048}, "LOF": {"k": 20}, "AE": {"b": 3}} median: pilih=0.467±0.038 uji=0.153 semua=0.321 tanpaRF4=0.133 maksSatker=8 lolos=True [3s]
+[3] peren {"extra": true, "pdn_umk": false, "satker_level": true} quantile {"IF": {"max_samples": 2048}, "LOF": {"k": 20}, "AE": {"b": 3}} maks: pilih=0.557±0.033 uji=0.234 semua=0.444 tanpaRF4=0.099 maksSatker=43 lolos=False [3s]
+[3] peren {"extra": true, "pdn_umk": false, "satker_level": true} quantile {"IF": {"max_samples": 2048}, "LOF": {"k": 20}, "AE": {"b": 3}} bobot_keluarga: pilih=0.460±0.020 uji=0.124 semua=0.382 tanpaRF4=0.103 maksSatker=16 lolos=True [3s]
+TERBAIK perencanaan {"extra": true, "pdn_umk": false, "satker_level": true} quantile {"IF": {"max_samples": 2048}, "LOF": {"k": 20}, "AE": {"b": 3}} rata
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] pelak {"extra": false, "pdn_umk": true, "satker_level": true} std {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.635±0.055 uji=0.317 semua=0.592 tanpaRF4=0.528 maksSatker=32 lolos=False [103s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] pelak {"extra": false, "pdn_umk": true, "satker_level": true} quantile {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.454±0.051 uji=0.208 semua=0.369 tanpaRF4=0.343 maksSatker=23 lolos=False [83s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] pelak {"extra": false, "pdn_umk": false, "satker_level": true} std {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.412±0.078 uji=0.366 semua=0.395 tanpaRF4=0.367 maksSatker=10 lolos=True [92s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] pelak {"extra": false, "pdn_umk": true, "satker_level": false} std {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.408±0.044 uji=0.321 semua=0.382 tanpaRF4=0.342 maksSatker=11 lolos=True [86s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] pelak {"extra": false, "pdn_umk": false, "satker_level": false} std {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.270±0.112 uji=0.346 semua=0.281 tanpaRF4=0.250 maksSatker=10 lolos=True [160s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] pelak {"extra": true, "pdn_umk": true, "satker_level": true} std {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.531±0.055 uji=0.383 semua=0.525 tanpaRF4=0.485 maksSatker=17 lolos=True [95s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] pelak {"extra": true, "pdn_umk": false, "satker_level": true} std {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.409±0.049 uji=0.343 semua=0.389 tanpaRF4=0.377 maksSatker=11 lolos=True [103s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] pelak {"extra": true, "pdn_umk": true, "satker_level": false} std {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.486±0.071 uji=0.388 semua=0.489 tanpaRF4=0.448 maksSatker=13 lolos=True [101s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[1] pelak {"extra": true, "pdn_umk": false, "satker_level": false} std {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.411±0.070 uji=0.412 semua=0.418 tanpaRF4=0.396 maksSatker=11 lolos=True [96s]
+[2] pelak {"extra": true, "pdn_umk": true, "satker_level": true} std {"IF": {}, "LOF": {"k": 50}, "AE": {}} rata: pilih=0.406±0.051 uji=0.375 semua=0.461 tanpaRF4=0.436 maksSatker=13 lolos=True [31s]
+[2] pelak {"extra": true, "pdn_umk": true, "satker_level": true} std {"IF": {}, "LOF": {"k": 100}, "AE": {}} rata: pilih=0.283±0.051 uji=0.295 semua=0.341 tanpaRF4=0.283 maksSatker=20 lolos=True [38s]
+[2] pelak {"extra": true, "pdn_umk": true, "satker_level": true} std {"IF": {"max_samples": 2048}, "LOF": {"k": 20}, "AE": {}} rata: pilih=0.529±0.037 uji=0.407 semua=0.529 tanpaRF4=0.486 maksSatker=22 lolos=False [12s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[2] pelak {"extra": true, "pdn_umk": true, "satker_level": true} std {"IF": {}, "LOF": {"k": 20}, "AE": {"b": 3}} rata: pilih=0.488±0.039 uji=0.374 semua=0.486 tanpaRF4=0.444 maksSatker=16 lolos=True [65s]
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[2] pelak {"extra": true, "pdn_umk": true, "satker_level": true} std {"IF": {}, "LOF": {"k": 20}, "AE": {"b": 8}} rata: pilih=0.438±0.045 uji=0.317 semua=0.424 tanpaRF4=0.381 maksSatker=16 lolos=True [72s]
+[3] pelak {"extra": true, "pdn_umk": true, "satker_level": true} std {"IF": {}, "LOF": {"k": 20}, "AE": {}} median: pilih=0.476±0.048 uji=0.386 semua=0.489 tanpaRF4=0.467 maksSatker=15 lolos=True [3s]
+[3] pelak {"extra": true, "pdn_umk": true, "satker_level": true} std {"IF": {}, "LOF": {"k": 20}, "AE": {}} maks: pilih=0.452±0.071 uji=0.388 semua=0.424 tanpaRF4=0.416 maksSatker=19 lolos=True [3s]
+[3] pelak {"extra": true, "pdn_umk": true, "satker_level": true} std {"IF": {}, "LOF": {"k": 20}, "AE": {}} bobot_keluarga: pilih=0.525±0.051 uji=0.361 semua=0.509 tanpaRF4=0.473 maksSatker=19 lolos=True [4s]
+TERBAIK pelaksanaan {"extra": true, "pdn_umk": true, "satker_level": true} std {"IF": {}, "LOF": {"k": 20}, "AE": {}} rata

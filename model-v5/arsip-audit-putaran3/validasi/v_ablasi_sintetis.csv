@@ -1,0 +1,136 @@
+jalur,tipe,gabungan,terdeteksi_5persen
+pelaksanaan,global,"IF+LOF+AE (rata-rata, dipakai)",0.995
+pelaksanaan,global,IF+LOF,0.992
+pelaksanaan,global,IF+AE,0.991
+pelaksanaan,global,LOF+AE,0.997
+pelaksanaan,global,IF saja,0.926
+pelaksanaan,global,LOF saja,0.986
+pelaksanaan,global,AE saja,0.994
+pelaksanaan,global,IF+LOF+AE (maksimum),0.996
+pelaksanaan,global,IF+LOF+AE (median),0.996
+pelaksanaan,lokal,"IF+LOF+AE (rata-rata, dipakai)",0.54
+pelaksanaan,lokal,IF+LOF,0.497
+pelaksanaan,lokal,IF+AE,0.431
+pelaksanaan,lokal,LOF+AE,0.562
+pelaksanaan,lokal,IF saja,0.277
+pelaksanaan,lokal,LOF saja,0.503
+pelaksanaan,lokal,AE saja,0.458
+pelaksanaan,lokal,IF+LOF+AE (maksimum),0.465
+pelaksanaan,lokal,IF+LOF+AE (median),0.528
+pelaksanaan,kontrol_normal,"IF+LOF+AE (rata-rata, dipakai)",0.123
+pelaksanaan,kontrol_normal,IF+LOF,0.09
+pelaksanaan,kontrol_normal,IF+AE,0.088
+pelaksanaan,kontrol_normal,LOF+AE,0.199
+pelaksanaan,kontrol_normal,IF saja,0.054
+pelaksanaan,kontrol_normal,LOF saja,0.205
+pelaksanaan,kontrol_normal,AE saja,0.148
+pelaksanaan,kontrol_normal,IF+LOF+AE (maksimum),0.127
+pelaksanaan,kontrol_normal,IF+LOF+AE (median),0.145
+pelaksanaan,dependensi,"IF+LOF+AE (rata-rata, dipakai)",0.508
+pelaksanaan,dependensi,IF+LOF,0.348
+pelaksanaan,dependensi,IF+AE,0.296
+pelaksanaan,dependensi,LOF+AE,0.735
+pelaksanaan,dependensi,IF saja,0.062
+pelaksanaan,dependensi,LOF saja,0.702
+pelaksanaan,dependensi,AE saja,0.612
+pelaksanaan,dependensi,IF+LOF+AE (maksimum),0.594
+pelaksanaan,dependensi,IF+LOF+AE (median),0.617
+pelaksanaan,berkelompok,"IF+LOF+AE (rata-rata, dipakai)",1.0
+pelaksanaan,berkelompok,IF+LOF,1.0
+pelaksanaan,berkelompok,IF+AE,1.0
+pelaksanaan,berkelompok,LOF+AE,1.0
+pelaksanaan,berkelompok,IF saja,1.0
+pelaksanaan,berkelompok,LOF saja,0.958
+pelaksanaan,berkelompok,AE saja,1.0
+pelaksanaan,berkelompok,IF+LOF+AE (maksimum),1.0
+pelaksanaan,berkelompok,IF+LOF+AE (median),1.0
+pelaksanaan,pagu_digelembungkan,"IF+LOF+AE (rata-rata, dipakai)",0.549
+pelaksanaan,pagu_digelembungkan,IF+LOF,0.347
+pelaksanaan,pagu_digelembungkan,IF+AE,0.982
+pelaksanaan,pagu_digelembungkan,LOF+AE,0.316
+pelaksanaan,pagu_digelembungkan,IF saja,0.993
+pelaksanaan,pagu_digelembungkan,LOF saja,0.038
+pelaksanaan,pagu_digelembungkan,AE saja,0.846
+pelaksanaan,pagu_digelembungkan,IF+LOF+AE (maksimum),0.967
+pelaksanaan,pagu_digelembungkan,IF+LOF+AE (median),0.894
+pelaksanaan,realisasi_lewat_pagu,"IF+LOF+AE (rata-rata, dipakai)",0.613
+pelaksanaan,realisasi_lewat_pagu,IF+LOF,0.555
+pelaksanaan,realisasi_lewat_pagu,IF+AE,0.623
+pelaksanaan,realisasi_lewat_pagu,LOF+AE,0.592
+pelaksanaan,realisasi_lewat_pagu,IF saja,0.039
+pelaksanaan,realisasi_lewat_pagu,LOF saja,0.501
+pelaksanaan,realisasi_lewat_pagu,AE saja,0.727
+pelaksanaan,realisasi_lewat_pagu,IF+LOF+AE (maksimum),0.512
+pelaksanaan,realisasi_lewat_pagu,IF+LOF+AE (median),0.577
+pelaksanaan,dekat_ambang,"IF+LOF+AE (rata-rata, dipakai)",0.752
+pelaksanaan,dekat_ambang,IF+LOF,0.624
+pelaksanaan,dekat_ambang,IF+AE,0.993
+pelaksanaan,dekat_ambang,LOF+AE,0.601
+pelaksanaan,dekat_ambang,IF saja,0.982
+pelaksanaan,dekat_ambang,LOF saja,0.221
+pelaksanaan,dekat_ambang,AE saja,0.944
+pelaksanaan,dekat_ambang,IF+LOF+AE (maksimum),0.863
+pelaksanaan,dekat_ambang,IF+LOF+AE (median),0.963
+perencanaan,global,"IF+LOF+AE (rata-rata, dipakai)",0.933
+perencanaan,global,IF+LOF,0.921
+perencanaan,global,IF+AE,0.925
+perencanaan,global,LOF+AE,0.934
+perencanaan,global,IF saja,0.89
+perencanaan,global,LOF saja,0.896
+perencanaan,global,AE saja,0.915
+perencanaan,global,IF+LOF+AE (maksimum),0.919
+perencanaan,global,IF+LOF+AE (median),0.93
+perencanaan,lokal,"IF+LOF+AE (rata-rata, dipakai)",0.315
+perencanaan,lokal,IF+LOF,0.327
+perencanaan,lokal,IF+AE,0.24
+perencanaan,lokal,LOF+AE,0.33
+perencanaan,lokal,IF saja,0.204
+perencanaan,lokal,LOF saja,0.474
+perencanaan,lokal,AE saja,0.237
+perencanaan,lokal,IF+LOF+AE (maksimum),0.297
+perencanaan,lokal,IF+LOF+AE (median),0.281
+perencanaan,kontrol_normal,"IF+LOF+AE (rata-rata, dipakai)",0.068
+perencanaan,kontrol_normal,IF+LOF,0.084
+perencanaan,kontrol_normal,IF+AE,0.049
+perencanaan,kontrol_normal,LOF+AE,0.118
+perencanaan,kontrol_normal,IF saja,0.044
+perencanaan,kontrol_normal,LOF saja,0.251
+perencanaan,kontrol_normal,AE saja,0.063
+perencanaan,kontrol_normal,IF+LOF+AE (maksimum),0.161
+perencanaan,kontrol_normal,IF+LOF+AE (median),0.061
+perencanaan,dependensi,"IF+LOF+AE (rata-rata, dipakai)",0.421
+perencanaan,dependensi,IF+LOF,0.401
+perencanaan,dependensi,IF+AE,0.3
+perencanaan,dependensi,LOF+AE,0.467
+perencanaan,dependensi,IF saja,0.128
+perencanaan,dependensi,LOF saja,0.482
+perencanaan,dependensi,AE saja,0.398
+perencanaan,dependensi,IF+LOF+AE (maksimum),0.421
+perencanaan,dependensi,IF+LOF+AE (median),0.395
+perencanaan,berkelompok,"IF+LOF+AE (rata-rata, dipakai)",0.965
+perencanaan,berkelompok,IF+LOF,0.978
+perencanaan,berkelompok,IF+AE,0.951
+perencanaan,berkelompok,LOF+AE,0.933
+perencanaan,berkelompok,IF saja,1.0
+perencanaan,berkelompok,LOF saja,0.896
+perencanaan,berkelompok,AE saja,0.874
+perencanaan,berkelompok,IF+LOF+AE (maksimum),0.948
+perencanaan,berkelompok,IF+LOF+AE (median),0.933
+perencanaan,pagu_digelembungkan,"IF+LOF+AE (rata-rata, dipakai)",0.423
+perencanaan,pagu_digelembungkan,IF+LOF,0.31
+perencanaan,pagu_digelembungkan,IF+AE,0.882
+perencanaan,pagu_digelembungkan,LOF+AE,0.306
+perencanaan,pagu_digelembungkan,IF saja,0.993
+perencanaan,pagu_digelembungkan,LOF saja,0.051
+perencanaan,pagu_digelembungkan,AE saja,0.627
+perencanaan,pagu_digelembungkan,IF+LOF+AE (maksimum),0.983
+perencanaan,pagu_digelembungkan,IF+LOF+AE (median),0.713
+perencanaan,dekat_ambang,"IF+LOF+AE (rata-rata, dipakai)",0.861
+perencanaan,dekat_ambang,IF+LOF,0.76
+perencanaan,dekat_ambang,IF+AE,0.978
+perencanaan,dekat_ambang,LOF+AE,0.766
+perencanaan,dekat_ambang,IF saja,1.0
+perencanaan,dekat_ambang,LOF saja,0.169
+perencanaan,dekat_ambang,AE saja,0.817
+perencanaan,dekat_ambang,IF+LOF+AE (maksimum),0.937
+perencanaan,dekat_ambang,IF+LOF+AE (median),0.903

@@ -1,0 +1,36 @@
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+
+== pelaksanaan (105575, 22) ['log_pagu', 'log_rasio_pagu_sejenis', 'porsi_pagu_satker', 'log_jumlah_paket_satker', 'proporsi_pl_satker', 'pdn', 'umk', 'jenis_Barang', 'jenis_Jasa Konsultansi', 'jenis_Jasa Lainnya', 'jenis_Pekerjaan Konstruksi', 'rasio_realisasi', 'log_selisih_realisasi', 'ubah_metode', 'porsi_pdn', 'porsi_umk', 'sumber_E-Katalog', 'sumber_Non Tender', 'sumber_Tender', 'log_rasio_pagu_satker', 'porsi_epurchasing_satker', 'selisih_rasio_realisasi_sejenis']
+              model  P@50  rata_rf@50  P@100  rata_rf@100  P@200  rata_rf@200
+           Ensemble 0.600       0.700  0.550        0.710  0.480        0.625
+                 IF 0.460       0.500  0.400        0.430  0.340        0.390
+                LOF 0.500       0.620  0.520        0.610  0.570        0.730
+                 AE 0.460       0.600  0.430        0.540  0.390        0.485
+Semua paket (acuan) 0.247       0.295  0.247        0.295  0.247        0.295
+satker terbanyak di 200 teratas: 14
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+
+== perencanaan (303930, 9) ['log_pagu', 'log_rasio_pagu_sejenis', 'porsi_pagu_satker', 'log_jumlah_paket_satker', 'jenis_Barang', 'jenis_Jasa Konsultansi', 'jenis_Jasa Lainnya', 'jenis_Pekerjaan Konstruksi', 'log_rasio_pagu_satker']
+              model  P@50  rata_rf@50  P@100  rata_rf@100  P@200  rata_rf@200
+           Ensemble 0.240       0.240  0.320        0.320  0.385        0.385
+                 IF 0.320       0.320  0.270        0.270  0.335        0.335
+                LOF 0.100       0.100  0.060        0.060  0.045        0.045
+                 AE 0.000       0.000  0.010        0.010  0.025        0.025
+Semua paket (acuan) 0.158       0.181  0.158        0.181  0.158        0.181
+satker terbanyak di 200 teratas: 21

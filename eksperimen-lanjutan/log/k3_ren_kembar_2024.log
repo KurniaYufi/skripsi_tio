@@ -1,0 +1,2 @@
+ren_kembar 2024 (340189, 5) ['log_pagu', 'log_rasio_pagu_sejenis', 'log_rasio_pagu_satker', 'log_rasio_pagu_nama_satker', 'k_kembar_satker'] {'skala': 'std', 'if_max_samples': 2048, 'lof_k': 20, 'ae_b': 2, 'ae_iter': 300, 'skala_sama': {'log_rasio_pagu_nama_satker': 'log_rasio_pagu_sejenis'}, 'satu_arah': {'log_rasio_pagu_sejenis': 'nol', 'log_rasio_pagu_satker': 'nol', 'log_rasio_pagu_nama_satker': 'nol'}}
+selesai ren_kembar 2024 194 detik

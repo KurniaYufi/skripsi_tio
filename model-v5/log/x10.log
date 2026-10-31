@@ -1,0 +1,13 @@
+          jalur                        varian   P50   P200     p5  pilih5   uji5  acuan  acuan_uji
+0   perencanaan  v5 sebelum audit (dashboard)  0.12  0.235  0.186   0.184  0.239  0.134      0.123
+1   perencanaan               audit putaran 2  0.02  0.015  0.151   0.162  0.141  0.134      0.123
+2   perencanaan               audit putaran 3  0.02  0.010  0.175   0.195  0.154  0.134      0.123
+3   perencanaan               audit putaran 4  0.02  0.020  0.127   0.140  0.120  0.134      0.123
+4   perencanaan               audit putaran 5  0.02  0.020  0.127   0.140  0.120  0.134      0.123
+5   perencanaan                   dasar audit  0.02  0.020  0.127   0.140  0.120  0.134      0.123
+6   pelaksanaan  v5 sebelum audit (dashboard)  0.34  0.245  0.193   0.196  0.186  0.235      0.240
+7   pelaksanaan               audit putaran 2  0.18  0.205  0.206   0.190  0.222  0.235      0.240
+8   pelaksanaan               audit putaran 3  0.14  0.195  0.202   0.211  0.191  0.235      0.240
+9   pelaksanaan               audit putaran 4  0.10  0.110  0.206   0.227  0.180  0.235      0.240
+10  pelaksanaan               audit putaran 5  0.28  0.195  0.183   0.186  0.182  0.235      0.240
+11  pelaksanaan                   dasar audit  0.22  0.170  0.188   0.192  0.183  0.235      0.240

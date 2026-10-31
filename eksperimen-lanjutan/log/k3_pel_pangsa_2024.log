@@ -1,0 +1,2 @@
+pel_pangsa 2024 (122326, 6) ['log_pagu', 'log_rasio_pagu_sejenis', 'log_rasio_pagu_satker', 'rasio_realisasi', 'log_selisih_realisasi', 'k_pangsa_satker'] {'skala': 'std', 'if_max_samples': 'auto', 'lof_k': 20, 'ae_b': 3, 'ae_iter': 300, 'satu_arah': {'log_rasio_pagu_sejenis': 'nol', 'log_rasio_pagu_satker': 'nol'}}
+selesai pel_pangsa 2024 242 detik

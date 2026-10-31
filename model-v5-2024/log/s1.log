@@ -1,0 +1,21 @@
+/mnt/attach/project-files/model-v5-2024/s1_data.py:132: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  pemerintah = up.str.contains(PEMERINTAH) & ~up.str.contains(USAHA)
+A1 paket penyedia (lingkup) : 379268
+A2 pagu > Rp10 rb : 378503
+B0 baris realisasi di lingkup : 860545
+B1 baris bernilai > 0 : 859867
+B2 baris dengan provinsi sama dengan RUP : 859867
+B serah terima: paket : 122399
+B serah terima: baris : 466884
+B3 paket dengan catatan ganda : 1090
+B3 baris ganda dibuang : 3867
+B4 nilai_pdn dibaca sebagai persen (baris) : 0
+B4 nilai_umk dibaca sebagai persen (baris) : 485
+C1 nama penyedia berulang dirapikan (baris) : 5933
+C2 penyedia unit pemerintah -> "-" (baris) : 508
+B6 paket Tender dengan > 1 penyedia (tidak dinilai) : 2
+B5 paket rasio < 0,01 : 58
+B5 paket rasio > 9,5 : 13
+Paket jalur pelaksanaan (sebelum batas pagu model) : 122326
+red flag (seluruh lingkup) : {'rf1_pl_dekat_ambang': 15586, 'rf2_pl_lewat_ambang': 7453, 'rf3_pemecahan_paket': 42082, 'rf4_penunjukan_langsung': 5080, 'rf5_penyedia_dominan': 2998, 'rf6_penyedia_serba_ada': 5602}
+red flag RF5/RF6 di jalur pelaksanaan : {'rf5_penyedia_dominan': 2998, 'rf6_penyedia_serba_ada': 5602}

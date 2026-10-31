@@ -1,0 +1,50 @@
+[     7s] pelaksanaan kombinasi selesai
+[    17s] pelaksanaan anomali buatan selesai
+[    26s] perencanaan kombinasi selesai
+[    32s] perencanaan anomali buatan selesai
+          jalur                        gabungan  P@50  P@100  P@200  presisi_5persen  lift_5persen  pilih_5persen  uji_5persen  tanpaRF4_5persen  acuan  acuan_pilih  acuan_uji  acuan_tanpaRF4  satker_maks_top200  auc_redflag
+0   pelaksanaan  IF+LOF+AE (rata-rata, dipakai)  0.44   0.47  0.430            0.394         1.028          0.388        0.397             0.382  0.383        0.372      0.397           0.377                  11        0.475
+1   pelaksanaan                          IF+LOF  0.38   0.41  0.410            0.396         1.035          0.389        0.412             0.387  0.383        0.372      0.397           0.377                   8        0.463
+2   pelaksanaan                           IF+AE  0.50   0.45  0.465            0.350         0.913          0.348        0.352             0.340  0.383        0.372      0.397           0.377                  12        0.463
+3   pelaksanaan                          LOF+AE  0.38   0.42  0.450            0.409         1.068          0.408        0.404             0.389  0.383        0.372      0.397           0.377                  11        0.508
+4   pelaksanaan                         IF saja  0.44   0.39  0.440            0.362         0.945          0.356        0.371             0.358  0.383        0.372      0.397           0.377                   6        0.437
+5   pelaksanaan                        LOF saja  0.44   0.46  0.485            0.481         1.255          0.485        0.462             0.468  0.383        0.372      0.397           0.377                  10        0.507
+6   pelaksanaan                         AE saja  0.46   0.44  0.435            0.346         0.904          0.361        0.330             0.330  0.383        0.372      0.397           0.377                  11        0.508
+7   pelaksanaan            IF+LOF+AE (maksimum)  0.50   0.42  0.430            0.424         1.108          0.421        0.430             0.416  0.383        0.372      0.397           0.377                  10        0.489
+8   pelaksanaan              IF+LOF+AE (median)  0.44   0.45  0.425            0.374         0.978          0.378        0.369             0.362  0.383        0.372      0.397           0.377                  12        0.479
+9   perencanaan  IF+LOF+AE (rata-rata, dipakai)  0.02   0.02  0.050            0.186         1.173          0.201        0.179             0.166  0.159        0.169      0.149           0.148                  14        0.534
+10  perencanaan                          IF+LOF  0.02   0.01  0.055            0.209         1.315          0.224        0.197             0.189  0.159        0.169      0.149           0.148                  15        0.493
+11  perencanaan                           IF+AE  0.04   0.03  0.040            0.136         0.857          0.139        0.133             0.121  0.159        0.169      0.149           0.148                  21        0.544
+12  perencanaan                          LOF+AE  0.02   0.02  0.070            0.205         1.288          0.210        0.199             0.174  0.159        0.169      0.149           0.148                  15        0.552
+13  perencanaan                         IF saja  0.00   0.03  0.025            0.103         0.647          0.104        0.102             0.093  0.159        0.169      0.149           0.148                  15        0.500
+14  perencanaan                        LOF saja  0.54   0.40  0.270            0.291         1.832          0.327        0.259             0.219  0.159        0.169      0.149           0.148                  11        0.481
+15  perencanaan                         AE saja  0.04   0.02  0.015            0.161         1.016          0.161        0.162             0.146  0.159        0.169      0.149           0.148                  17        0.599
+16  perencanaan            IF+LOF+AE (maksimum)  0.08   0.16  0.195            0.191         1.205          0.212        0.172             0.157  0.159        0.169      0.149           0.148                   9        0.521
+17  perencanaan              IF+LOF+AE (median)  0.04   0.03  0.020            0.170         1.072          0.182        0.158             0.157  0.159        0.169      0.149           0.148                  20        0.537
+gabungan                          AE saja  IF saja  IF+AE  IF+LOF  IF+LOF+AE (maksimum)  IF+LOF+AE (median)  IF+LOF+AE (rata-rata, dipakai)  LOF saja  LOF+AE
+jalur       tipe                                                                                                                                             
+pelaksanaan berkelompok              0.97     1.00   1.00    1.00                  0.99                1.00                            1.00      1.00    1.00
+            dekat_ambang             0.08     0.16   0.14    0.15                  0.10                0.11                            0.16      0.06    0.13
+            dependensi               0.53     0.08   0.27    0.35                  0.52                0.55                            0.45      0.64    0.69
+            global                   1.00     0.97   1.00    1.00                  1.00                1.00                            1.00      0.99    1.00
+            kontrol_normal           0.11     0.04   0.08    0.13                  0.09                0.13                            0.13      0.16    0.19
+            lokal                    0.45     0.36   0.45    0.58                  0.50                0.56                            0.57      0.51    0.57
+            pagu_digelembungkan      0.16     0.15   0.21    0.22                  0.10                0.24                            0.25      0.11    0.24
+            realisasi_lewat_pagu     0.27     0.10   0.35    0.58                  0.45                0.50                            0.58      0.51    0.55
+perencanaan berkelompok              0.94     1.00   0.96    0.94                  0.95                0.95                            0.96      0.86    0.94
+            dekat_ambang             0.44     0.11   0.30    0.22                  0.08                0.24                            0.28      0.08    0.30
+            dependensi               0.28     0.13   0.24    0.39                  0.39                0.30                            0.40      0.47    0.45
+            global                   0.91     0.89   0.92    0.92                  0.92                0.93                            0.93      0.91    0.93
+            kontrol_normal           0.05     0.04   0.05    0.08                  0.16                0.05                            0.06      0.23    0.10
+            lokal                    0.22     0.20   0.23    0.30                  0.29                0.26                            0.30      0.44    0.32
+            pagu_digelembungkan      0.19     0.07   0.14    0.16                  0.12                0.16                            0.18      0.10    0.18
+         jalur                                                 pasangan  spearman_skor  jaccard_5persen  persen_0  persen_1  persen_2  persen_3
+0  pelaksanaan                                                   IF-LOF          0.148            0.066       NaN       NaN       NaN       NaN
+1  pelaksanaan                                                    IF-AE          0.554            0.173       NaN       NaN       NaN       NaN
+2  pelaksanaan                                                   LOF-AE          0.327            0.112       NaN       NaN       NaN       NaN
+3  pelaksanaan  anomali ensemble yang juga 5% teratas di: 0/1/2/3 model            NaN              NaN    17.254    45.336    28.100     9.310
+4  perencanaan                                                   IF-LOF          0.263            0.090       NaN       NaN       NaN       NaN
+5  perencanaan                                                    IF-AE          0.855            0.313       NaN       NaN       NaN       NaN
+6  perencanaan                                                   LOF-AE          0.187            0.074       NaN       NaN       NaN       NaN
+7  perencanaan  anomali ensemble yang juga 5% teratas di: 0/1/2/3 model            NaN              NaN    13.563    40.122    35.766    10.549
+[    32s] SELESAI

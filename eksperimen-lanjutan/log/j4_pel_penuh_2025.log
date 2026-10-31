@@ -1,0 +1,9 @@
+##### pel_penuh_2025
+fitur SHAP terbesar (jumlah paket): {'selisih_pdn': 155, 'log_rasio_pagu_jenis': 17, 'log_rasio_pagu_satker': 16, 'rasio_realisasi': 10, 'selisih_umk': 2}
+rata |SHAP|: {'selisih_pdn': 0.152, 'log_selisih_realisasi': 0.073, 'log_rasio_pagu_jenis': 0.069, 'rasio_realisasi': 0.057, 'log_rasio_pagu_satker': 0.057, 'log_pagu': 0.049, 'selisih_umk': 0.033}
+nilai asli median di 200 teratas: {'log_pagu': 8.7, 'log_rasio_pagu_jenis': 1.59, 'log_rasio_pagu_satker': 1.04, 'rasio_realisasi': 0.99, 'log_selisih_realisasi': 7.47, 'selisih_pdn': 1.0, 'selisih_umk': 0.0}
+metode_pengadaan 200 teratas: {'E-Purchasing': 0.74, 'Pengadaan Langsung': 0.24, 'Tender': 0.02}
+metode_pengadaan semua      : {'E-Purchasing': 0.49, 'Pengadaan Langsung': 0.48, 'Seleksi': 0.01, 'Tender': 0.01, 'Penunjukan Langsung': 0.01}
+jenis 200 teratas: {'Barang': 0.8, 'Jasa Lainnya': 0.13, 'Pekerjaan Konstruksi': 0.05, 'Jasa Konsultansi': 0.02}
+jenis semua      : {'Barang': 0.5, 'Jasa Lainnya': 0.22, 'Jasa Konsultansi': 0.16, 'Pekerjaan Konstruksi': 0.12, 'Terintegrasi': 0.0}
+satker terbanyak di 200 teratas: {'DINAS KEHUTANAN - 3.28.0.00.0.00.01.0000': 15, 'RUMAH SAKIT UMUM DAERAH DR. SOEDONO MADIUN - 1.02.0.00.0.00.01.0003': 9, 'DINAS KESEHATAN - 1.02.0.00.0.00.01.0000': 9}

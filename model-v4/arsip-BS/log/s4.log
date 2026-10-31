@@ -1,0 +1,27 @@
+perencanaan paket ditampilkan 978 dengan SHAP 200
+pelaksanaan paket ditampilkan 975 dengan SHAP 200
+perencanaan Paket ini berada di peringkat 1 dari 303.930 paket jalur perencanaan. Faktor yang paling menaikkan skornya: jenis pekerjaan konstruksi; pagu ini 100,0% dari total pagu satker (median 0,1%); pagu Rp2,5 M, median nasional Rp23,6 jt. Ini penanda untuk ditelaah lebih lanjut, bukan bukti pelanggaran.
+ - ya | Paket teratas lebih sering punya red flag? | 200 paket teratas: 22,0% punya red flag, rata-rata semua paket 15,8% (p = 0,014; selang bootstrap per satker 14%–33%)
+ - ya | Berlaku juga di provinsi yang tidak dipakai saat memilih pengaturan? | 19 provinsi uji: 50–200 teratas 19,7%, 5% teratas 39,5%, rata-rata 13,8%. 19 provinsi pilih: 34,3%, 41,4%, rata-rata 17,9%
+ - ya | Tetap sejalan bila red flag penunjukan langsung tidak dihitung? | tanpa RF4: 50–200 teratas 19,7%, 5% teratas 34,8%; rata-rata semua paket 14,6%
+ - ya | Lebih baik dari cara sederhana? | Skor-z sederhana 7,5%; Pagu terbesar 18,0%; Urutan acak 16,0%; ensemble 22,0% (P@200)
+ - sebagian | Menangkap anomali buatan yang sengaja disisipkan? | pola ekstrem 99%; pola gabungan antarfitur 56% (skor-z 2%); kelompok kembar 100%; pagu digelembungkan 5–20 kali 1%; dinaikkan ke dekat ambang 12% (paket wajar ikut tertandai 23%)
+ - sebagian | Hasil stabil bila model dilatih ulang? | Kesamaan 200 teratas antar dua pelatihan (Jaccard): 0,41; satu seed saja: 0,36. Kesamaan 5% paket tidak lazim: 0,62
+ - sebagian | Kesimpulan berubah bila ambang "tidak lazim" diganti? | persentase ber-red flag pada ambang 1% / 5% / 10%: 35,4% / 38,1% / 38,4% (rata-rata 15,8%); urutan provinsi ambang 1% vs 10%: ρ = 0,64
+ - ya | Peta provinsi sejalan dengan red flag? | korelasi proporsi paket tidak lazim dengan tingkat red flag 38 provinsi: ρ = 0,45 (p = 0,005); tanpa provinsi Papua ρ = 0,32
+ - ya | Penjelasan SHAP benar-benar menunjuk fitur penyebab? | mengganti 3 fitur teratas SHAP menurunkan skor 0,172, mengganti 3 fitur acak 0,006 (96% paket turun lebih besar)
+ - ya | Paket perencanaan yang tidak lazim lebih sering bermasalah saat pelaksanaan? | 5% paket perencanaan teratas, dibanding rata-rata: PL berulang lewat ambang (R055) 1,7 kali (setelah dikontrol ukuran paket 1,4 kali); penyedia dominan (RF5) 1,5 kali (setelah dikontrol ukuran paket 1,2 kali); PL dekat ambang berulang (R049) 1,9 kali (setelah dikontrol ukuran paket 1,2 kali)
+ - ya | Perlu menggabungkan tiga model? | 5% teratas jalur ini ber-red flag: ensemble 38,1%; IF saja 24,0%, LOF saja 38,6%, AE saja 33,7%. Dari 9 cara (3 model tunggal, 3 pasangan, rata-rata, maksimum, median) pada 6 ukuran di dua jalur, peringkat rata-rata ensemble 3,9 (paling baik dari 9 cara); peringkat terburuknya 6 dari 9
+ - sebagian | Sejalan dengan penilaian lembaga lain (SPI KPK 2024)? | 10 provinsi dengan skor integritas SPI terendah: median 7,2% paket tidak lazim; 10 provinsi tertinggi: 4,3% (p = 0,038). Tanpa provinsi Papua: 6,0% vs 4,3% (p = 0,297)
+pelaksanaan Paket ini berada di peringkat 1 dari 105.575 paket jalur pelaksanaan. Faktor yang paling menaikkan skornya: pagu ini 64,3% dari total pagu satker (median 0,1%); realisasi 268,0% dari pagu (median 98,3%); rasio realisasi 268,0%, selisih 168,7% dari median paket sejenis. Ini penanda untuk ditelaah lebih lanjut, bukan bukti pelanggaran.
+ - ya | Paket teratas lebih sering punya red flag? | 200 paket teratas: 48,0% punya red flag, rata-rata semua paket 24,7% (p < 0,001; selang bootstrap per satker 40%–57%)
+ - sebagian | Berlaku juga di provinsi yang tidak dipakai saat memilih pengaturan? | 19 provinsi uji: 50–200 teratas 38,0%, 5% teratas 25,3%, rata-rata 24,7%. 19 provinsi pilih: 56,5%, 31,9%, rata-rata 24,8%
+ - sebagian | Tetap sejalan bila red flag penunjukan langsung tidak dihitung? | tanpa RF4: 50–200 teratas 49,2%, 5% teratas 26,3%; rata-rata semua paket 23,9%
+ - sebagian | Lebih baik dari cara sederhana? | Skor-z sederhana 79,5%; Pagu terbesar 38,0%; Urutan acak 26,5%; ensemble 48,0% (P@200)
+ - sebagian | Menangkap anomali buatan yang sengaja disisipkan? | pola ekstrem 100%; pola gabungan antarfitur 39% (skor-z 2%); kelompok kembar 94%; pagu digelembungkan 5–20 kali 1%; dinaikkan ke dekat ambang 12% (paket wajar ikut tertandai 24%)
+ - sebagian | Hasil stabil bila model dilatih ulang? | Kesamaan 200 teratas antar dua pelatihan (Jaccard): 0,56; satu seed saja: 0,42. Kesamaan 5% paket tidak lazim: 0,79
+ - ya | Kesimpulan berubah bila ambang "tidak lazim" diganti? | persentase ber-red flag pada ambang 1% / 5% / 10%: 38,7% / 29,2% / 27,7% (rata-rata 24,7%); urutan provinsi ambang 1% vs 10%: ρ = 0,82
+ - tidak | Peta provinsi sejalan dengan red flag? | korelasi proporsi paket tidak lazim dengan tingkat red flag 38 provinsi: ρ = 0,32 (p = 0,052); tanpa provinsi Papua ρ = 0,20
+ - ya | Penjelasan SHAP benar-benar menunjuk fitur penyebab? | mengganti 3 fitur teratas SHAP menurunkan skor 0,097, mengganti 3 fitur acak 0,002 (96% paket turun lebih besar)
+ - ya | Perlu menggabungkan tiga model? | 5% teratas jalur ini ber-red flag: ensemble 29,2%; IF saja 26,3%, LOF saja 40,0%, AE saja 26,3%. Dari 9 cara (3 model tunggal, 3 pasangan, rata-rata, maksimum, median) pada 6 ukuran di dua jalur, peringkat rata-rata ensemble 3,9 (paling baik dari 9 cara); peringkat terburuknya 6 dari 9
+ - ya | Sejalan dengan penilaian lembaga lain (SPI KPK 2024)? | 10 provinsi dengan skor integritas SPI terendah: median 15,3% paket tidak lazim; 10 provinsi tertinggi: 4,3% (p < 0,001). Tanpa provinsi Papua: 7,5% vs 4,3% (p = 0,002)

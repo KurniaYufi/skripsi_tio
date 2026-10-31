@@ -1,0 +1,18 @@
+
+== pelaksanaan (122326, 5) ['log_pagu', 'log_rasio_pagu_sejenis', 'log_rasio_pagu_satker', 'rasio_realisasi', 'log_selisih_realisasi']
+              model  P@50  rata_rf@50  P@100  rata_rf@100  P@200  rata_rf@200
+           Ensemble 0.320       0.360  0.320        0.360  0.340        0.375
+                 IF 0.300       0.360  0.360        0.410  0.330        0.385
+                LOF 0.520       0.740  0.400        0.550  0.360        0.445
+                 AE 0.260       0.300  0.240        0.260  0.185        0.200
+Semua paket (acuan) 0.287       0.332  0.287        0.332  0.287        0.332
+satker terbanyak di 200 teratas: 10
+
+== perencanaan (340189, 4) ['log_pagu', 'log_rasio_pagu_sejenis', 'log_rasio_pagu_satker', 'log_rasio_pagu_nama_satker']
+              model  P@50  rata_rf@50  P@100  rata_rf@100  P@200  rata_rf@200
+           Ensemble 0.260       0.260  0.230        0.240  0.180        0.195
+                 IF 0.420       0.420  0.330        0.330  0.260        0.260
+                LOF 0.820       1.220  0.640        0.860  0.435        0.590
+                 AE 0.300       0.300  0.220        0.220  0.165        0.170
+Semua paket (acuan) 0.181       0.204  0.181        0.204  0.181        0.204
+satker terbanyak di 200 teratas: 7

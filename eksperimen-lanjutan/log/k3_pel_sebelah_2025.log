@@ -1,0 +1,2 @@
+pel_sebelah 2025 (105499, 9) ['k_z_sejenis', 'k_z_satker', 'k_pangsa_satker', 'k_bulat', 'k_kembar_satker', 'k_nonkomp_satker', 'k_z_rasio', 'k_jangkauan', 'k_kebiasaan'] {'skala': 'std', 'if_max_samples': 'auto', 'lof_k': 20, 'ae_b': 3, 'ae_iter': 300, 'satu_arah': {}, 'skala_sama': {}}
+selesai pel_sebelah 2025 429 detik

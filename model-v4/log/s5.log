@@ -1,0 +1,31 @@
+[     5s] pelaksanaan (105575, 22)
+[    15s] pelaksanaan pembanding selesai
+[    35s] pelaksanaan bootstrap selesai
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[   286s] pelaksanaan kestabilan selesai {'jalur': 'pelaksanaan', 'perbandingan': 'satu seed vs satu seed (rata-rata 10 pasangan)', 'jaccard_top200': 0.41972051557449996, 'jaccard_anomali5persen': 0.6080785208477587, 'spearman_skor': 0.9398522542166464} {'jalur': 'pelaksanaan', 'perbandingan': 'rata-rata 5 seed vs rata-rata 5 seed lain', 'jaccard_top200': 0.5625, 'jaccard_anomali5persen': 0.791581805838425, 'spearman_skor': np.float64(0.9875867631111208), 'P@200_ensemble_kedua': np.float64(0.41)}
+[   326s] pelaksanaan anomali buatan selesai
+[   327s] perencanaan (303930, 9)
+[   340s] perencanaan pembanding selesai
+[   402s] perencanaan bootstrap selesai
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[   722s] perencanaan kestabilan selesai {'jalur': 'perencanaan', 'perbandingan': 'satu seed vs satu seed (rata-rata 10 pasangan)', 'jaccard_top200': 0.42204514562572415, 'jaccard_anomali5persen': 0.5613047327385059, 'spearman_skor': 0.9016580596925021} {'jalur': 'perencanaan', 'perbandingan': 'rata-rata 5 seed vs rata-rata 5 seed lain', 'jaccard_top200': 0.5151515151515151, 'jaccard_anomali5persen': 0.7545318092599007, 'spearman_skor': np.float64(0.9762681573377027), 'P@200_ensemble_kedua': np.float64(0.375)}
+[   749s] perencanaan anomali buatan selesai
+[   752s] SELESAI

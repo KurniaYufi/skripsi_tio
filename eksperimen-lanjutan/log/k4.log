@@ -1,0 +1,282 @@
+
+##### pelaksanaan | red flag sebelah
+-- lipat terkontrol
+kol                                               2024 semua  2025 semua  2025 uji
+skor                                                                              
++ bulat                                                1.387       1.417     1.317
++ jangkauan                                            1.419       1.376     1.336
++ kebiasaan                                            1.372       1.374     1.347
++ kebzr                                                1.375       1.389     1.370
++ kembar                                               1.301       1.281     1.289
++ nonkomp                                              1.362       1.407     1.419
++ pangsa                                               1.407       1.399     1.303
++ robust                                               1.406       1.376     1.268
++ sebelah                                              1.248       1.037     0.883
++ zrasio                                               1.320       1.435     1.403
+Model sekarang                                         1.471       1.391     1.318
+Tanpa model: acak                                      1.016       0.983     0.960
+Tanpa model: aturan sebelah (jangkauan penyedia)       0.950       1.094     1.126
+Tanpa model: aturan sebelah (z pagu sejenis)           1.105       1.161     1.044
+-- lipat 5% berlaku
+kol                                               2024 semua  2025 semua  2025 uji
+skor                                                                              
++ bulat                                                1.365       1.459     1.307
++ jangkauan                                            1.389       1.404     1.290
++ kebiasaan                                            1.354       1.414     1.327
++ kebzr                                                1.376       1.419     1.336
++ kembar                                               1.238       1.286     1.240
++ nonkomp                                              1.389       1.480     1.371
++ pangsa                                               1.386       1.439     1.277
++ robust                                               1.383       1.460     1.247
++ sebelah                                              1.355       1.086     0.853
++ zrasio                                               1.303       1.458     1.343
+Model sekarang                                         1.445       1.487     1.325
+Tanpa model: acak                                      1.011       0.999     0.989
+Tanpa model: aturan sebelah (jangkauan penyedia)       1.030       1.308     1.277
+Tanpa model: aturan sebelah (z pagu sejenis)           1.396       1.509     1.350
+-- P@200
+kol                                               2024 semua  2025 semua  2025 uji
+skor                                                                              
++ bulat                                                0.325       0.215     0.245
++ jangkauan                                            0.365       0.245     0.270
++ kebiasaan                                            0.330       0.245     0.245
++ kebzr                                                0.245       0.205     0.190
++ kembar                                               0.435       0.410     0.280
++ nonkomp                                              0.340       0.250     0.250
++ pangsa                                               0.270       0.195     0.225
++ robust                                               0.270       0.190     0.195
++ sebelah                                              0.255       0.200     0.145
++ zrasio                                               0.195       0.200     0.235
+Model sekarang                                         0.295       0.205     0.195
+Tanpa model: acak                                      0.190       0.185     0.215
+Tanpa model: aturan sebelah (jangkauan penyedia)       0.240       0.170     0.230
+Tanpa model: aturan sebelah (z pagu sejenis)           0.305       0.265     0.350
+
+##### pelaksanaan | red flag sekarang
+-- lipat terkontrol
+kol                                               2024 semua  2025 semua  2025 uji
+skor                                                                              
++ bulat                                                0.955       1.069     1.196
++ jangkauan                                            1.200       1.200     1.325
++ kebiasaan                                            1.205       1.154     1.264
++ kebzr                                                1.156       1.098     1.217
++ kembar                                               1.004       1.045     1.035
++ nonkomp                                              1.008       1.060     1.208
++ pangsa                                               1.036       1.177     1.319
++ robust                                               0.932       0.987     1.051
++ sebelah                                              1.378       1.221     1.281
++ zrasio                                               0.908       1.017     1.116
+Model sekarang                                         0.899       1.011     1.095
+Tanpa model: acak                                      0.995       0.989     1.009
+Tanpa model: aturan sebelah (jangkauan penyedia)       0.916       0.909     0.957
+Tanpa model: aturan sebelah (z pagu sejenis)           1.220       1.097     1.104
+-- lipat 5% berlaku
+kol                                               2024 semua  2025 semua  2025 uji
+skor                                                                              
++ bulat                                                0.679       0.838     0.775
++ jangkauan                                            0.732       0.790     0.748
++ kebiasaan                                            0.741       0.782     0.762
++ kebzr                                                0.724       0.741     0.753
++ kembar                                               1.022       1.079     0.934
++ nonkomp                                              0.792       0.956     0.970
++ pangsa                                               0.724       0.906     0.925
++ robust                                               0.725       0.878     0.838
++ sebelah                                              1.299       1.188     1.146
++ zrasio                                               0.761       0.908     0.911
+Model sekarang                                         0.754       0.900     0.863
+Tanpa model: acak                                      0.982       0.974     0.976
+Tanpa model: aturan sebelah (jangkauan penyedia)       1.132       1.050     1.033
+Tanpa model: aturan sebelah (z pagu sejenis)           0.684       0.738     0.470
+-- P@200
+kol                                               2024 semua  2025 semua  2025 uji
+skor                                                                              
++ bulat                                                0.225       0.205     0.265
++ jangkauan                                            0.195       0.215     0.265
++ kebiasaan                                            0.210       0.260     0.235
++ kebzr                                                0.195       0.180     0.235
++ kembar                                               0.385       0.280     0.370
++ nonkomp                                              0.235       0.210     0.230
++ pangsa                                               0.230       0.320     0.385
++ robust                                               0.190       0.235     0.245
++ sebelah                                              0.525       0.500     0.435
++ zrasio                                               0.230       0.205     0.245
+Model sekarang                                         0.215       0.220     0.235
+Tanpa model: acak                                      0.300       0.195     0.195
+Tanpa model: aturan sebelah (jangkauan penyedia)       0.330       0.275     0.260
+Tanpa model: aturan sebelah (z pagu sejenis)           0.295       0.135     0.190
+
+##### pelaksanaan | red flag sekarang + sebelah
+-- lipat terkontrol
+kol                                               2024 semua  2025 semua  2025 uji
+skor                                                                              
++ bulat                                                1.094       1.144     1.196
++ jangkauan                                            1.217       1.229     1.275
++ kebiasaan                                            1.202       1.210     1.266
++ kebzr                                                1.197       1.193     1.244
++ kembar                                               1.050       1.087     1.090
++ nonkomp                                              1.095       1.116     1.218
++ pangsa                                               1.132       1.202     1.250
++ robust                                               1.086       1.116     1.107
++ sebelah                                              1.230       1.110     1.091
++ zrasio                                               1.031       1.141     1.167
+Model sekarang                                         1.081       1.135     1.163
+Tanpa model: acak                                      1.007       0.982     0.982
+Tanpa model: aturan sebelah (jangkauan penyedia)       0.935       0.989     1.026
+Tanpa model: aturan sebelah (z pagu sejenis)           1.094       1.055     1.069
+-- lipat 5% berlaku
+kol                                               2024 semua  2025 semua  2025 uji
+skor                                                                              
++ bulat                                                0.905       1.019     0.964
++ jangkauan                                            0.935       1.006     0.960
++ kebiasaan                                            0.934       1.008     0.987
++ kebzr                                                0.943       0.989     0.976
++ kembar                                               1.038       1.108     1.014
++ nonkomp                                              0.967       1.076     1.069
++ pangsa                                               0.930       1.060     1.037
++ robust                                               0.938       1.074     0.974
++ sebelah                                              1.212       1.111     1.009
++ zrasio                                               0.924       1.077     1.028
+Model sekarang                                         0.970       1.095     1.030
+Tanpa model: acak                                      0.997       0.982     0.977
+Tanpa model: aturan sebelah (jangkauan penyedia)       1.078       1.173     1.114
+Tanpa model: aturan sebelah (z pagu sejenis)           0.924       0.996     0.875
+-- P@200
+kol                                               2024 semua  2025 semua  2025 uji
+skor                                                                              
++ bulat                                                0.475       0.345     0.450
++ jangkauan                                            0.485       0.405     0.490
++ kebiasaan                                            0.475       0.430     0.420
++ kebzr                                                0.400       0.340     0.395
++ kembar                                               0.575       0.615     0.495
++ nonkomp                                              0.500       0.395     0.430
++ pangsa                                               0.430       0.435     0.525
++ robust                                               0.370       0.370     0.390
++ sebelah                                              0.630       0.605     0.525
++ zrasio                                               0.380       0.360     0.425
+Model sekarang                                         0.405       0.360     0.355
+Tanpa model: acak                                      0.450       0.365     0.385
+Tanpa model: aturan sebelah (jangkauan penyedia)       0.500       0.400     0.455
+Tanpa model: aturan sebelah (z pagu sejenis)           0.505       0.360     0.480
+
+##### perencanaan | red flag sebelah
+-- lipat terkontrol
+kol                                           2024 semua  2025 semua  2025 uji
+skor                                                                          
++ bulat                                            1.013       1.187     1.149
++ kembar                                           1.190       1.436     1.365
++ nonkomp                                          0.975       1.210     1.114
++ pangsa                                           0.975       1.078     0.942
++ robust                                           1.033       1.330     1.266
++ sebelah                                          1.222       1.475     1.513
++ zrank                                            1.019       1.201     1.207
+Model sekarang                                     0.988       1.280     1.145
+Tanpa model: acak                                  1.006       1.047     1.050
+Tanpa model: aturan sebelah (z pagu sejenis)       1.288       1.298     1.501
+-- lipat 5% berlaku
+kol                                           2024 semua  2025 semua  2025 uji
+skor                                                                          
++ bulat                                            0.836       1.253     1.126
++ kembar                                           1.442       1.664     1.509
++ nonkomp                                          0.893       1.322     1.211
++ pangsa                                           0.861       1.028     0.866
++ robust                                           1.206       1.559     1.526
++ sebelah                                          2.324       2.682     2.697
++ zrank                                            0.910       1.324     1.365
+Model sekarang                                     1.049       1.392     1.230
+Tanpa model: acak                                  0.999       1.043     1.036
+Tanpa model: aturan sebelah (z pagu sejenis)       1.133       1.399     1.638
+-- P@200
+kol                                           2024 semua  2025 semua  2025 uji
+skor                                                                          
++ bulat                                            0.190       0.085     0.045
++ kembar                                           0.125       0.045     0.040
++ nonkomp                                          0.150       0.095     0.110
++ pangsa                                           0.150       0.100     0.090
++ robust                                           0.220       0.095     0.075
++ sebelah                                          0.300       0.840     0.375
++ zrank                                            0.120       0.065     0.045
+Model sekarang                                     0.175       0.140     0.100
+Tanpa model: acak                                  0.170       0.105     0.115
+Tanpa model: aturan sebelah (z pagu sejenis)       0.155       0.135     0.120
+
+##### perencanaan | red flag sekarang
+-- lipat terkontrol
+kol                                           2024 semua  2025 semua  2025 uji
+skor                                                                          
++ bulat                                            0.958       1.074     1.085
++ kembar                                           1.213       1.402     1.349
++ nonkomp                                          0.946       1.063     0.972
++ pangsa                                           0.880       0.880     0.812
++ robust                                           0.918       1.143     1.121
++ sebelah                                          1.196       1.316     1.245
++ zrank                                            0.952       1.020     1.080
+Model sekarang                                     0.931       1.115     1.054
+Tanpa model: acak                                  1.010       1.020     1.009
+Tanpa model: aturan sebelah (z pagu sejenis)       1.256       1.268     1.372
+-- lipat 5% berlaku
+kol                                           2024 semua  2025 semua  2025 uji
+skor                                                                          
++ bulat                                            0.900       1.276     1.163
++ kembar                                           1.849       1.930     1.896
++ nonkomp                                          0.994       1.237     1.139
++ pangsa                                           0.887       1.029     0.960
++ robust                                           1.153       1.536     1.435
++ sebelah                                          1.598       1.937     1.837
++ zrank                                            0.808       1.069     1.063
+Model sekarang                                     1.075       1.472     1.315
+Tanpa model: acak                                  1.001       1.022     1.011
+Tanpa model: aturan sebelah (z pagu sejenis)       1.101       1.524     1.491
+-- P@200
+kol                                           2024 semua  2025 semua  2025 uji
+skor                                                                          
++ bulat                                            0.090       0.045     0.055
++ kembar                                           0.085       0.070     0.065
++ nonkomp                                          0.105       0.060     0.070
++ pangsa                                           0.070       0.030     0.050
++ robust                                           0.045       0.010     0.030
++ sebelah                                          0.455       0.840     0.360
++ zrank                                            0.070       0.080     0.030
+Model sekarang                                     0.075       0.030     0.070
+Tanpa model: acak                                  0.155       0.110     0.115
+Tanpa model: aturan sebelah (z pagu sejenis)       0.020       0.020     0.020
+
+##### perencanaan | red flag sekarang + sebelah
+-- lipat terkontrol
+kol                                           2024 semua  2025 semua  2025 uji
+skor                                                                          
++ bulat                                            0.955       1.093     1.091
++ kembar                                           1.106       1.237     1.218
++ nonkomp                                          0.942       1.062     0.972
++ pangsa                                           0.925       0.980     0.865
++ robust                                           0.934       1.132     1.101
++ sebelah                                          1.151       1.265     1.193
++ zrank                                            0.913       1.012     1.053
+Model sekarang                                     0.931       1.104     1.031
+Tanpa model: acak                                  1.012       1.032     1.031
+Tanpa model: aturan sebelah (z pagu sejenis)       1.291       1.298     1.389
+-- lipat 5% berlaku
+kol                                           2024 semua  2025 semua  2025 uji
+skor                                                                          
++ bulat                                            0.828       1.225     1.065
++ kembar                                           1.533       1.535     1.407
++ nonkomp                                          0.931       1.225     1.130
++ pangsa                                           0.850       0.958     0.782
++ robust                                           1.165       1.492     1.413
++ sebelah                                          2.411       2.527     2.332
++ zrank                                            0.873       1.266     1.238
+Model sekarang                                     1.039       1.329     1.143
+Tanpa model: acak                                  1.003       1.028     1.019
+Tanpa model: aturan sebelah (z pagu sejenis)       1.210       1.437     1.581
+-- P@200
+kol                                           2024 semua  2025 semua  2025 uji
+skor                                                                          
++ bulat                                            0.205       0.110     0.070
++ kembar                                           0.145       0.100     0.065
++ nonkomp                                          0.185       0.130     0.110
++ pangsa                                           0.165       0.115     0.115
++ robust                                           0.240       0.105     0.080
++ sebelah                                          0.470       0.840     0.375
++ zrank                                            0.135       0.130     0.060
+Model sekarang                                     0.195       0.155     0.130
+Tanpa model: acak                                  0.205       0.135     0.140
+Tanpa model: aturan sebelah (z pagu sejenis)       0.170       0.155     0.130
