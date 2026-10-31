@@ -4,7 +4,7 @@ Isi di bawah mengikuti versi di tab tersebut, termasuk perubahan dan penghapusan
 Perbaikan penulisan rujukan pasal (APA 7: setiap sitasi dalam kurung memuat nama peraturan dan tahun, lalu pasal sebagai penunjuk lokasi): "Pasal 1 ayat 1" -> "Pasal 1 angka 1", "Pasal 4a" -> "Pasal 4 huruf a".
 Sumber pasal: Konsolidasi-Perpres-PBJ-16-2018-12-2021-46-2025.pdf. Sumber lain: Kusumadewi et al. (2022) = 36682-85891-1-PB.pdf;
 Putri et al. (2024) = ERJ_383_V3N2.pdf; OECD (2016) dari luar repo. Juga: "dua metode" -> "dua cara" (istilah Pasal 3 ayat (3)); ditambah baris sumber di bawah Tabel 2.2.
-Paragraf penutup: rujukan "(Subbab 2.2.2)" dan "(Subbab 2.2.3)" diganti penjelasan langsung.
+Paragraf penutup diringkas: tanpa rujukan subbab dan tanpa kalimat red flag (dibahas di 2.2.3).
 -->
 
 ### 2.2.1 Pengadaan Barang/Jasa Pemerintah
@@ -32,7 +32,7 @@ Pada pengadaan melalui penyedia, penyedia dipilih menggunakan metode pemilihan y
 
 Pemerintah Indonesia menerapkan sistem pengadaan barang dan jasa secara elektronik melalui mekanisme e-procurement (Kusumadewi et al., 2022). Proses tersebut mencakup beberapa tahapan, yaitu perencanaan pengadaan yang diumumkan melalui SiRUP, pemilihan penyedia melalui e-tendering atau e-purchasing, serta pengelolaan kontrak melalui e-contract (Kusumadewi et al., 2022). Penerapan sistem ini bertujuan untuk meningkatkan efisiensi, efektivitas, persaingan, transparansi, keadilan, akuntabilitas, dan integritas dalam proses pengadaan. Meskipun demikian, pengadaan publik tetap memiliki risiko terjadinya penyimpangan dalam setiap tahapannya, sehingga diperlukan pengawasan untuk memastikan proses pengadaan berjalan sesuai dengan ketentuan dan prinsip yang berlaku.
 
-Dalam tugas akhir ini, pengadaan yang dianalisis adalah pengadaan barang/jasa pemerintah provinsi yang dibiayai APBD. Analisis dibatasi pada pengadaan melalui penyedia, karena swakelola tidak menggunakan metode pemilihan penyedia. Pengadaan yang dikecualikan juga tidak dianalisis, karena tidak tunduk pada ketentuan metode pemilihan dan batas nilai pada Tabel 2.2. Batas nilai pengadaan langsung dan ketentuan penunjukan langsung digunakan sebagai dasar sebagian indikator *red flag*, yaitu penanda pola pengadaan yang perlu ditelusuri lebih lanjut, dan tidak digunakan sebagai masukan model. Dari tiga tahap pengadaan tersebut, tahap persiapan diwakili oleh data rencana umum pengadaan, sedangkan tahap pemilihan dan pelaksanaan tercermin pada data realisasi pengadaan, yang mencatat penyedia terpilih dan nilai pengadaan setelah paket berjalan.
+Dalam tugas akhir ini, pengadaan yang dianalisis adalah pengadaan barang/jasa pemerintah provinsi yang dibiayai APBD. Analisis dibatasi pada pengadaan melalui penyedia, karena swakelola tidak menggunakan metode pemilihan penyedia. Pengadaan yang dikecualikan juga tidak dianalisis karena tidak mengikuti ketentuan pada Tabel 2.2. Data rencana umum pengadaan digunakan untuk melihat paket pada tahap persiapan, sedangkan data realisasi pengadaan digunakan untuk melihat paket setelah berjalan.
 
 ---
 
