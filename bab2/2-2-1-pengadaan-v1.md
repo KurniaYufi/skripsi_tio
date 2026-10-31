@@ -1,7 +1,9 @@
 <!-- Bab 2.2.1 v1 (31 Oktober 2026). Pengganti 2.2.1 di tab "Bab 2 v.4" Google Doc SKRIPSI TIO.
 Sumber pasal: Konsolidasi-Perpres-PBJ-16-2018-12-2021-46-2025.pdf (dicek langsung ke teks pasal).
 Sumber lain: Kusumadewi et al. (2022) = 36682-85891-1-PB.pdf; Putri et al. (2024) = ERJ_383_V3N2.pdf; OECD (2016) dari luar repo.
-Catatan penomoran: tabel baru menjadi Tabel 2.2, sehingga "Tabel 2.2 Metrik Evaluasi Model" bergeser menjadi Tabel 2.3. -->
+Catatan penomoran: tabel baru menjadi Tabel 2.2, sehingga "Tabel 2.2 Metrik Evaluasi Model" bergeser menjadi Tabel 2.3.
+Sudah dimasukkan ke tab "SKRIPSI TIO DRAFT" (31 Okt 2026), setelah paragraf penutup 2.1.5. Di tab itu Tabel 2.2 belum terpakai. -->
+
 
 ### 2.2.1 Pengadaan Barang/Jasa Pemerintah
 
