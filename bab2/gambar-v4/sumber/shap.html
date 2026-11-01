@@ -1,0 +1,24 @@
+<html><head><style>
+body{margin:0;background:#fff;font-family:"Liberation Serif","Times New Roman",serif}
+.c{position:relative;width:2200px;height:900px}
+.l{position:absolute;left:30px;width:760px;text-align:right;font-size:30px}
+.v{position:absolute;font-size:28px}
+.bar{position:absolute;height:62px;border-radius:4px}
+</style></head><body><div class="c" id="c"></div>
+<script>
+const c=document.getElementById('c');
+const X0=820, W=1250, lo=0.45, hi=0.90; const px=v=>X0+(v-lo)/(hi-lo)*W;
+const rows=[["Rasio realisasi terhadap pagu",0.20],["Pagu dibanding paket sejenis",0.12],["Besar pagu",0.05],["Pagu dibanding paket di satuan kerja",-0.02],["Nilai dibanding kebiasaan penyedia",-0.01]];
+let cur=0.50, y=60;
+function add(h){c.insertAdjacentHTML('beforeend',h)}
+add(`<div class="l" style="top:${y+12}px">Nilai dasar φ₀</div><div class="v" style="left:${px(0.50)+12}px;top:${y+14}px">0,50</div>`);
+add(`<div style="position:absolute;left:${px(0.50)}px;top:${y}px;height:640px;border-left:3px dashed #888"></div>`);
+y+=100;
+for(const [n,d] of rows){const a=Math.min(cur,cur+d),b=Math.max(cur,cur+d);
+ add(`<div class="l" style="top:${y+14}px">${n}</div><div class="bar" style="left:${px(a)}px;width:${px(b)-px(a)}px;top:${y}px;background:${d>0?'#d0473b':'#3b73b9'}"></div><div class="v" style="left:${px(b)+12}px;top:${y+14}px">${d>0?'+':'−'}${Math.abs(d).toFixed(2).replace('.',',')}</div>`);
+ cur+=d; y+=100;}
+add(`<div style="position:absolute;left:${px(cur)}px;top:${y-30}px;height:30px;border-left:3px dashed #888"></div>`);
+add(`<div class="l" style="top:${y+12}px"><b>Skor paket</b></div><div class="v" style="left:${px(cur)+12}px;top:${y+14}px"><b>${cur.toFixed(2).replace('.',',')}</b></div>`);
+add(`<div style="position:absolute;left:${X0}px;top:${y+80}px;width:${W}px;border-top:3px solid #444"></div>`);
+for(let t=0.5;t<=0.901;t+=0.1){add(`<div class="v" style="left:${px(t)-25}px;top:${y+92}px">${t.toFixed(1).replace('.',',')}</div>`)}
+</script></body></html>
